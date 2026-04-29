@@ -1,7 +1,169 @@
 {
-  "lastUpdated": "2026-04-28T12:30:51.395236+00:00",
-  "totalArticles": 249,
+  "lastUpdated": "2026-04-29T12:27:18.418164+00:00",
+  "totalArticles": 255,
   "articles": [
+    {
+      "title": "Migrating Splunk Logs to Azure Application Insights on VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-splunk-logs-to-azure-application-insights-on-vms/ba-p/4515866",
+      "published": "2026-04-29T11:35:03+00:00",
+      "summary": "Phase 0 – Understanding the Current Environment Before touching any code or agents, map out the existing architecture. Current setup: Applications write logs via log4net → local log files on VMs Splunk Universal Forwarders read logs → send to Splunk Indexers Splunk dashboards, alerts, and...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "skundapura"
+    },
+    {
+      "title": "AG-UI: The Future of Agent-Driven User Interfaces",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ag-ui-the-future-of-agent-driven-user-interfaces/ba-p/4515769",
+      "published": "2026-04-29T09:30:48+00:00",
+      "summary": "As AI agents evolve from simple chatbots into workflow engines, decision-makers, and copilots, one challenge has remained stubbornly unsolved: How do we connect intelligent agents to rich, dynamic, user-facing interfaces without custom plumbing every single time? Introducing AG-UI (Agent–User...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "VaidhyaP"
+    },
+    {
+      "title": "Upcoming Compute API Change: Always return non-null securityType",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/upcoming-compute-api-change-always-return-non-null-securitytype/ba-p/4500387",
+      "published": "2026-04-29T09:02:08+00:00",
+      "summary": "Overview Starting with Azure Compute API version 2025‑11‑01, responses for Azure Virtual Machines (VMs) and Virtual Machine Scale Sets (VMSS) will include a non‑null securityType value in all operations. While this is a small behavioral change, it can impact deployments if they rely on null checks...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "AjKundnani"
+    },
+    {
+      "title": "General availability of Default Ruleset (DRS) 2.2 for Web Application Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-default-ruleset-drs-2-2-for-web/ba-p/4515762",
+      "published": "2026-04-29T08:31:47+00:00",
+      "summary": "Introduction As attackers continue to evolve their techniques, organizations require web application security that keeps pace with emerging threats without disrupting legitimate traffic. Azure Web Application Firewall (WAF) continues to evolve to meet these demands and now supports Default Rule Set...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "andrewmathu"
+    },
+    {
+      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
+      "published": "2026-04-29T08:22:53+00:00",
+      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vsriramdas"
+    },
+    {
+      "title": "Making Sense of Azure AI Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/making-sense-of-azure-ai-foundry-iq/ba-p/4513131",
+      "published": "2026-04-29T07:00:00+00:00",
+      "summary": "As enterprise teams build AI agents, the hardest design decisions often have nothing to do with models. Instead, they revolve around a more fundamental question: How should an agent access organizational knowledge in a way that is accurate, secure, and sustainable over time? Azure AI Foundry IQ is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Samarpitaa"
+    },
+    {
+      "title": "Building an Enterprise Knowledge Copilot with Foundry IQ and Agentic Retrieval on Azure AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-knowledge-copilot-with-foundry-iq-and/ba-p/4512308",
+      "published": "2026-04-29T07:00:00+00:00",
+      "summary": "Every enterprise has the same problem: knowledge scattered across SharePoint, file shares, wikis, and email. This article walks through building a knowledge copilot that unifies that data behind a single conversational interface — using Microsoft's Foundry IQ knowledge bases and the agentic...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Shah_Viral"
+    },
+    {
+      "title": "Transforming Video Content into Structured SOPs Using Graph-based RAG",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/transforming-video-content-into-structured-sops-using-graph/ba-p/4515038",
+      "published": "2026-04-29T01:04:53+00:00",
+      "summary": "Introduction In today’s digital-first environments, a large portion of enterprise knowledge lives inside video content, training sessions, onboarding walkthroughs, and recorded operational procedures. While videos are great for learning, they are not ideal for quick reference, compliance, or...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "dikshashakya"
+    },
+    {
+      "title": "Building a Scalable IoT Platform for Facility Management with Azure Serverless Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-a-scalable-iot-platform-for-facility-management-with/ba-p/4495263",
+      "published": "2026-04-29T01:01:56+00:00",
+      "summary": "Business Requirements The business required a platform that could: - Handle multi-provider device telemetry ingestion - Apply configurable business rules in real-time - Send automated notifications via email and SMS - Provide operations teams with a modern portal for monitoring and control -...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "nishantmv"
+    },
+    {
+      "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
+      "published": "2026-04-29T00:58:54+00:00",
+      "summary": "By: Ricardo Bianchini, Steve Solomon, Brijesh Warrier, Martin Herbert, Jay Jochim, Husam Alissa, Pulkit Misra, Eric Peterson and Cam Turner Context - Microsoft is pioneering zonal cooling in its next-generation AI datacenters, enabling flexible, performant, efficient, and sustainable thermal...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "stsolo"
+    },
+    {
+      "title": "Visual Studio April Update – Cloud Agent Integration",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-april-update-cloud-agent-integration/",
+      "published": "2026-04-28T19:00:04+00:00",
+      "summary": "GitHub Copilot in Visual Studio is becoming more agentic with every release. This update brings cloud agent integration front and center, letting you start remote coding sessions without leaving the IDE. The post Visual Studio April Update – Cloud Agent Integration appeared first on Visual Studio...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "The problem: All-or-nothing batch processing in Azure Service Bus",
+      "link": "https://devblogs.microsoft.com/azure-sdk/per-message-settlement-azure-service-bus/",
+      "published": "2026-04-28T18:47:37+00:00",
+      "summary": "Azure Functions lets you settle each Service Bus message on its own within a batch. Complete, abandon, dead-letter, or defer messages one by one to avoid duplicate processing and handle errors with precision. The post The problem: All-or-nothing batch processing in Azure Service Bus appeared first...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Swapnil Nagar"
+    },
+    {
+      "title": "HashiCorp Vault Integration with Terraform — Secure Secret Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/hashicorp-vault-integration-with-terraform-secure-secret/ba-p/4508444",
+      "published": "2026-04-28T17:55:27+00:00",
+      "summary": "Introduction When provisioning cloud infrastructure using Terraform, it is common to require sensitive values such as: Administrative credentials (usernames, passwords) API keys and tokens SSH keys Database connection strings Domain join credentials In most environments, these secrets are commonly:...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "singhshub"
+    },
+    {
+      "title": "Architecting Cost-Aware LLM Workloads with Model Router in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/architecting-cost-aware-llm-workloads-with-model-router-in/ba-p/4514440",
+      "published": "2026-04-28T17:45:00+00:00",
+      "summary": "The architectural problem In any non-trivial GenAI platform, you end up managing a fleet of models. Cheap models for classification and light chat. Reasoning models for multi-step tasks. Frontier models for the hard stuff. Specialty models for code, vision, or long context. The architectural...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "syarlagadda"
+    },
+    {
+      "title": "OrganAIze - What Happens When You Let AI Agents Organize Themselves?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/organaize-what-happens-when-you-let-ai-agents-organize/ba-p/4509792",
+      "published": "2026-04-28T16:30:00+00:00",
+      "summary": "The problem I wanted to explore Most agentic AI systems today follow a familiar pattern: you design the workflow, you decide which agents exist, you wire the communication between them. That works great for well-defined pipelines. But what if you don't know the shape of the problem upfront?...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "akashchekka"
+    },
+    {
+      "title": "How Microsoft 1ES uses agentic AI to take on security and compliance at scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-1es-uses-agentic-ai-to-take-on-security-and/ba-p/4515191",
+      "published": "2026-04-28T16:15:00+00:00",
+      "summary": "Microsoft’s Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade IQ platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for pressure-tested...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "JennyF"
+    },
+    {
+      "title": "Update host keys to use SFTP on Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
+      "published": "2026-04-28T14:44:02+00:00",
+      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may have received an alert informing that Microsoft will change the public key, like this. This article describes the impact this will have on the SFTP blob service and what are the changes needed.On this article: What is...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe"
+    },
+    {
+      "title": "Project Pavilion Presence at KubeCon EU 2026",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-eu-2026/ba-p/4515518",
+      "published": "2026-04-28T12:50:16+00:00",
+      "summary": "KubeCon + CloudNativeCon Europe 2026 took place from 23 to 26 March at RAI Amsterdam, and it was a strong one. The themes running through the week reflected where the cloud native community is right now: AI moving from experimentation into production, platform engineering continuing to mature, and...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "lexinadolski"
+    },
     {
       "title": "Istio‑Based Weighted Traffic Management on AKS for Enterprise Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/istio-based-weighted-traffic-management-on-aks-for-enterprise/ba-p/4511520",
@@ -1227,15 +1389,6 @@
       "author": "OrinThomas"
     },
     {
-      "title": "Building a Scalable IoT Platform for Facility Management with Azure Serverless Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-a-scalable-iot-platform-for-facility-management-with/ba-p/4495263",
-      "published": "2026-04-14T20:44:41+00:00",
-      "summary": "The platform follows a microservices architecture with six independently deployable services, all built on Azure Functions v4 with TypeScript. Each service is containerized and deployed to Azure Container Apps. ┌──────────────────────────────────────────────────────────────────────────────┐ │...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "nishantmv"
-    },
-    {
       "title": "Stop juggling package managers—just run `azd update`",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-update/",
       "published": "2026-04-14T19:24:08+00:00",
@@ -1261,15 +1414,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay"
-    },
-    {
-      "title": "Demystifying On-Demand Capacity Reservations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/demystifying-on-demand-capacity-reservations/ba-p/4504806",
-      "published": "2026-04-14T17:21:11+00:00",
-      "summary": "About On-Demand Capacity Reservations Introducing the “parking garage” metaphor There are dozens of VM types available in Azure which span multiple generations of CPU across vendors and architectures. Within each Azure region are datacenters hosting pools of hardware which runs Azure services, such...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "KenHooverMSFT"
     },
     {
       "title": "Running KQL queries on Microsoft Sentinel data lake using API",
@@ -1306,15 +1450,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Alistair Matthews"
-    },
-    {
-      "title": "Monitor AI Agents on App Service with OpenTelemetry and the New Application Insights Agents View",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/monitor-ai-agents-on-app-service-with-opentelemetry-and-the-new/ba-p/4510023",
-      "published": "2026-04-14T16:28:22+00:00",
-      "summary": "Part 2 of 3: In Blog 1, we deployed a multi-agent travel planner on Azure App Service using the Microsoft Agent Framework (MAF) 1.0 GA. This post dives deep into how we instrumented those agents with OpenTelemetry and lit up the brand-new Agents (Preview) view in Application Insights. 📋...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
     },
     {
       "title": "Microsoft Sentinel data federation: Expand visibility while preserving governance",
@@ -1488,33 +1623,6 @@
       "author": "PaulineMbabu"
     },
     {
-      "title": "PHP 8.5 is now available on Azure App Service for Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/php-8-5-is-now-available-on-azure-app-service-for-linux/ba-p/4510254",
-      "published": "2026-04-10T10:11:11+00:00",
-      "summary": "PHP 8.5 is now available on Azure App Service for Linux across all public regions. You can create a new PHP 8.5 app through the Azure portal, automate it with the Azure CLI, or deploy using ARM/Bicep templates. PHP 8.5 brings several useful runtime improvements. It includes better diagnostics, with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC"
-    },
-    {
-      "title": "A simpler way to deploy your code to Azure App Service for Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-your-code-to-azure-app-service-for-linux/ba-p/4510240",
-      "published": "2026-04-10T09:48:40+00:00",
-      "summary": "We’ve added a new deployment experience for Azure App Service for Linux that makes it easier to get your code running on your web app. To get started, go to the Kudu/SCM site for your app: <sitename>.scm.azurewebsites.net From there, open the new Deployments experience. You can now deploy your app...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC"
-    },
-    {
-      "title": "The \"IQ Layer\": Microsoft’s Blueprint for the Agentic Enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-quot-iq-layer-quot-microsoft-s-blueprint-for-the-agentic/ba-p/4504421",
-      "published": "2026-04-10T07:00:00+00:00",
-      "summary": "The \"IQ Layer\": Microsoft’s Blueprint for the Agentic Enterprise Modern enterprises have experimented with artificial intelligence for years, yet many deployments have struggled to move beyond basic automation and conversational interfaces. The fundamental limitation has not been the reasoning...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "harshul05"
-    },
-    {
       "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
       "published": "2026-04-10T04:55:22+00:00",
@@ -1630,15 +1738,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "AmitManchanda28"
-    },
-    {
-      "title": "Understanding Agentic Function-Calling with Multi-Modal Data Access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/understanding-agentic-function-calling-with-multi-modal-data/ba-p/4504151",
-      "published": "2026-04-09T07:00:00+00:00",
-      "summary": "What You'll Learn Why traditional API design struggles when questions span multiple data sources, and how function-calling solves this. How the iterative tool-use loop works — the model plans, calls tools, inspects results, and repeats until it has a complete answer. What makes an agent truly...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jayesh_mevada"
     },
     {
       "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
@@ -1848,15 +1947,6 @@
       "author": "Minh-Anh Phan"
     },
     {
-      "title": "Now in Foundry: Cohere Transcribe, Nanbeige 4.1-3B, and Octen Embedding",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-cohere-transcribe-nanbeige-4-1-3b-and-octen/ba-p/4508183",
-      "published": "2026-04-06T19:43:52+00:00",
-      "summary": "This week's Model Mondays edition spans three distinct layers of the AI application stack: Cohere's cohere-transcribe, a 2B Automatic Speech Recognition (ASR) model that ranks first on the Open ASR Leaderboard across 14 languages; Nanbeige's Nanbeige4.1-3B, a compact 3B reasoning model that...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi"
-    },
-    {
       "title": "Announcing Public Preview for Essential Machine Management",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-public-preview-for-essential-machine-management/ba-p/4502721",
       "published": "2026-04-06T18:54:19+00:00",
@@ -1864,15 +1954,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "Meagan McCrory"
-    },
-    {
-      "title": "Turn Enterprise Knowledge into Answers with Copilot Studio and Azure AI Search",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-enterprise-knowledge-into-answers-with-copilot-studio-and/ba-p/4493118",
-      "published": "2026-04-06T16:00:00+00:00",
-      "summary": "From the Field: Why This Integration Works As an experienced AI Cloud Solution Architect working in Greater China Region (GCR), I’ve seen one emerging pattern that delivers quick wins for some of my customers: combining Microsoft Copilot Studio with an existing Azure AI Search index. Teams choose...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "HeZhang"
     },
     {
       "title": "MCP Apps on Azure Functions: Quickstart with TypeScript",
@@ -1954,15 +2035,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "kkaushal"
-    },
-    {
-      "title": "DevSecOps on AKS: Governance Gates That Actually Prevent Incidents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/devsecops-on-aks-governance-gates-that-actually-prevent/ba-p/4508415",
-      "published": "2026-04-03T10:46:12+00:00",
-      "summary": "This article is for AKS platform/infra engineers, SREs, and security teams who want a practical, enforceable model for stopping common Kubernetes misconfigurations before they become incidents—without turning delivery into bureaucracy. Why incidents still happen after “adding security to the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "lakshaymalik"
     },
     {
       "title": "Blue‑Green Strategy for Always‑On TCP Workloads on Azure Container Apps",
@@ -2224,24 +2296,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Rujun Chen"
-    },
-    {
-      "title": "Control where your pods land on AKS with NAP",
-      "link": "https://blog.aks.azure.com/2026/03/20/node-provisioning-best-practice",
-      "published": "2026-03-30T00:00:00+00:00",
-      "summary": "Combine taints, affinity, and topology spread constraints with AKS Node Auto-Provisioning to control where your pods land.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "AKS Control Plane Enhancements",
-      "link": "https://blog.aks.azure.com/2026/03/30/aks-control-plane-enhancements",
-      "published": "2026-03-30T00:00:00+00:00",
-      "summary": "Learn how AKS improves control plane scalability and stability through a new set of control plane enhancements",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     }
   ]
 }
