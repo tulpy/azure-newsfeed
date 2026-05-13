@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-05-12T12:35:30.505117+00:00",
-  "totalArticles": 256,
+  "lastUpdated": "2026-05-13T12:38:33.667176+00:00",
+  "totalArticles": 259,
   "articles": [
+    {
+      "title": "How to Test AI Agents with LangSmith: A Complete Guide",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-test-ai-agents-with-langsmith-a-complete-guide/ba-p/4515972",
+      "published": "2026-05-13T10:27:51+00:00",
+      "summary": "Testing AI agents is crucial for ensuring reliability and accuracy in production.Evaluation is a technique to evaluate your agents. Different type of evaluation are # Evaluation Type 1 Task Success (Pass / Fail) 2 Instruction Adherence 3 Correctness / Accuracy 4 Relevance 5 Groundedness...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "syedarshad"
+    },
+    {
+      "title": "Private Networking and Inference in Microsoft Foundry: Architecture Impact on Enterprise AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/private-networking-and-inference-in-microsoft-foundry/ba-p/4513822",
+      "published": "2026-05-12T22:11:44+00:00",
+      "summary": "Enterprise adoption of generative AI rarely fails because of model quality alone. More often, it fails at the intersection of network isolation, dependency reachability, and operational reality – especially in inference-driven applications such as retrieval-augmented generation (RAG) and enterprise...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "marcopunio"
+    },
+    {
+      "title": "Build Smarter, Simpler IoT Messaging with Azure Event Grid MQTT Broker",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/build-smarter-simpler-iot-messaging-with-azure-event-grid-mqtt/ba-p/4518672",
+      "published": "2026-05-12T21:39:49+00:00",
+      "summary": "Why this matters for modern IoT solutions As IoT solutions grow, teams need messaging that is reliable, scalable, and simple enough to operate across devices, apps, and cloud services. Azure Event Grid MQTT broker helps organizations connect devices and applications using standard MQTT patterns...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "Connected-Seth"
+    },
+    {
+      "title": "A New Chapter for Realtime AI: Reasoning, Translation, and Real-Time Transcription",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-new-chapter-for-realtime-ai-reasoning-translation-and-real/ba-p/4517124",
+      "published": "2026-05-12T19:58:14+00:00",
+      "summary": "Voice can be one of the most direct and productive interfaces for AI — enabling customer support agents that may resolve issues without a single keystroke, live multilingual communication that can take on language barriers as conversations happen, and voice assistants capable of reasoning through...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "From Prompt to Production: Open in VS Code for Terraform in Azure Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure/ba-p/4494931",
+      "published": "2026-05-12T18:25:34+00:00",
+      "summary": "We’re excited to introduce a new step in the Terraform on Azure experience: Open in VS Code, now available directly from Azure Copilot in the Azure Portal. This capability helps you move seamlessly from AI‑generated Terraform code to real Azure deployments - within a connected, guided workflow...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Jingwei_Wang"
+    },
+    {
+      "title": "Foundry Local 1.1: Live Transcription, Embeddings, and Responses API",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-local-v1-1/",
+      "published": "2026-05-12T16:51:39+00:00",
+      "summary": "Foundry Local 1.1 adds live transcription, embeddings, Responses API, WebGPU plugin, and download cancellation. The post Foundry Local 1.1: Live Transcription, Embeddings, and Responses API appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "samkemp"
+    },
+    {
+      "title": "Driving Efficiency in Modern System Engineering with AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/driving-efficiency-in-modern-system-engineering-with-ai-agents/ba-p/4516181",
+      "published": "2026-05-12T15:34:44+00:00",
+      "summary": "Authors: Pushpendra Kumar, Chockalingam A, Smitha Kashyap, Shilpi Gupta Overview As platforms become more complex and release cycles accelerate, traditional engineering workflows are beginning to show their limits. Engineers are spending increasing amounts of time triaging duplicate issues,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "PushpendraKumar"
+    },
     {
       "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
@@ -46,6 +109,15 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "gurkirat"
+    },
+    {
+      "title": "Running Foundry Agent Service on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/running-foundry-agent-service-on-azure-container-apps/ba-p/4518598",
+      "published": "2026-05-12T04:27:25+00:00",
+      "summary": "Microsoft’s Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade agentic platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vyomnagrani"
     },
     {
       "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
@@ -129,15 +201,6 @@
       "author": "EldertGrootenboer"
     },
     {
-      "title": "A New Chapter for Realtime AI: Reasoning, Translation, and Real-Time Transcription",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-new-chapter-for-realtime-ai-reasoning-translation-and-real/ba-p/4517124",
-      "published": "2026-05-11T16:16:57+00:00",
-      "summary": "Voice can be one of the most direct and productive interfaces for AI — enabling customer support agents that may resolve issues without a single keystroke, live multilingual communication that can take on language barriers as conversations happen, and voice assistants capable of reasoning through...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "What’s new in Microsoft Sentinel: RSAC 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
       "published": "2026-05-11T16:13:09+00:00",
@@ -198,6 +261,15 @@
       "summary": "See how to apply mitigations for CVE-2026-31431 (Copy Fail) and CVE-2026-43284 / CVE-2026-43500 (DirtyFrag) across AKS clusters using Azure Kubernetes Fleet Manager with a DaemonSet and node image upgrades.",
       "blog": "AKS Blog",
       "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "TTFT-Driven Autoscaling for Disaggregated LLM Inference with NVIDIA Dynamo on AKS",
+      "link": "https://azureglobalblackbelts.com/2026/05/11/dynamo-keda-autoscaling-on-aks",
+      "published": "2026-05-11T00:00:00+00:00",
+      "summary": "Deploy NVIDIA Dynamo on AKS with disaggregated vLLM inference and KEDA autoscaling driven by TTFT p99 latency via Azure Managed Prometheus — no GPU Operator required.",
+      "blog": "Azure Global Black Belt Blog",
+      "blogId": "gbblog",
       "author": "Microsoft"
     },
     {
@@ -280,6 +352,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "SagarPatra"
+    },
+    {
+      "title": "NVIDIA Dynamo on AKS: Disaggregated LLM Inference with H100 GPUs",
+      "link": "https://azureglobalblackbelts.com/2026/05/08/nvidia-dynamo-on-aks",
+      "published": "2026-05-08T00:00:00+00:00",
+      "summary": "Deploy NVIDIA Dynamo on Azure Kubernetes Service with H100 GPU nodes using AKS Managed GPU and the Dynamo Kubernetes operator to run disaggregated LLM inference at scale. Then layer AI Runway on top for a visual dashboard that manages multiple inference runtimes — Dynamo, KAITO, and KubeRay — from...",
+      "blog": "Azure Global Black Belt Blog",
+      "blogId": "gbblog",
+      "author": "Microsoft"
     },
     {
       "title": "Public Preview: Migrate your regional virtual machines to availability zones",
@@ -1416,15 +1497,6 @@
       "author": "kinfey"
     },
     {
-      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
-      "published": "2026-04-24T05:57:58+00:00",
-      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
       "title": "Join our free livestream series on hosting agents in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-hosting-agents-in-microsoft/ba-p/4508479",
       "published": "2026-04-24T05:00:00+00:00",
@@ -2019,15 +2091,6 @@
       "author": "James Newton-King"
     },
     {
-      "title": "Claude Opus 4.7 is available on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-4-7-is-available-on-microsoft-foundry/ba-p/4511759",
-      "published": "2026-04-16T16:20:43+00:00",
-      "summary": "Anthropic continues to push the frontier of AI for real-world, production work with its new model Claude Opus 4.7. Opus 4.7 is Anthropic’s most advanced generally available model. Teams building on Azure can access Claude Opus 4.7 through Microsoft Foundry , today. This model is designed for the...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
       "title": "App attach in Azure Virtual Desktop now supports Windows Server 2025 and Windows Server 2022",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/app-attach-in-azure-virtual-desktop-now-supports-windows-server/ba-p/4511729",
       "published": "2026-04-16T16:00:12+00:00",
@@ -2071,15 +2134,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "shobhitgarg"
-    },
-    {
-      "title": "Managing Multi‑Tenant Azure Resource with SRE Agent and Lighthouse",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/managing-multi-tenant-azure-resource-with-sre-agent-and/ba-p/4511789",
-      "published": "2026-04-16T04:58:53+00:00",
-      "summary": "Azure SRE Agent is an AI‑powered reliability assistant that helps teams diagnose and resolve production issues faster while reducing operational toil. It analyzes logs, metrics, alerts, and deployment data to perform root cause analysis and recommend or execute mitigations with human approval. It’s...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Pranab_Mandal"
     },
     {
       "title": "Production Cutover in Cloud-Native Migrations",
@@ -2262,15 +2316,6 @@
       "author": "chaitra_satish"
     },
     {
-      "title": "Introducing MAI-Image-2-Efficient: Faster, More Efficient Image Generation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-mai-image-2-efficient-faster-more-efficient-image/ba-p/4510918",
-      "published": "2026-04-14T16:00:17+00:00",
-      "summary": "Building on our momentum Just last week, we celebrated a major milestone: the public preview launch of three new first-party Microsoft AI models in Microsoft Foundry: MAI-Image-2, MAI-Voice-1, and MAI-Transcribe-1. Together, they represent a comprehensive multimedia AI stack purpose-built for...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "GA: DCasv6 and ECasv6 confidential VMs based on 4th Generation AMD EPYC™ processors",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/ga-dcasv6-and-ecasv6-confidential-vms-based-on-4th-generation/ba-p/4451460",
       "published": "2026-04-13T15:29:32+00:00",
@@ -2287,24 +2332,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "Marc de Droog"
-    },
-    {
-      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion/ba-p/4510493",
-      "published": "2026-04-13T08:06:40+00:00",
-      "summary": "HTTP Data Collector API in Log Analytics workspaces is being deprecated, and will be totally out of support in September 2026. Data Collector actions in logic app using already created API connections (which uses workspace Id & Key) would still work against old custom log tables, however, newly...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "mshboul"
-    },
-    {
-      "title": "Automating Arc-enabled SQL Server license type configuration with Azure Policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/automating-arc-enabled-sql-server-license-type-configuration/ba-p/4500326",
-      "published": "2026-04-13T07:06:25+00:00",
-      "summary": "Azure Arc enables customers to onboard SQL Server instances - hosted on Linux or Windows - into Azure, regardless of where they are hosted: on‑premises, in multicloud environments, or at the edge. Once onboarded, these resources can be managed through the Azure Portal using services like Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "TomClaes"
     }
   ]
 }
