@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-12T13:01:58.717540+00:00",
-  "totalArticles": 252,
+  "lastUpdated": "2026-06-13T12:31:14.960887+00:00",
+  "totalArticles": 245,
   "articles": [
     {
       "title": "How to Measure Token Impact of MCP Tool Invocation in Microsoft Foundry",
@@ -2206,69 +2206,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Jim Harrer"
-    },
-    {
-      "title": "Public Preview Update: Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-update-azure-copilot-observability-agent/ba-p/4517871",
-      "published": "2026-05-14T08:41:01+00:00",
-      "summary": "Modern cloud applications generate massive amounts of telemetry - metrics, logs, traces, alerts, and platform signals. Yet whether you're asking questions about your observability data or responding when things go wrong, discovering insights and root causes requires a deep understanding of the...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "EfratNauerman"
-    },
-    {
-      "title": "WebAssembly Data Processing at the Edge with Azure IoT Operations",
-      "link": "https://devblogs.microsoft.com/ise/wasm-edge-data-processing/",
-      "published": "2026-05-14T07:00:00+00:00",
-      "summary": "Safe, composable dataflow operators for Azure IoT Operations, built as WASM modules using the Component Model, WIT interfaces, and WASI Preview 2. The post WebAssembly Data Processing at the Edge with Azure IoT Operations appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Marcel Bindseil"
-    },
-    {
-      "title": "Microsoft SQL Security Across the MAESTRO Stack: Building Secure Agentic AI with Defense-in-Depth",
-      "link": "https://devblogs.microsoft.com/azure-sql/microsoft-sql-security-across-the-maestro-stack-building-secure-agentic-ai-with-defense-in-depth/",
-      "published": "2026-05-13T21:44:08+00:00",
-      "summary": "Artificial Intelligence is evolving rapidly. What began as simple prompt-and-response systems is now transforming into fully autonomous, agentic AI architectures capable of reasoning, orchestrating tools, interacting with enterprise data, and invoking external systems dynamically. While these...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Arun Vijayraghavan"
-    },
-    {
-      "title": "Announcing the General Availability of the Next Generation of Azure Boost",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
-      "published": "2026-05-13T20:42:57+00:00",
-      "summary": "Starting May 7th, 2026, the new Esv7, Dsv7, and Dlsv7 virtual machines are generally available — and underneath them is a fundamentally new generation of Azure Boost. Not an incremental refresh. A platform that took over five years to build, with custom ASIC-hardened logic, a new network adapter,...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Max_Uritsky"
-    },
-    {
-      "title": "From Pipelines to Agents: Self-Healing CI/CD Workflow",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-pipelines-to-agents-self-healing-ci-cd-workflow/ba-p/4519494",
-      "published": "2026-05-13T20:21:28+00:00",
-      "summary": "The Brain of the Operation: Azure OpenAI. When building a DevOps agent, following are the points which can be considered to select Azure OpenAI as the ideal choice for logical engine: Native Tool Use: It is specifically optimized for function calling, allowing the agent to interact with Azure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "RavinderGupta"
-    },
-    {
-      "title": "Announcing the general availability of Azure Integrated Hardware Security Module",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-azure-integrated-hardware/ba-p/4517103",
-      "published": "2026-05-13T17:23:24+00:00",
-      "summary": "Today we are excited to release general availability for Azure Integrated HSM for AMD v7 Virtual Machines. Azure Integrated HSM is a hardware security module (HSM) cache and crypto offload designed to enhance the security and performance of cryptographic operations in virtual machines. For...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "simranparkhe"
-    },
-    {
-      "title": "Agent Skills in Visual Studio: Teach Copilot How Your Team Works",
-      "link": "https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/",
-      "published": "2026-05-13T16:00:47+00:00",
-      "summary": "Visual Studio now supports Agent Skills, which are reusable instruction sets that teach Copilot agents how to handle specific tasks like running a build pipeline, generating boilerplate, or following your team’s coding standards. Define a skill once, and the agent applies it automatically whenever...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Simona Liao"
     }
   ]
 }
