@@ -1,15 +1,105 @@
 {
-  "lastUpdated": "2026-06-16T13:33:19.521066+00:00",
-  "totalArticles": 241,
+  "lastUpdated": "2026-06-17T13:08:49.471749+00:00",
+  "totalArticles": 249,
   "articles": [
+    {
+      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
+      "published": "2026-06-17T12:00:00+00:00",
+      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote"
+    },
+    {
+      "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
+      "published": "2026-06-17T00:17:30+00:00",
+      "summary": "Azure achieved the most performant MLPerf Training v6.0 result to date for Llama 3.1 405B, with a time-to-train of just over seven minutes according to MLCommons. This loadbearing benchmark measures how communication overhead and system stability dominate training performance, where Azure’s full...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "azinheidarshenas"
+    },
+    {
+      "title": "Closing the loop on container security: From code to runtime in the AI era",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/closing-the-loop-on-container-security-from-code-to-runtime-in/ba-p/4528599",
+      "published": "2026-06-16T23:15:21+00:00",
+      "summary": "Containers are the backbone of modern cloud-native apps — and increasingly, the infrastructure powering AI, from AI assistants to a new wave of intelligent agents. They also blur the line between build, deploy, and runtime: a single code change can become a running workload in minutes. A...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "mahersko"
+    },
     {
       "title": "Azure Databricks at Databricks Data + AI Summit 2026: updates and new announcements",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-at-databricks-data-ai-summit-2026-updates-and/ba-p/4528388",
-      "published": "2026-06-16T13:00:00+00:00",
+      "published": "2026-06-16T21:07:43+00:00",
       "summary": "Databricks Data + AI Summit brings together the global data and AI community in San Francisco to share product news, technical breakthroughs, and customer stories. This year, as usual, we have a lot of Azure Databricks announcements, a strong presence across the event, and a continued focus on...",
       "blog": "Azure Databricks",
       "blogId": "azure-databricks",
       "author": "AnaviNahar"
+    },
+    {
+      "title": "Azure Arc Server May 2026 Forum",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-may-2026-forum/ba-p/4528643",
+      "published": "2026-06-16T20:47:16+00:00",
+      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the May 2026 Azure Arc Server Forum, we discussed: Private Preview of Windows Server 2016 Extended Security Updates (ESUs): Customers with Windows Server 2016 Servers with an NDA and willingness to provide feedback...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Aurnov_Chattopadhyay"
+    },
+    {
+      "title": "Anomaly detection made easy with Dynamic thresholds for Log search alerts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/anomaly-detection-made-easy-with-dynamic-thresholds-for-log/ba-p/4521522",
+      "published": "2026-06-16T17:33:52+00:00",
+      "summary": "We’re excited to announce the General Availability of dynamic thresholds for log search alerts in Azure Monitor. Dynamic thresholds make anomaly detection easier by using machine learning to learn normal behavior from your historical log query results, automatically account for patterns such as...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat"
+    },
+    {
+      "title": "General Availability: Simple log alerts in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-simple-log-alerts-in-azure-monitor/ba-p/4521498",
+      "published": "2026-06-16T17:33:31+00:00",
+      "summary": "We are excited to announce the General Availability of Simple log alerts in Azure Monitor! This feature is designed to provide a simplified and more intuitive experience for monitoring and alerting, enhancing your ability to detect and respond to problems in near real-time. Simple log alerts are a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat"
+    },
+    {
+      "title": "Announcing Public Preview: Agent Identities Asset Connector for Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-public-preview-agent-identities-asset-connector-for/ba-p/4527960",
+      "published": "2026-06-16T17:00:01+00:00",
+      "summary": "As organizations accelerate adoption of AI agents across Microsoft 365 and enterprise environments, security teams face a fundamental shift: Agents are becoming first-class identities and securing them requires understanding both their behavior and their identity context. We are excited to announce...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Krishna_Sagar_B_V"
+    },
+    {
+      "title": "Aspire in VS Code: the 13.4 developer loop",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-vscode-extension-13-4/",
+      "published": "2026-06-16T17:00:00+00:00",
+      "summary": "Aspire 13.4 brings more of the local development loop into VS Code: AppHost CodeLens actions, live resource state, dashboard shortcuts, typed resource command prompts, TypeScript AppHost support, and multi-language debugging. The post Aspire in VS Code: the 13.4 developer loop appeared first on...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Adam Ratzman"
+    },
+    {
+      "title": "Transform your security operation with a unified experience in Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/transform-your-security-operation-with-a-unified-experience-in/ba-p/4527932",
+      "published": "2026-06-16T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Security operations teams today are being asked to do more than ever: respond faster, manage increasing data volumes, reduce operational complexity, stay ahead of evolving threats, and balance cost and efficiency. That’s why...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
+    {
+      "title": "The Case for an Ontology Layer in Telecoms",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/the-case-for-an-ontology-layer-in-telecoms/ba-p/4527091",
+      "published": "2026-06-16T12:41:49+00:00",
+      "summary": "The Challenge: Data Without Context in the Telco AI Era GenAI and analytics tools and solutions pull data from applications and from downstream and external data sources. However, when data is decontextualized from the applications where it was created, it often loses the business meaning,...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "Alberto_Manuel"
     },
     {
       "title": "Announcing General Availability of the Azure Cosmos DB Built-in Connector for Logic Apps Standard",
@@ -1713,15 +1803,6 @@
       "author": "renaliu"
     },
     {
-      "title": "GPT Realtime in Production: Which Context Strategy Should You Actually Use?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-realtime-in-production-which-context-strategy-should-you/ba-p/4523091",
-      "published": "2026-05-29T22:30:00+00:00",
-      "summary": "Are You Running Azure GPT Realtime in Production? The question that started this: Are you running Azure gpt-realtime in production? If so, you've already run into the question I want to talk about: how should you manage conversation context across turns? It sounds like an implementation detail. It...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Gana_Chandrasekaran"
-    },
-    {
       "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
       "published": "2026-05-29T20:01:33+00:00",
@@ -2161,15 +2242,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "RGupta"
-    },
-    {
-      "title": "Understanding and building an Azure Hybrid Meshed Hub-Spoke Topology",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/understanding-and-building-an-azure-hybrid-meshed-hub-spoke/ba-p/4516879",
-      "published": "2026-05-18T07:15:26+00:00",
-      "summary": "A meshed hybrid hub-spoke topology Azure offers two main approaches to build network architectures. This article focuses on traditional networking (using VNets, peering, route tables, etc.), rather than Azure Virtual WAN. Why a hub-spoke topology? A hub‑spoke topology is the only way to control...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Svenbaeck"
     }
   ]
 }
