@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-06-17T13:08:49.471749+00:00",
-  "totalArticles": 249,
+  "lastUpdated": "2026-06-18T13:02:38.691618+00:00",
+  "totalArticles": 256,
   "articles": [
+    {
+      "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
+      "published": "2026-06-18T03:47:52+00:00",
+      "summary": "How I put corporate sign-in in front of Claude Desktop without writing a single line of backend code. TL;DR — In this post, I show how to securely enable Claude Desktop in enterprise environments using Microsoft Entra ID, Azure API Management, and Microsoft Foundry — without deploying a custom...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "LZhang"
+    },
+    {
+      "title": "Scaling High-Performance CAD on Azure Virtual Desktop with NVIDIA RTX PRO 6000",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-high-performance-cad-on-azure-virtual-desktop-with/ba-p/4528892",
+      "published": "2026-06-17T22:28:14+00:00",
+      "summary": "Overview of Siemens NX Multi-Session on Azure This validation study evaluates how Siemens NX 2506 performs in a multi-user AVD environment, using an RTX-based Azure VM. The focus was to test: 15 and 30 concurrent users Single-host vs multi-host configurations Consistent workloads under identical...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708"
+    },
+    {
+      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
+      "published": "2026-06-17T18:00:00+00:00",
+      "summary": "Authors: Ilya Matiach, Morteza Ziyadi, José Santos, Ali Mahmoudzadeh, Shuo Qiu, Salma Elshafey, April Kwong, Vivek Bhadauria TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach"
+    },
+    {
+      "title": "ICMP Support for Azure StandardV2 NAT Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/icmp-support-for-azure-standardv2-nat-gateway/ba-p/4528374",
+      "published": "2026-06-17T17:44:22+00:00",
+      "summary": "Our customers, across all industries, depend on consistent outbound connectivity and observability to operate and troubleshoot their cloud workloads at scale. As Azure environments grow in size and complexity, teams increasingly rely on standard network diagnostic tools such as ping to quickly...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "malaikanazim"
+    },
+    {
+      "title": "Accelerating AKS troubleshooting with the Azure Copilot Observability Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-aks-troubleshooting-with-the-azure-copilot/ba-p/4528517",
+      "published": "2026-06-17T16:27:27+00:00",
+      "summary": "AKS incidents rarely stay within one Kubernetes object, signal, or tool. A latency spike might first appear in application telemetry, but the root cause may sit elsewhere: pod restarts, node pressure, scheduling failures, or a recent configuration change. The Azure Copilot Observability Agent in...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil"
+    },
+    {
+      "title": "Anatomy of the change",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/anatomy-of-the-change/ba-p/4527934",
+      "published": "2026-06-17T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Incidents, alerts, correlation, and data—what actually changes with the new platform, and why it works in your favor. When you open Microsoft Sentinel in Microsoft Defender for the first time, the shift feels immediate:...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
+    {
+      "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
+      "published": "2026-06-17T16:00:00+00:00",
+      "summary": "Authors: Ilya Matiach, Morteza Ziyadi, Han Che, José Santos, Ali Mahmoudzadeh, Shuo Qiu, Salma Elshafey, April Kwong, Vivek Bhadauria Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach"
+    },
+    {
+      "title": "Introducing New Additions to Microsoft Sentinel Normalization and ASIM",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-new-additions-to-microsoft-sentinel-normalization/ba-p/4524584",
+      "published": "2026-06-17T15:00:00+00:00",
+      "summary": "TL;DR: New ASIM parsers for Azure Firewall, Key Vault, AWS CloudTrail (EC2, S3, IAM), and 10+ third-party products. Two new schemas — Asset Entities and AI Agent Events. Plus changelogs on GitHub and a heads-up on an upcoming breaking change in ProcessEvent parsers. What's New Security teams deal...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "derricklee"
+    },
+    {
+      "title": "When your agent extensions fight each other",
+      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
+      "published": "2026-06-17T14:55:53+00:00",
+      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "How to Score a User Simulator: Introducing USR-8",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
+      "published": "2026-06-17T14:00:00+00:00",
+      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jcasantos"
+    },
+    {
+      "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/",
+      "published": "2026-06-17T13:58:46+00:00",
+      "summary": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention Picture the first few hours after a serious data incident. A production application is down. Security teams are still trying to understand what happened. Application owners need to know which recovery...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Hans Wieser [MS], Jay Gordon"
+    },
+    {
+      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
+      "published": "2026-06-17T13:58:28+00:00",
+      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda"
+    },
+    {
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-17T12:17:58+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav"
+    },
     {
       "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
@@ -93,6 +210,15 @@
       "author": "Mohit_Kumar1"
     },
     {
+      "title": "Competing against yourself",
+      "link": "https://devblogs.microsoft.com/blog/competing-against-yourself",
+      "published": "2026-06-16T14:55:23+00:00",
+      "summary": "You shipped a new CLI: better developer experience, modern architecture, and optimized for agents. You deprecated the old one, updated the docs, and blogged about it. Developers are migrating. Then someone asks an AI coding agent to scaffold a project, and the agent… uses the old tool. Training...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
       "title": "The Case for an Ontology Layer in Telecoms",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/the-case-for-an-ontology-layer-in-telecoms/ba-p/4527091",
       "published": "2026-06-16T12:41:49+00:00",
@@ -138,15 +264,6 @@
       "author": "vaidyas"
     },
     {
-      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
-      "published": "2026-06-15T16:00:00+00:00",
-      "summary": "TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first diversity sampler. On WildChat (the primary validation dataset, sampling 100 items from a 5,000-trace pool), diversity sampling...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "imatiach"
-    },
-    {
       "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
       "published": "2026-06-15T15:57:54+00:00",
@@ -172,15 +289,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mads Kristensen"
-    },
-    {
-      "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
-      "published": "2026-06-15T13:00:00+00:00",
-      "summary": "Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known open-source benchmarks against any model deployment or agent in your project, compare runs side by side in the evaluation group view, and drive...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "imatiach"
     },
     {
       "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
@@ -307,6 +415,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu"
+    },
+    {
+      "title": "Your agent just scaffolded a project from 2020",
+      "link": "https://devblogs.microsoft.com/blog/your-agent-just-scaffolded-a-project-from-2020",
+      "published": "2026-06-11T17:54:29+00:00",
+      "summary": "Your agent ran a scaffold command. Project generated, dependencies resolved, no errors. Everything looks fine. Except it’s based on the project structure from 2020, and neither you nor the agent noticed. How npx picks the right-but-wrong version When an agent scaffolds a project or runs a CLI tool,...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Azure Monitor SLIs now Generally Available",
@@ -451,6 +568,24 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Mahesh_Sundaram"
+    },
+    {
+      "title": "Is your agent extension actually working?",
+      "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
+      "published": "2026-06-10T19:06:17+00:00",
+      "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Spec-Driven Development: A Spec-First Approach to AI-Native Engineering",
+      "link": "https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering",
+      "published": "2026-06-10T16:15:09+00:00",
+      "summary": "AI has made software delivery faster, but speed alone does not guarantee better outcomes. As teams adopt AI-native development, the real challenge is keeping requirements, design, implementation, and validation aligned so the final result still reflects the original intent. Spec-Driven Development...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Apoorv Gupta"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -1092,15 +1227,6 @@
       "author": "insagiv"
     },
     {
-      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
-      "published": "2026-06-03T07:18:18+00:00",
-      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "AvanishYadav"
-    },
-    {
       "title": "Token economics–driven architecture: hybrid models, AI Runway, AKS Kata MicroVM, MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-driven-architecture-hybrid-models-ai-runway-aks/ba-p/4524276",
       "published": "2026-06-03T07:00:00+00:00",
@@ -1479,15 +1605,6 @@
       "author": "Abhishek Gupta"
     },
     {
-      "title": "Announcing General Availability of Azure Cosmos DB Global Secondary Indexes",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-azure-cosmos-db-global-secondary-indexes/",
-      "published": "2026-06-02T19:15:33+00:00",
-      "summary": "Have you ever needed to evolve your read patterns without losing efficiency? Maybe your app started with one access pattern, but now you need three, and the queries that don’t hit your partition key are getting slower and more expensive every month. We built global secondary indexes (GSIs) for...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Justine Cocchi"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -1783,24 +1900,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Noa Kuperberg"
-    },
-    {
-      "title": "Agents That Build Agents: A SKILL-first Blueprint with MS Agent Framework & Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-build-agents-a-skill-first-blueprint-with-ms-agent/ba-p/4523631",
-      "published": "2026-05-31T07:51:50+00:00",
-      "summary": "The single insight that changes everything Most \"build an AI agent\" tutorials collapse two completely different jobs into one tangled mess: the job of building an agent (writing the code, defining its tools, evaluating it, packaging it), and the job of running an agent (planning, reasoning, calling...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "What’s new in Azure Language in Foundry Tools",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/what-s-new-in-azure-language-in-foundry-tools/ba-p/4521343",
-      "published": "2026-05-29T23:30:00+00:00",
-      "summary": "Every day, your applications process thousands of emails, transcripts, and documents containing sensitive information—names, phone numbers, medical details. Manually identifying and protecting this data doesn't scale. Here's how the latest PII (Personally Identifiable Information) detection...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "renaliu"
     },
     {
       "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
@@ -2206,42 +2305,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Vishnu Charan TJ"
-    },
-    {
-      "title": "Building AI Guardian Extension: AI Detection and Enterprise AI Security",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-ai-guardian-extension-ai-detection-and-enterprise-ai/ba-p/4521125",
-      "published": "2026-05-19T11:41:31+00:00",
-      "summary": "Introduction Generative AI tools such as ChatGPT, GitHub Copilot, and Google Gemini are rapidly becoming part of everyday enterprise workflows. Teams use them for code generation, documentation, analysis, support automation, and productivity enhancement. However, this accelerated adoption has also...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma"
-    },
-    {
-      "title": "Rundeck – AWS Enterprise Rundeck Integration with Azure Runner",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/rundeck-aws-enterprise-rundeck-integration-with-azure-runner/ba-p/4521080",
-      "published": "2026-05-19T10:08:59+00:00",
-      "summary": "Architecture Overview Rundeck Server (AWS) → https://dev.rundeck.xyz.com Rundeck Runner (Azure Linux VM) Secure Communication over HTTPS (Port 4432) Optional Proxy for enterprise networks 1.Ensure that network connectivity is established between the Rundeck endpoint (dev.rundeck.xyz.com) and the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma"
-    },
-    {
-      "title": "Building a Terraform Drift Validator for Azure with Live Portal Verification",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-a-terraform-drift-validator-for-azure-with-live-portal/ba-p/4520952",
-      "published": "2026-05-19T06:18:13+00:00",
-      "summary": "Architecture: This blog describes how to build a practical Terraform Drift Validator for Azure that compares three sources of truth: Excel sheet or design document containing expected Azure configuration Terraform state file representing IaC-managed deployed intent Live Azure configuration,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma"
-    },
-    {
-      "title": "Agent 365 connector: Monitor, hunt, and investigate AI agent activity in Microsoft Sentinel",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/agent-365-connector-monitor-hunt-and-investigate-ai-agent/ba-p/4520836",
-      "published": "2026-05-18T16:05:15+00:00",
-      "summary": "As enterprises scale the use of AI agents, SOC teams need visibility into AI agent behavior. The Agent 365 connector, now in public preview, streams rich agent telemetry from Agent 365 into Microsoft Sentinel data lake. Agent activity, such as agent data exposure or access drift, is surfaced...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "RGupta"
     }
   ]
 }
