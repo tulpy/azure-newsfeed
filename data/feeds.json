@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-06-18T13:02:38.691618+00:00",
-  "totalArticles": 256,
+  "lastUpdated": "2026-06-19T13:05:48.392524+00:00",
+  "totalArticles": 253,
   "articles": [
+    {
+      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
+      "published": "2026-06-19T07:55:59+00:00",
+      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li"
+    },
+    {
+      "title": "Microsoft Leads a New Era of Software Supply Chain Transparency",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-leads-a-new-era-of-software-supply-chain-transparency/ba-p/4528367",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "Microsoft announces the general availability of Microsoft’s Signing Transparency (MST) – a first-of-its-kind capability that brings unprecedented visibility and trust to our software supply chain. With this release, Microsoft is leading the industry by recording the build of critical cloud services...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ShubhraS"
+    },
+    {
+      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
+      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Viktor Ciroski"
+    },
+    {
+      "title": "Revolutionizing Document Intelligence: Scaling Construction Industries with AI-Driven Extraction",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/revolutionizing-document-intelligence-scaling-construction/ba-p/4522393",
+      "published": "2026-06-18T20:52:34+00:00",
+      "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "its_gaurav_bhardwaj"
+    },
+    {
+      "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry/",
+      "published": "2026-06-18T20:37:18+00:00",
+      "summary": "We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read as a feature list, it is a lot to hold in your head. So here is a simpler way to see it: these are the parts you need to […]...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Govind Kamtamneni"
+    },
+    {
+      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
+      "published": "2026-06-18T19:55:04+00:00",
+      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda"
+    },
+    {
+      "title": "Detection and automation, reimagined",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
+      "published": "2026-06-18T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
+    {
+      "title": "Controlling Tool Access with APIM MCP Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/controlling-tool-access-with-apim-mcp-gateway/ba-p/4529225",
+      "published": "2026-06-18T14:44:22+00:00",
+      "summary": "If you've started working with MCP servers in GitHub Copilot, Claude, or any other agent host in an enterprise environment, you've probably hit a similar problem. You want to give your developers access to a useful MCP server, but not every tool it ships with. Maybe one tool is noisy and burns...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "samcogan"
+    },
+    {
+      "title": "Stop overloading your skills",
+      "link": "https://devblogs.microsoft.com/blog/stop-overloading-your-skills",
+      "published": "2026-06-18T14:25:27+00:00",
+      "summary": "You built a skill for your technology. API references, authentication flows, SDK patterns, error handling, version info, all packed into one skill. The agent calls it, gets all that context, and generates code. The kicker? You’ve just wasted a lot of tokens. It already knows Models have ingested...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
     {
       "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
@@ -10,6 +91,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "LZhang"
+    },
+    {
+      "title": "Intelligent Terminal 0.1.1 is here: bash support, new slash commands, and more customization",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-1-1-is-here-bash-support-new-slash-commands-and-customization/",
+      "published": "2026-06-17T22:31:51+00:00",
+      "summary": "We’re back with the first servicing release of Intelligent Terminal! This update brings auto error detection to Bash and WSL, a new /fix command for on-demand help, an on-the-fly /model picker, a customizable agent pane, and Windows 10 support, along with a round of bug fixes and reliability...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani"
     },
     {
       "title": "Scaling High-Performance CAD on Azure Virtual Desktop with NVIDIA RTX PRO 6000",
@@ -100,15 +190,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Hans Wieser [MS], Jay Gordon"
-    },
-    {
-      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
-      "published": "2026-06-17T13:58:28+00:00",
-      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda"
     },
     {
       "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
@@ -1371,15 +1452,6 @@
       "author": "FloraTaagen"
     },
     {
-      "title": "Closing the AI-readiness gap with agentic modernization",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/closing-the-ai-readiness-gap-with-agentic-modernization/ba-p/4524011",
-      "published": "2026-06-02T19:49:29+00:00",
-      "summary": "Legacy debt is widening the AI-readiness gap Legacy systems and mounting tech debt aren't just slowing your AI agenda — they're quietly stealing its potential. Aging architectures, and complex, decades-old applications, databases, and infrastructure weren't designed for high performance, complex,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mike_Hulme"
-    },
-    {
       "title": "🎉 Automation just became a team sport. Meet Azure Logic Apps Automation.",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/automation-just-became-a-team-sport-meet-azure-logic-apps/ba-p/4524555",
       "published": "2026-06-02T19:45:58+00:00",
@@ -1704,15 +1776,6 @@
       "author": "grace_kim"
     },
     {
-      "title": "A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/build-2026-foundry-models/",
-      "published": "2026-06-02T17:20:00+00:00",
-      "summary": "Learn a practical model lifecycle for Microsoft Foundry: select the right model, evaluate quality, optimize cost, operate safely, and improve as production needs change. The post A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Foundry IQ: New governance and enterprise AI security capabilities",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-new-governance-and-enterprise-ai-security/ba-p/4524825",
       "published": "2026-06-02T17:15:00+00:00",
@@ -1882,15 +1945,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Claude Code on Microsoft Foundry in VS Code — A Practical Setup Guide (with the gotchas)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claude-code-on-microsoft-foundry-in-vs-code-a-practical-setup/ba-p/4524245",
-      "published": "2026-06-01T13:40:49+00:00",
-      "summary": "Enables enterprise-grade governance without changing your developer workflow. The official Microsoft Learn article (Configure Claude Code for Microsoft Foundry) gets you ~80% of the way there. The remaining 20%—VS Code settings shape, tenant mismatches, and configuration conflicts like \"baseURL and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang"
     },
     {
       "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
@@ -2224,87 +2278,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "David Fowler"
-    },
-    {
-      "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/golden-image-refresh-for-virtual-machines-and-vm-scale-sets/ba-p/4521376",
-      "published": "2026-05-20T02:56:39+00:00",
-      "summary": "Overview: A golden image is a prebuilt, approved system template that represents the ideal baseline for deployment. It includes: Hardened operating system configuration (e.g., RHEL) Preinstalled software and dependencies Security patches and updates Organizational compliance standards Architecture:...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma"
-    },
-    {
-      "title": "Applying Site Reliability Engineering to Autonomous AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/applying-site-reliability-engineering-to-autonomous-ai-agents/ba-p/4521357",
-      "published": "2026-05-19T23:12:29+00:00",
-      "summary": "If you practice SRE, you already have a mental model for running reliable production systems. You define SLOs. You track error budgets. You use circuit breakers to stop cascading failures. You run chaos experiments to find weaknesses before customers do. You treat every operational decision as a...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi"
-    },
-    {
-      "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
-      "published": "2026-05-19T21:18:34+00:00",
-      "summary": "With Windows Server 2025, we introduced hotpatch enabled by Azure Arc, delivering security updates to Windows Server across hybrid and multicloud environments – minimizing downtime (no reboot), accelerating protection, and unifying patch management. We know that keeping your servers updated with...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sharmajyoti"
-    },
-    {
-      "title": "Public preview: Expanded coverage and unified management for SQL VA Express Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/public-preview-expanded-coverage-and-unified-management-for-sql/ba-p/4514652",
-      "published": "2026-05-19T21:11:13+00:00",
-      "summary": "SQL Vulnerability Assessment (SQL VA) is a core capability in Defender for SQL that helps customers identify possible misconfigurations, excessive permissions, and other deviations from security best practices through continuous scanning of their databases. Traditionally, enabling SQL VA on SQL...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Catalin Esanu"
-    },
-    {
-      "title": "Azure Arc Server April 2026 Forum",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-april-2026-forum/ba-p/4521318",
-      "published": "2026-05-19T18:58:36+00:00",
-      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the April 2026 Azure Arc Server Forum, we discussed: Public Preview of Essential Machine Management, learn more at aka.ms/EMM-blog and sign up at aka.ms/EMM-feedback Engage with product group on exploration of AI on...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay"
-    },
-    {
-      "title": "Agentic AI for Linux Operations on Azure: The Prompts",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agentic-ai-for-linux-operations-on-azure-the-prompts/ba-p/4520924",
-      "published": "2026-05-19T18:25:43+00:00",
-      "summary": "Try This Yourself: Agentic AI for Linux Operations on Azure At Red Hat Summit 2026, I handed GitHub Copilot CLI a terminal and asked it to deploy a full-stack application to RHEL 10 on Azure. Live. From a single prompt. No scripts, no runbooks, no pre-baked automation. The audience watched every...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "abbottkarl"
-    },
-    {
-      "title": "Metrics Filtering and Log Aggregation Now GA for Advanced Container Networking Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/metrics-filtering-and-log-aggregation-now-ga-for-advanced/ba-p/4516508",
-      "published": "2026-05-19T18:13:31+00:00",
-      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal"
-    },
-    {
-      "title": "Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)",
-      "link": "https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts",
-      "published": "2026-05-19T15:00:09+00:00",
-      "summary": "“A bad system will beat a good person [or agent] every time” ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copilot CLI. The results were...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Daniel Epstein"
-    },
-    {
-      "title": "Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer",
-      "link": "https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer/",
-      "published": "2026-05-19T15:00:07+00:00",
-      "summary": "Stop paying for idle GPUs while model weights copy to disk. Stream them straight into GPU memory instead with Run:AI Streamer from Azure Blob Storage. The Problem: Every Cold Start Costs You More Than Money GPU compute is among the most expensive cloud infrastructure, and every second a GPU is...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Vishnu Charan TJ"
     }
   ]
 }
