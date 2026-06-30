@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-06-29T13:21:48.905933+00:00",
-  "totalArticles": 247,
+  "lastUpdated": "2026-06-30T12:36:13.067405+00:00",
+  "totalArticles": 251,
   "articles": [
+    {
+      "title": "GitHub Copilot App - Canvas Is Not a UI Builder",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-copilot-app-canvas-is-not-a-ui-builder/ba-p/4531451",
+      "published": "2026-06-30T07:00:00+00:00",
+      "summary": "What if your development environment didn't just help you write code, but helped you observe, steer, and evolve a living system while it runs? That's the shift GitHub Copilot App Canvas represents. Canvas redefines how developers interact with agent-driven software: not by building traditional user...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Announcing General Availability of Client-Side Data Integrity Protections in Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/announcing-general-availability-of-client-side-data-integrity/ba-p/4531364",
+      "published": "2026-06-29T19:03:37+00:00",
+      "summary": "We are excited to announce the General Availability of client-side data integrity in Azure Blob Storage. Blob Storage has long supported integrity validation, starting with MD5 as part of the original HTTP standards and adding CRC64-NVME support in 2019. Today, CRC64-NVME is now integrated into the...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "wmarkley"
+    },
+    {
+      "title": "Your readiness playbook: adoption helper, costs, APIs, and the checklist",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/your-readiness-playbook-adoption-helper-costs-apis-and-the/ba-p/4528608",
+      "published": "2026-06-29T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The transition is not a project—it is a sequence of small, ordered decisions. Here is the readiness tool that scores your environment in minutes, the cost story you can take to finance, the API strategy that future-proofs your...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
+    {
+      "title": "WSL container is now available for public preview",
+      "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/",
+      "published": "2026-06-29T15:29:48+00:00",
+      "summary": "At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development – from cloud-native applications and AI workloads to testing and...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Craig Loewen"
+    },
+    {
+      "title": "Automating your Visual Studio extension builds with GitHub Actions",
+      "link": "https://devblogs.microsoft.com/visualstudio/automating-your-visual-studio-extension-builds-with-github-actions/",
+      "published": "2026-06-29T14:00:25+00:00",
+      "summary": "If you’re building and maintaining Visual Studio extensions, you’ve probably ended up with some sort of build and publishing workflow – whether it’s manual, scripted, or stitched together over time. This post is for extension authors who want a simple, repeatable way to build, version, and publish...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
+    {
+      "title": "My Journey with Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/my-journey-with-azure-sre-agent/ba-p/4523519",
+      "published": "2026-06-29T13:22:32+00:00",
+      "summary": "Introduction A customer came to me with a problem that many organisations have. They control their infrastructure through Infrastructure as Code, but there are often scenarios where an admin needs to go in and make a change - even though they would ideally not want this to happen. The use an Entra...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jometzg"
+    },
     {
       "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/",
@@ -1702,24 +1756,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "insagiv"
-    },
-    {
-      "title": "Token economics–driven architecture: hybrid models, AI Runway, AKS Kata MicroVM, MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-driven-architecture-hybrid-models-ai-runway-aks/ba-p/4524276",
-      "published": "2026-06-03T07:00:00+00:00",
-      "summary": "1. The moment the bill arrived For most of 2024 and 2025, \"Agents\" were a demo word. In 2026 they are a line item on the cloud invoice. Every major model provider — OpenAI, Anthropic, Google, Mistral, DeepSeek, and even the in-cluster open-weights serving stacks — now bills by the token. Input...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "GitHub Action for Deploying Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-action-for-deploying-hosted-agents/ba-p/4524947",
-      "published": "2026-06-03T07:00:00+00:00",
-      "summary": "Introduction With Microsoft's introduction to Hosted Agents comes a next logical question. How to implement this? Organizations need a method that is quick, repeatable, and requires minimal adjustments to their existing tooling and processes. Thus, we will walk through how to deploy a Hosted Agent...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth"
     },
     {
       "title": "Build smarter document workflows: What’s new in Azure Content Understanding at Build 2026",
