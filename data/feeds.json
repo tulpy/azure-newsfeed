@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-07-06T13:10:43.046005+00:00",
-  "totalArticles": 180,
+  "lastUpdated": "2026-07-07T12:45:04.871305+00:00",
+  "totalArticles": 185,
   "articles": [
+    {
+      "title": "What’s New in Microsoft Foundry | June 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
+      "published": "2026-07-07T07:10:25+00:00",
+      "summary": "Claude is now generally available in Microsoft Foundry. Here's everything else that shipped between Build 2026 and the end of June — autopilot agents, expanded Toolboxes and Routines, Agent Optimizer's private preview, and more. The post What’s New in Microsoft Foundry | June 2026 appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
+    {
+      "title": "Modern Ingress for AKS: Introducing Application Gateway for Containers (AGC)",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modern-ingress-for-aks-introducing-application-gateway-for/ba-p/4534200",
+      "published": "2026-07-07T07:00:00+00:00",
+      "summary": "Hello Folks! This Microsoft Azure Infra Summit 2026 sessions one is for everyone running production workloads on AKS. Jack Stromberg from the Application Gateway product team walked us through the entire history of load balancing in about ten minutes (no small feat) and then dropped the news that...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
+      "published": "2026-07-07T03:00:27+00:00",
+      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708"
+    },
+    {
+      "title": "See our new Azure Cosmos DB Design Patterns",
+      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
+      "published": "2026-07-06T20:20:06+00:00",
+      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Mark Brown"
+    },
+    {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-06T14:00:00+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
+      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
+      "published": "2026-07-06T13:37:33+00:00",
+      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta"
+    },
     {
       "title": "Token Economics: The New FinOps for Agentic AI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
@@ -819,7 +873,7 @@
       "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "its_gaurav_bhardwaj"
+      "author": "gauravbhardwaj"
     },
     {
       "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
@@ -1509,7 +1563,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "🚨 ​​​​​​​Attention: We are accepting a final round of preview requests, with those organizations scheduled for enablement beginning the second week of July. Requests submitted after July 3 will not be accepted into the preview program. Over the last several years, we have encouraged customers to...",
+      "summary": "🚨 July 6 Update: This private preview is no longer accepting new sign-ups. We are working to expand availability and expect to open a public preview within the next few weeks. Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner"
@@ -1612,15 +1666,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Sally_Dabbah"
-    },
-    {
-      "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
-      "published": "2026-06-07T07:19:58+00:00",
-      "summary": "TL;DR — If you belong to many tenants, or a tenant holds hundreds or thousands of subscriptions, az login can crawl — it tries to enumerate every subscription in every tenant before it returns. Two flags now let you skip that enumeration and make login near-instant: az login --tenant <TENANT_ID>...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy"
     }
   ]
 }
