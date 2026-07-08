@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-07-07T12:45:04.871305+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-07-08T12:29:49.647012+00:00",
+  "totalArticles": 188,
   "articles": [
+    {
+      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
+      "published": "2026-07-07T21:41:05+00:00",
+      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708"
+    },
+    {
+      "title": "Golden Paths Are a Product. Treat Them Like One.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/golden-paths-are-a-product-treat-them-like-one/ba-p/4533707",
+      "published": "2026-07-07T18:26:04+00:00",
+      "summary": "Audience: Cloud architects, platform engineers, engineering leaders In my earlier Cloud Native Platforms articles, I focused on how teams build, run, and evolve modern engineering foundations. This article focuses on what keeps those capabilities useful after launch. Most teams do not lose adoption...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KishoreKumarPattabiraman"
+    },
+    {
+      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534171",
+      "published": "2026-07-07T15:43:49+00:00",
+      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-07-07T14:54:02+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs"
+    },
+    {
+      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
+      "published": "2026-07-07T09:53:09+00:00",
+      "summary": "Log Analytics Export Job is now available in public preview. It gives you a straightforward way to export historical log data from your workspace to Azure Blob Storage, without writing custom scripts or disrupting live operations. You submit a job including a query, time range, and the service...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "YossiY"
+    },
     {
       "title": "What’s New in Microsoft Foundry | June 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
@@ -21,13 +66,22 @@
       "author": "Pierre_Roman"
     },
     {
-      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
-      "published": "2026-07-07T03:00:27+00:00",
-      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Sunita_AZ0708"
+      "title": "Coding with Logic Apps Standard: Local Functions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/coding-with-logic-apps-standard-local-functions/ba-p/4534240",
+      "published": "2026-07-07T05:38:35+00:00",
+      "summary": "Welcome to the Series Welcome to the first article in the Coding with Logic Apps Standard series. This series is for integration developers, architects, and modernization teams who want to go beyond visual workflow design and use Azure Logic Apps Standard as a complete development platform for...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu"
+    },
+    {
+      "title": "Introducing Kimi K2.7 Code in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k2-7-code-in-microsoft-foundry/ba-p/4532286",
+      "published": "2026-07-06T22:48:17+00:00",
+      "summary": "Modern software engineering rarely happens in a single step, developers must refactor across large codebases, implement features spanning multiple files, and debug issues over long-running sessions. Kimi K2.7 Code from Moonshot AI, available on Microsoft Foundry starting July 1, 2026 in public...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
     },
     {
       "title": "See our new Azure Cosmos DB Design Patterns",
@@ -37,6 +91,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Mark Brown"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
+      "published": "2026-07-06T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
     },
     {
       "title": "Securing message brokers takes more than turning off public access",
@@ -478,15 +541,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Poonam Gupta"
-    },
-    {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-06-25T15:49:44+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs"
     },
     {
       "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
@@ -1533,15 +1587,6 @@
       "author": "NihitPokhrel"
     },
     {
-      "title": "Online Meeting Effectiveness Index (OMEI)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/online-meeting-effectiveness-index-omei/ba-p/4526638",
-      "published": "2026-06-09T17:26:07+00:00",
-      "summary": "Samidha Shikhare*, Tim Malueg*, Shreya Goel*, and Charlie Goldenberg* Department of Business Analytics, Santa Clara University - Leavey School of Business, Santa Clara, California 95053, United States *These authors contributed equally. {sshikhare, tmalueg, sgoel, cgoldenberg}@scu.edu This research...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "juhisingh"
-    },
-    {
       "title": "Distributed multi-agent systems with Aspire and Microsoft Agent Framework",
       "link": "https://devblogs.microsoft.com/aspire/building-distributed-multi-agent-systems-with-aspire-and-microsoft-agent-framework/",
       "published": "2026-06-09T17:05:00+00:00",
@@ -1648,24 +1693,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "jordanselig"
-    },
-    {
-      "title": "The Worm in the Supply Chain: How Defender for Endpoint and Sentinel for SAP BTP Caught Shai-Hulud",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-worm-in-the-supply-chain-how-defender-for-endpoint-and/ba-p/4526246",
-      "published": "2026-06-08T10:52:16+00:00",
-      "summary": "On 29 April 2026, malicious versions of multiple SAP ecosystem npm packages were briefly published, creating a supply-chain exposure for SAP Cloud Application Programming (CAP) development environments and CI/CD pipelines. For a brief window that morning, affected developers have executed a...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "MartinPankraz"
-    },
-    {
-      "title": "Designing Reliable Data Platforms: Centralized Failure Logging Framework with Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/designing-reliable-data-platforms-centralized-failure-logging/ba-p/4505832",
-      "published": "2026-06-08T10:31:33+00:00",
-      "summary": "Introduction Modern data platforms are no longer just about moving and transforming data. In production, what really matters is reliability and how quickly you can understand and react when something breaks. If you’re using Azure Synapse/ADF/Microsoft Fabric, you already have built-in monitoring....",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Sally_Dabbah"
     }
   ]
 }
