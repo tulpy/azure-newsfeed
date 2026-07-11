@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-07-10T12:43:06.683297+00:00",
-  "totalArticles": 181,
+  "lastUpdated": "2026-07-11T12:15:26.435190+00:00",
+  "totalArticles": 183,
   "articles": [
+    {
+      "title": "Welcome Back to AZ Update",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/welcome-back-to-az-update/ba-p/4535872",
+      "published": "2026-07-10T20:20:19+00:00",
+      "summary": "Hello Folks!Welcome Back to AZ Update A few years ago, Antony Bartolo and I launched a simple idea called AZ Update. The goal was to provide a place where IT professionals could quickly understand what was changing in Azure, why it mattered, and what they should pay attention to next. The show...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Shrinking Azure Pipeline task extensions using esbuild",
+      "link": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
+      "published": "2026-07-10T14:45:56+00:00",
+      "summary": "TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of build tooling....",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "David Paquette"
+    },
     {
       "title": "Stop Hand-Building VMs at 2 AM: Automated Image Pipelines with Azure Image Builder and Compute Gallery",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/stop-hand-building-vms-at-2-am-automated-image-pipelines-with/ba-p/4534213",
@@ -10,6 +28,33 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
+    },
+    {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-09T21:58:45+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
+      "published": "2026-07-09T21:33:51+00:00",
+      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
+      "published": "2026-07-09T18:07:27+00:00",
+      "summary": "Written in Collaboration with AvirupChat​ ShabazShaik​ Mohit_Kumar​ YuriDiogenes​ Introduction: As organizations move toward containerized workloads such as Azure Kubernetes Service (AKS), secure access to cluster resources becomes critical. Making the Kubernetes API server private, therefore,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
     },
     {
       "title": "Microsoft Foundry Model Deployment Pricing Update",
@@ -28,6 +73,24 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "Plan for Upcoming Changes to Extended Security Updates on Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/plan-for-upcoming-changes-to-extended-security-updates-on-azure/ba-p/4533167",
+      "published": "2026-07-09T16:08:31+00:00",
+      "summary": "Beginning April 1 2026, Microsoft introduced a consistent pricing model for Extended Security Updates (ESU) for SQL Server and Windows products, including SQL Server 2016, Windows 10 Enterprise LTSB 2016 and Windows Server 2016. This update aims to simplify the Extended Security Update pricing so...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "sydbruck"
+    },
+    {
+      "title": "Enhanced host pool management for Azure Virtual Desktop is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/enhanced-host-pool-management-for-azure-virtual-desktop-is-now/ba-p/4534612",
+      "published": "2026-07-09T16:00:00+00:00",
+      "summary": "We’re excited to announce the general availability of enhanced host pool management for Azure Virtual Desktop. Enhanced host pool management includes: Session host configuration and update Dynamic autoscale Ephemeral OS disks These features make it easier than ever to manage secure, reliable, and...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "NeoCai"
     },
     {
       "title": "Frontier Tuning - A shift from classic fine-tuning",
@@ -271,15 +334,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "Securing message brokers takes more than turning off public access",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
-      "published": "2026-07-06T14:00:00+00:00",
-      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
     },
     {
       "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
@@ -1594,42 +1648,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "TulikaC"
-    },
-    {
-      "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
-      "published": "2026-06-11T07:00:00+00:00",
-      "summary": "Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "BhaktiRath95"
-    },
-    {
-      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
-      "published": "2026-06-10T20:56:42+00:00",
-      "summary": "Today at Microsoft Build, we're announcing the public preview of Azure Linux 4.0 - Microsoft's first party Linux distribution, purpose-built for Azure. Azure Linux 4.0 is available now for Azure Virtual Machines, VM Scale Sets, and container images – with Azure Kubernetes Service (AKS) support and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "poorvinarang"
-    },
-    {
-      "title": "Deploying Foundry Hosted Agents from Source Code",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285",
-      "published": "2026-06-10T20:27:17+00:00",
-      "summary": "Introduction At Microsoft Build, it was announced that Foundry Hosted Agents now support source-code deployments. Previously, Hosted Agents required application code to be packaged in a container for deployment. This new functionality allows you to deploy the agent from a `.zip` file instead of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth"
-    },
-    {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T19:34:21+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram"
     }
   ]
 }
