@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-07-17T12:23:17.972936+00:00",
-  "totalArticles": 187,
+  "lastUpdated": "2026-07-18T12:15:23.304354+00:00",
+  "totalArticles": 184,
   "articles": [
+    {
+      "title": "Network Security Perimeter for Azure Event Hubs: Hardening Your Data Streams",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/network-security-perimeter-for-azure-event-hubs-hardening-your/ba-p/4538352",
+      "published": "2026-07-17T20:26:45+00:00",
+      "summary": "What is Network Security Perimeter for Azure Event Hubs? Azure Event Hubs now supports Network Security Perimeter (NSP), a logical network isolation boundary that lets you define a security perimeter around your PaaS resources and control public network access through perimeter-based access rules....",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Az Update - Week 2 of the return editions",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/az-update-week-2-of-the-return-editions/ba-p/4538337",
+      "published": "2026-07-17T18:37:42+00:00",
+      "summary": "Hello Folks! This week's updates all focus on something we hear from IT pros and platform engineers all the time: How do we make our environments more secure, more manageable, and easier to modernize without adding more complexity? Whether you're running PostgreSQL workloads in Azure, securing...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Microsoft Foundry Now Has an AI Gateway Control Plane — What Changes for App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-foundry-now-has-an-ai-gateway-control-plane-what/ba-p/4538320",
+      "published": "2026-07-17T17:04:16+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. APIM handled token limits, semantic caching, token metrics, and access to the model. The point was simple: keep the agent framework interchangeable and put the production controls at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Hypervelocity Engineering: Accelerating Enterprise AI with Azure AI Landing Zones",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/hypervelocity-engineering-accelerating-enterprise-ai-with-azure/ba-p/4536192",
+      "published": "2026-07-17T14:57:27+00:00",
+      "summary": "Artificial Intelligence is evolving at unprecedented speed. The challenge for enterprises is no longer building AI solutions—it is engineering AI platforms that can adapt, scale, and govern innovation continuously. Hypervelocity Engineering (HVE) provides the engineering operating model that...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "VimalVerma"
+    },
     {
       "title": "How to test agent skills without hitting real APIs",
       "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
@@ -19,6 +55,15 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
+    },
+    {
+      "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
+      "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
+      "published": "2026-07-17T07:00:00+00:00",
+      "summary": "A multimodal LLM enrichment pipeline that extracts structured metadata from visual assets, constrains output to predefined values to minimize hallucinations, and uses a ground truth evaluation template to measure quality—all as a plug-and-play module. The post Teaching a Vision Model to See Like a...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Deeptanil Saha, Kartheek Palepu"
     },
     {
       "title": "Azure Cobalt: Workload-Aware Power Management for More Efficient Datacenters",
@@ -66,6 +111,15 @@
       "author": "Pritha_Das"
     },
     {
+      "title": "Agents can learn with Memory in Microsoft Foundry Agent Service",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agents-can-learn-with-memory-in-microsoft-foundry-agent-service/ba-p/4535431",
+      "published": "2026-07-16T16:00:00+00:00",
+      "summary": "Recurring Failure We are entrusting AI agents with an increasing range of tasks, from preparing briefs to scheduling meetings, and from filing tax returns to building and debugging production systems. While their capabilities continue to improve rapidly, the experience remains frustrating in a...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jianant"
+    },
+    {
       "title": "How to build long-running MCP tools on Azure Functions",
       "link": "https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools-azure-functions/",
       "published": "2026-07-16T15:00:10+00:00",
@@ -75,6 +129,15 @@
       "author": "Lily Ma"
     },
     {
+      "title": "MCP Enterprise Authorization Is Here — What Entra and App Service Can Do Today",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-enterprise-authorization-is-here-what-entra-and-app-service/ba-p/4537433",
+      "published": "2026-07-16T14:31:39+00:00",
+      "summary": "A few weeks ago I wrote about what the latest MCP changes meant for scaling on Azure App Service. This time, the protocol change is about a different kind of scale: how an enterprise connects hundreds or thousands of employees to MCP servers without making every person authorize every server one at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
       "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview/",
       "published": "2026-07-16T14:00:58+00:00",
@@ -82,6 +145,15 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Ruben Rios"
+    },
+    {
+      "title": "Choose the right speech and voice model",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choose-the-right-speech-and-voice-model/ba-p/4533856",
+      "published": "2026-07-16T14:00:00+00:00",
+      "summary": "Choose the right speech and voice model in Microsoft Foundry The practical approach to selecting the right model is simple: do not ask which speech model is best. Ask what the speech system must guarantee. Once you know whether the job is conversation, translation, transcription, diarization,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Anil_Korkut"
     },
     {
       "title": "Understanding billing for the Azure Copilot Observability Agent",
@@ -1362,15 +1434,6 @@
       "author": "truptiparkar"
     },
     {
-      "title": "Building an Azure architecture that’s ready for every signature",
-      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
-      "published": "2026-06-23T21:07:06+00:00",
-      "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "mtoiba"
-    },
-    {
       "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-copilot-observability-agent-is-generally-available-with/ba-p/4528213",
       "published": "2026-06-23T19:38:23+00:00",
@@ -1524,15 +1587,6 @@
       "author": "Nikita_Bajaj"
     },
     {
-      "title": "Cross-Region Model Connectivity Options in Microsoft Foundry: Supported Patterns and Tradeoffs",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cross-region-model-connectivity-options-in-microsoft-foundry/ba-p/4528620",
-      "published": "2026-06-19T15:00:00+00:00",
-      "summary": "Model availability in Microsoft Foundry is region-dependent. The region approved for your project may not be the one where the model or Foundry Agent Service support you need is available. That creates a common cross-region design choice: connect directly to another Foundry resource, or add a...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "rayankhoury"
-    },
-    {
       "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
       "published": "2026-06-19T07:55:59+00:00",
@@ -1587,15 +1641,6 @@
       "author": "kyleikeda"
     },
     {
-      "title": "Auto-Generated Rubric Evaluators: Building Context-Aware Evaluators for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/auto-generated-rubric-evaluators-building-context-aware/ba-p/4524095",
-      "published": "2026-06-18T19:00:00+00:00",
-      "summary": "Authors: Shuo Qiu, Sydney Lister, Ilya Matiach, Ali Mahmoudzadeh, Salma Elshafey, José Santos, Vivek Bhadauria, Morteza Ziyadi, April Kwong Why Your Agent Needs a Task-Specific Evaluator Picture a customer-service agent for a telecom company. A customer messages in asking to switch plans and get a...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Shuo"
-    },
-    {
       "title": "Detection and automation, reimagined",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
       "published": "2026-06-18T18:31:03+00:00",
@@ -1612,78 +1657,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "samcogan"
-    },
-    {
-      "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
-      "published": "2026-06-18T03:47:52+00:00",
-      "summary": "How I put corporate sign-in in front of Claude Desktop without writing a single line of backend code. TL;DR — In this post, I show how to securely enable Claude Desktop in enterprise environments using Microsoft Entra ID, Azure API Management, and Microsoft Foundry — without deploying a custom...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang"
-    },
-    {
-      "title": "Intelligent Terminal 0.1.1 is here: bash support, new slash commands, and more customization",
-      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-1-1-is-here-bash-support-new-slash-commands-and-customization/",
-      "published": "2026-06-17T22:31:51+00:00",
-      "summary": "We’re back with the first servicing release of Intelligent Terminal! This update brings auto error detection to Bash and WSL, a new /fix command for on-demand help, an on-the-fly /model picker, a customizable agent pane, and Windows 10 support, along with a round of bug fixes and reliability...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Hamza Usmani"
-    },
-    {
-      "title": "Scaling High-Performance CAD on Azure Virtual Desktop with NVIDIA RTX PRO 6000",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-high-performance-cad-on-azure-virtual-desktop-with/ba-p/4528892",
-      "published": "2026-06-17T22:28:14+00:00",
-      "summary": "Overview of Siemens NX Multi-Session on Azure This validation study evaluates how Siemens NX 2506 performs in a multi-user AVD environment, using an RTX-based Azure VM. The focus was to test: 15 and 30 concurrent users Single-host vs multi-host configurations Consistent workloads under identical...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Sunita_AZ0708"
-    },
-    {
-      "title": "ICMP Support for Azure StandardV2 NAT Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/icmp-support-for-azure-standardv2-nat-gateway/ba-p/4528374",
-      "published": "2026-06-17T17:44:22+00:00",
-      "summary": "Our customers, across all industries, depend on consistent outbound connectivity and observability to operate and troubleshoot their cloud workloads at scale. As Azure environments grow in size and complexity, teams increasingly rely on standard network diagnostic tools such as ping to quickly...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "malaikanazim"
-    },
-    {
-      "title": "Accelerating AKS troubleshooting with the Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-aks-troubleshooting-with-the-azure-copilot/ba-p/4528517",
-      "published": "2026-06-17T16:27:27+00:00",
-      "summary": "AKS incidents rarely stay within one Kubernetes object, signal, or tool. A latency spike might first appear in application telemetry, but the root cause may sit elsewhere: pod restarts, node pressure, scheduling failures, or a recent configuration change. The Azure Copilot Observability Agent in...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yairgil"
-    },
-    {
-      "title": "Anatomy of the change",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/anatomy-of-the-change/ba-p/4527934",
-      "published": "2026-06-17T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Incidents, alerts, correlation, and data—what actually changes with the new platform, and why it works in your favor. When you open Microsoft Sentinel in Microsoft Defender for the first time, the shift feels immediate:...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1"
-    },
-    {
-      "title": "Introducing New Additions to Microsoft Sentinel Normalization and ASIM",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-new-additions-to-microsoft-sentinel-normalization/ba-p/4524584",
-      "published": "2026-06-17T15:00:00+00:00",
-      "summary": "TL;DR: New ASIM parsers for Azure Firewall, Key Vault, AWS CloudTrail (EC2, S3, IAM), and 10+ third-party products. Two new schemas — Asset Entities and AI Agent Events. Plus changelogs on GitHub and a heads-up on an upcoming breaking change in ProcessEvent parsers. What's New Security teams deal...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "derricklee"
-    },
-    {
-      "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/",
-      "published": "2026-06-17T13:58:46+00:00",
-      "summary": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention Picture the first few hours after a serious data incident. A production application is down. Security teams are still trying to understand what happened. Application owners need to know which recovery...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Hans Wieser [MS], Jay Gordon"
     }
   ]
 }
