@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-18T12:15:23.304354+00:00",
-  "totalArticles": 184,
+  "lastUpdated": "2026-07-19T12:15:10.265383+00:00",
+  "totalArticles": 176,
   "articles": [
     {
       "title": "Network Security Perimeter for Azure Event Hubs: Hardening Your Data Streams",
@@ -1585,78 +1585,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "Nikita_Bajaj"
-    },
-    {
-      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
-      "published": "2026-06-19T07:55:59+00:00",
-      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li"
-    },
-    {
-      "title": "Microsoft Leads a New Era of Software Supply Chain Transparency",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-leads-a-new-era-of-software-supply-chain-transparency/ba-p/4528367",
-      "published": "2026-06-19T07:00:00+00:00",
-      "summary": "Microsoft announces the general availability of Microsoft’s Signing Transparency (MST) – a first-of-its-kind capability that brings unprecedented visibility and trust to our software supply chain. With this release, Microsoft is leading the industry by recording the build of critical cloud services...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ShubhraS"
-    },
-    {
-      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
-      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
-      "published": "2026-06-19T07:00:00+00:00",
-      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Viktor Ciroski"
-    },
-    {
-      "title": "Revolutionizing Document Intelligence: Scaling Construction Industries with AI-Driven Extraction",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/revolutionizing-document-intelligence-scaling-construction/ba-p/4522393",
-      "published": "2026-06-18T20:52:34+00:00",
-      "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj"
-    },
-    {
-      "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry/",
-      "published": "2026-06-18T20:37:18+00:00",
-      "summary": "We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read as a feature list, it is a lot to hold in your head. So here is a simpler way to see it: these are the parts you need to […]...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Govind Kamtamneni"
-    },
-    {
-      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
-      "published": "2026-06-18T19:55:04+00:00",
-      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda"
-    },
-    {
-      "title": "Detection and automation, reimagined",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
-      "published": "2026-06-18T18:31:03+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1"
-    },
-    {
-      "title": "Controlling Tool Access with APIM MCP Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/controlling-tool-access-with-apim-mcp-gateway/ba-p/4529225",
-      "published": "2026-06-18T14:44:22+00:00",
-      "summary": "If you've started working with MCP servers in GitHub Copilot, Claude, or any other agent host in an enterprise environment, you've probably hit a similar problem. You want to give your developers access to a useful MCP server, but not every tool it ships with. Maybe one tool is noisy and burns...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "samcogan"
     }
   ]
 }
