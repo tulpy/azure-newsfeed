@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-07-19T12:15:10.265383+00:00",
-  "totalArticles": 176,
+  "lastUpdated": "2026-07-20T12:43:43.319413+00:00",
+  "totalArticles": 174,
   "articles": [
+    {
+      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
+      "published": "2026-07-20T07:00:00+00:00",
+      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Round Table: Building Browser-Capable Agents with the Browser Automation Tool",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/round-table-building-browser-capable-agents-with-the-browser/ba-p/4538581",
+      "published": "2026-07-18T22:12:25+00:00",
+      "summary": "Some of the most valuable work still lives inside a browser: booking a class, pulling a figure off a dashboard, filling in a portal form, gathering research across a dozen tabs. These are exactly the tasks people wish an agent could just do. On 22 July 2026 at 2:30 PM BST (7:00 PM IST), the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
+      "published": "2026-07-18T12:26:02+00:00",
+      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "Network Security Perimeter for Azure Event Hubs: Hardening Your Data Streams",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/network-security-perimeter-for-azure-event-hubs-hardening-your/ba-p/4538352",
@@ -82,15 +109,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott"
-    },
-    {
-      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
-      "published": "2026-07-16T19:24:03+00:00",
-      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
@@ -1549,42 +1567,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Eric van Wijk"
-    },
-    {
-      "title": "Azure Firewall explicit proxy Migration Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-migration-guide/ba-p/4528899",
-      "published": "2026-06-19T18:21:40+00:00",
-      "summary": "Purpose of the blog This blog outlines the key upcoming changes to Azure Firewall explicit proxy and provides detailed migration guidance for customers using PAC file–based configurations. It also covers the supported deployment options for enabling explicit proxy after the changes are released,...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi"
-    },
-    {
-      "title": "ARM MCP Server: A Catalog of 24 PoCs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/arm-mcp-server-a-catalog-of-24-pocs/ba-p/4519069",
-      "published": "2026-06-19T16:57:26+00:00",
-      "summary": "Introduction The Azure Resource Manager MCP Server is a remote Model Context Protocol server that gives AI agents first-class access to Azure infrastructure operations. Six tools is a small surface area, but ARM and Azure Resource Graph are not small control planes. To explore what that surface...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "varghesejoji"
-    },
-    {
-      "title": "Three lessons that make or break your AWS-to-Azure workload migration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/three-lessons-that-make-or-break-your-aws-to-azure-workload/ba-p/4520020",
-      "published": "2026-06-19T16:52:06+00:00",
-      "summary": "Thomas Maurer and Raffaele Garofalo get into this in a new episode of the Azure Essentials Show. Raffaele, a Partner Solution Architect at Microsoft, has seen these migrations up close, and he walks through the three lessons that separate smooth migrations from the ones that stall or fail outright....",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "rhack"
-    },
-    {
-      "title": "Generate at scale code insights in Azure Migrate using GitHub Copilot Modernize CLI (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/generate-at-scale-code-insights-in-azure-migrate-using-github/ba-p/4529120",
-      "published": "2026-06-19T16:47:11+00:00",
-      "summary": "Overview Azure Migrate integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together two powerful services: Azure Migrate’s portfolio-level discovery and assessment with GitHub Copilot’s context-aware code analysis. The shared...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "Nikita_Bajaj"
     }
   ]
 }
