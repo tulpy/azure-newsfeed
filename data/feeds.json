@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-07-20T12:43:43.319413+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-07-21T12:29:42.316266+00:00",
+  "totalArticles": 177,
   "articles": [
+    {
+      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
+      "published": "2026-07-21T05:13:20+00:00",
+      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon"
+    },
+    {
+      "title": "T-SQL Hygiene: Introducing the Covering Index",
+      "link": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/",
+      "published": "2026-07-20T17:00:49+00:00",
+      "summary": "Often in applications, we write database queries. And often, the same query is executed again and again. To make queries against large tables faster, we can add an index. This is a general improvement for anyone accessing the table. However, there is a specially designed index called a covering...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
+      "published": "2026-07-20T15:32:26+00:00",
+      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "akhilkarmalkar"
+    },
+    {
+      "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator/",
+      "published": "2026-07-20T14:05:15+00:00",
+      "summary": "If you use the Azure Cosmos DB vNext emulator, you probably know the local development loop: start the emulator, connect to it, create some resources, load test data, run queries, and inspect the results. Each step is straightforward, but together they add setup work before you can test the...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta"
+    },
     {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
@@ -10,6 +46,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Pamela_Fox"
+    },
+    {
+      "title": "Premium SSD v2 and Instant Access Snapshots: A Better, Faster, Cheaper Disk for Your Azure VMs",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/premium-ssd-v2-and-instant-access-snapshots-a-better-faster/ba-p/4534571",
+      "published": "2026-07-20T07:00:00+00:00",
+      "summary": "Hello Folks! If you have been running Premium SSD v1 because that is just what you have always done, this session from the Microsoft Azure Infra Summit 2026 is going to be a wake up call. Raymond Lui and Adam Li from the Azure Disk Storage team walked us through Premium SSD v2 (PV2 for short) and...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
     },
     {
       "title": "Round Table: Building Browser-Capable Agents with the Browser Automation Tool",
@@ -334,15 +379,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "hetvip"
-    },
-    {
-      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
-      "published": "2026-07-14T18:55:53+00:00",
-      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "akhilkarmalkar"
     },
     {
       "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
@@ -721,15 +757,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
-      "published": "2026-07-08T11:52:09+00:00",
-      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon"
     },
     {
       "title": "Lock Down AKS End to End with Application Gateway for Containers and Managed Cilium L7",
