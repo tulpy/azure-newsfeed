@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-07-22T12:29:54.555272+00:00",
-  "totalArticles": 181,
+  "lastUpdated": "2026-07-23T12:29:45.555105+00:00",
+  "totalArticles": 182,
   "articles": [
+    {
+      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
+      "published": "2026-07-23T07:50:18+00:00",
+      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli"
+    },
+    {
+      "title": "Azure Files, Reimagined: Top-Level Shares with Per-Share Networking, Billing, and Scale",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-files-reimagined-top-level-shares-with-per-share/ba-p/4535079",
+      "published": "2026-07-23T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever wrestled with Azure Files inside a storage account, juggling shared RBAC, shared networking, and shared IOPS across a pile of shares that really should not live together, this session is going to address all that. During Microsoft Azure Infra Summit 2026, Vincent Du...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reminder-path-to-production-for-agents-webinar-series-starts/ba-p/4539877",
+      "published": "2026-07-23T00:15:07+00:00",
+      "summary": "Next week, join Microsoft for the Path to Production for Agents webinar series—a free, six-session technical training designed to help organizations move from AI experimentation to secure, scalable, production-ready agent solutions. The series takes place July 27–28 and is aimed at architects,...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs"
+    },
+    {
+      "title": "Azure Local expands SAN capabilities with iSCSI support",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-expands-san-capabilities-with-iscsi-support/ba-p/4531999",
+      "published": "2026-07-22T22:15:00+00:00",
+      "summary": "As organizations modernize datacenters and accelerate migration from legacy virtualization platforms, flexibility in storage architecture has become a key requirement. Customers increasingly want to reuse existing storage investments, scale infrastructure independently, and choose the connectivity...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "saniya0307"
+    },
+    {
+      "title": "Some tools and techniques for hardening Windows Server",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/some-tools-and-techniques-for-hardening-windows-server/ba-p/4539840",
+      "published": "2026-07-22T20:30:09+00:00",
+      "summary": "In this post I go over some tools and techniques exist for hardening Windows Server. As always, apply controls according to the server's role, test them against representative workloads before production rollout, document approved exceptions, and maintain tested console and recovery access in case...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
+    {
+      "title": "Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grounding-copilot-studio-agents-with-azure-ai-search-and-foundry/ba-p/4539337",
+      "published": "2026-07-22T18:00:00+00:00",
+      "summary": "An employee opens the HR agent and asks, \"How much PTO do I accrue each month?\" A few minutes later, someone else asks, \"Where is the official code of ethics policy?\" Those sound like the same problem. They are not. The first person needs a grounded answer they can understand. The second person...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "BrittanyPugh"
+    },
+    {
+      "title": "MCP in Azure: Using API Management for Authentication, Access, Logging & Governance",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-in-azure-using-api-management-for-authentication-access/ba-p/4532139",
+      "published": "2026-07-22T16:51:16+00:00",
+      "summary": "If MCP is becoming the “USB-C for AI,” enterprises need something equally familiar on the other side of that port: a control plane. The Model Context Protocol (MCP) gives AI applications a standard way to discover tools, retrieve context, and call capabilities from external systems. But once you...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Kalaivanan"
+    },
+    {
+      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Priya_Kedia"
+    },
+    {
+      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/",
+      "published": "2026-07-22T15:00:29+00:00",
+      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with? Imagine you are building an internal employee agent. It needs to call a private, Entra-protected MCP...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Linda Li, Maria Naggaga"
+    },
+    {
+      "title": "Cut Your Azure Blob Storage Bill in Half: A Practical Walkthrough of Object Storage TCO",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/cut-your-azure-blob-storage-bill-in-half-a-practical-walkthrough/ba-p/4534575",
+      "published": "2026-07-22T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever opened your monthly Azure invoice, stared at the object storage line, and quietly wondered how it grew so much, this one is for you. At the Microsoft Azure Infra Summit 2026, Benedict Berger and George Trossell from the Azure Storage Engineering team walked through a...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
     {
       "title": "July Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-3/",
@@ -46,6 +136,15 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Ron Frenkel"
+    },
+    {
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+      "published": "2026-07-21T07:15:12+00:00",
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Feeding the GPUs: File Storage for AI and Cloud-Native Workloads on Azure",
@@ -1479,24 +1578,6 @@
       "author": "shantanupatankar"
     },
     {
-      "title": "When the model has never seen your code",
-      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code/",
-      "published": "2026-06-24T14:04:52+00:00",
-      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "An Operational Toolchain for Microsoft Foundry Private Networks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-operational-toolchain-for-microsoft-foundry-private-networks/ba-p/4529558",
-      "published": "2026-06-24T13:00:00+00:00",
-      "summary": "Enterprise teams deploying Microsoft Foundry into private networks can lose hours to failures caused not by the template itself but by surrounding operational state. Each failed deployment can cost thirty to forty-five minutes to redeploy, and residue from one attempt can block the next. This...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "mahyagheini"
-    },
-    {
       "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
       "published": "2026-06-24T12:50:23+00:00",
@@ -1522,15 +1603,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
-    },
-    {
-      "title": "Mistral Document AI (with OCR 4) and Mistral Medium 3.5 arrive in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-document-ai-with-ocr-4-and-mistral-medium-3-5-arrive-in/ba-p/4529863",
-      "published": "2026-06-23T22:01:14+00:00",
-      "summary": "In production AI systems, different problems require different model capabilities. Document ingestion, reasoning, coding, and automation workflows rarely rely on a single model. They depend on selecting the right tool for each layer of the stack. Microsoft Foundry continues to onboard Mistral...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "truptiparkar"
     },
     {
       "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
@@ -1567,69 +1639,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "JeevanManoj"
-    },
-    {
-      "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
-      "published": "2026-06-23T09:35:31+00:00",
-      "summary": "The number that changes the conversation Most \"run an LLM locally\" tutorials start with the model. This one starts with a bill. Every token a cloud LLM generates is metered. One request is rounding-error cheap. But agents don't make one request — they make thousands, in loops, with retries, across...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "From Prompt to Provisioned: A Closer Look at the Azure Deployment Agent",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-prompt-to-provisioned-a-closer-look-at-the-azure-deployment/ba-p/4529935",
-      "published": "2026-06-23T07:00:00+00:00",
-      "summary": "Hello Folks! If you sat through this session during the Microsoft Azure Infra Summit 2026, you already know that Anand Guruswami and Arun Rabindar from the Cloud Native Experiences team showed us something I have been waiting to see for a while. An AI agent that does not just spit out a Terraform...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Azure SDK Release (May 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026/",
-      "published": "2026-06-22T23:37:37+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (May 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt"
-    },
-    {
-      "title": "Build a Sovereign Private Cloud with Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/build-a-sovereign-private-cloud-with-azure-local/ba-p/4529931",
-      "published": "2026-06-22T23:37:32+00:00",
-      "summary": "Hello Folks! Picture this. A regulator hands you a one-pager that says, in essence, “this data does not leave the building.” Or your link to Azure decides to take a nap during a critical batch run. Or you are standing up infrastructure in a remote site where connectivity is a coin flip on a good...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
-      "published": "2026-06-22T17:48:54+00:00",
-      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "OpeSam-Olowu"
-    },
-    {
-      "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-many-copies-of-each-layer-does-your-container-registry/ba-p/4529836",
-      "published": "2026-06-22T15:20:26+00:00",
-      "summary": "Authors: Payal Mahesh and Vicky Lin Azure Container Registry team: Jeanine Burke and Johnson Shi Introduction It's Monday morning. You spin up a fresh 1,000-node AKS cluster for a big training run or a fleet-wide rollout. Every node reaches for the same large container image at the same instant....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "payalmahesh"
-    },
-    {
-      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
-      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
-      "published": "2026-06-22T13:21:18+00:00",
-      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to pick the next one, keeping a todo list as it goes. On top of that loop […] The post How to Use...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta"
     }
   ]
 }
