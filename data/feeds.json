@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-07-24T12:27:26.558855+00:00",
-  "totalArticles": 181,
+  "lastUpdated": "2026-07-25T12:16:28.880937+00:00",
+  "totalArticles": 175,
   "articles": [
+    {
+      "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-the-open-source-release-of-ml-video-codec-mlvc/ba-p/4539875",
+      "published": "2026-07-24T21:39:05+00:00",
+      "summary": "Video codecs compress video for transmission or storage, reducing bandwidth and storage requirements. MLVC is a modern machine-learning-based codec that uses substantially less bandwidth than conventional codecs, improving streaming and video-call quality—especially on constrained or unreliable...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "Naba_Kumar"
+    },
+    {
+      "title": "Claude Opus 5 is available today in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-is-available-today-in-microsoft-foundry/ba-p/4535068",
+      "published": "2026-07-24T17:21:19+00:00",
+      "summary": "Most AI handles one task well. The harder problem is the complex workflow that spans hours. Effective enterprise AI must be capable of managing complex workflows that require planning, adaptation, and persistence over extended periods. We're excited to announce that Claude Opus 5, Anthropic's most...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Beyond text: Returning images and interactive apps from MCP servers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
+      "published": "2026-07-24T13:51:21+00:00",
+      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
     {
       "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
@@ -57,6 +84,15 @@
       "author": "Naomi Moneypenny"
     },
     {
+      "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
+      "published": "2026-07-23T20:05:25+00:00",
+      "summary": "Summary Azure Logic Apps Consumption Integration Accounts were served by roughly 60,000 per-customer Azure Functions apps on the end-of-life v1/v2 runtime. Over about two years we migrated the entire fleet to Functions v4 (isolated worker), across all Azure regions, with no migration work required...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "AbodeSaafan"
+    },
+    {
       "title": "Introducing Kubernetes-Native Policy Validation with CEL and VAP in Azure Policy",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-kubernetes-native-policy-validation-with-cel-and-vap/ba-p/4534585",
       "published": "2026-07-23T19:27:12+00:00",
@@ -64,6 +100,24 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
+    },
+    {
+      "title": "📢 Announcing Built-In Knowledge for Azure Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-built-in-knowledge-for-azure-logic-apps/ba-p/4524601",
+      "published": "2026-07-23T19:26:42+00:00",
+      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of built-in Knowledge for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa"
+    },
+    {
+      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
+      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
+      "published": "2026-07-23T19:03:53+00:00",
+      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Shavonna Jackson"
     },
     {
       "title": "Announcing public preview of Azure DDoS Protection custom policy",
@@ -217,6 +271,15 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Ron Frenkel"
+    },
+    {
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+      "published": "2026-07-21T07:15:12+00:00",
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Feeding the GPUs: File Storage for AI and Cloud-Native Workloads on Azure",
@@ -577,15 +640,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Krishna-Roy"
-    },
-    {
-      "title": "Beyond text: Returning images and interactive apps from MCP servers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
-      "published": "2026-07-15T08:33:51+00:00",
-      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
     },
     {
       "title": "Modernize VDI with Azure Files and Entra Cloud-Native Identities",
@@ -1326,15 +1380,6 @@
       "author": "Jerry Nixon"
     },
     {
-      "title": "Claude Sonnet 5 Is Now Generally Available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-is-now-generally-available-in-microsoft-foundry/ba-p/4530737",
-      "published": "2026-06-30T18:58:19+00:00",
-      "summary": "On June 29, 2026, we announced the general availability of Claude in Microsoft Foundry, giving enterprises a production-ready path to build with Claude models in the Azure ecosystem. Today, we’re continuing that momentum with the general availability of Claude Sonnet 5 in Microsoft Foundry. Claude...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
       "title": "Microsoft Defender for Cloud expands multicloud coverage across AWS and Google Cloud",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-expands-multicloud-coverage-across/ba-p/4532200",
       "published": "2026-06-30T17:36:56+00:00",
@@ -1515,15 +1560,6 @@
       "author": "RajyaLaxmiYellajosyula"
     },
     {
-      "title": "Learn from Microsoft: Transform software development through an agentic platform",
-      "link": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
-      "published": "2026-06-25T18:00:30+00:00",
-      "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Poonam Gupta"
-    },
-    {
       "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-practical-rowhammer-protection-into-azure-cobalt-200/ba-p/4529297",
       "published": "2026-06-25T15:00:00+00:00",
@@ -1540,96 +1576,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sudhanshu Khera, Iria Osara"
-    },
-    {
-      "title": "A Better Way to View Logs in Kudu for Azure App Service on Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-better-way-to-view-logs-in-kudu-for-azure-app-service-on-linux/ba-p/4530934",
-      "published": "2026-06-25T09:46:14+00:00",
-      "summary": "Logs are often the fastest way to understand what is happening inside your application. Whether you are investigating startup behavior, runtime errors, failed requests, dependency issues, or unexpected application behavior, having the right log view can make troubleshooting much easier. To make...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC"
-    },
-    {
-      "title": "Join our free livestream series on using Microsoft IQ with Python",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-using-microsoft-iq-with/ba-p/4530644",
-      "published": "2026-06-25T07:46:37+00:00",
-      "summary": "Join us for a new 3-part livestream series where we take a deep technical look at Microsoft IQ, the knowledge layer for the next generation of AI experiences. You'll learn how Foundry IQ, Work IQ, and Fabric IQ can be used to ground AI systems in organizational knowledge, workplace context, and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
-      "title": "Building Secure, Well-Architected Azure Workloads with Azure Verified Modules and GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/building-secure-well-architected-azure-workloads-with-azure/ba-p/4529938",
-      "published": "2026-06-25T07:00:00+00:00",
-      "summary": "Hello Folks! If you have been writing Bicep or Terraform for Azure over the last few years, you have probably lived this story. You pick a community module, it works great for six months, then the maintainer moves on, issues stop getting answered, and you are stuck owning code you never wrote. At...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "IPv6 Dual-Stack Endpoints for Azure Container Registry (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ipv6-dual-stack-endpoints-for-azure-container-registry-public/ba-p/4528422",
-      "published": "2026-06-24T22:28:46+00:00",
-      "summary": "By Johnson Shi, Aviral Takkar, Bin Du Introduction Two of the most common networking questions we hear from teams running Azure Container Registry (ACR) are: \"Can my registry serve clients on IPv6 networks?\" — Teams operating IPv6-only or dual-stack networks need their container registry reachable...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft"
-    },
-    {
-      "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-computing-for-digital-sovereignty-and/ba-p/4529932",
-      "published": "2026-06-24T20:48:24+00:00",
-      "summary": "This blog provides an update on that momentum: how Azure Confidential Computing (ACC) is expanding across infrastructure, services, hardware-rooted security, and operational maturity, and why that matters for customers with increasing requirements for control, assurance, privacy, and compliance. As...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "VikasBhatia"
-    },
-    {
-      "title": "Azure Functions MCP Extension: What’s New at Build 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/functions-mcp-updates-build-2026/",
-      "published": "2026-06-24T20:20:35+00:00",
-      "summary": "A roundup of what shipped in the Azure Functions MCP extension since preview: resource and prompt triggers, MCP Apps, built-in MCP authentication, structured and rich content, fluent .NET configuration APIs, and what is coming next. The post Azure Functions MCP Extension: What’s New at Build 2026...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lily Ma"
-    },
-    {
-      "title": "A guide to innovating threat hunting with Microsoft Sentinel custom graph",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-guide-to-innovating-threat-hunting-with-microsoft-sentinel/ba-p/4530287",
-      "published": "2026-06-24T18:06:41+00:00",
-      "summary": "Microsoft Sentinel platform offers a growing list of tools and features, with graph being a cornerstone capability. Sentinel graph is a relationship-first method for organizing and querying data within Microsoft Sentinel data lake. Activities amongst entities (users, devices, emails, IPs,...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Matt_Lowe"
-    },
-    {
-      "title": "Inside Llama 3.1 405B MLPerf Training on Azure: System-Level Insights at 8K+ GPU Scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/inside-llama-3-1-405b-mlperf-training-on-azure-system-level/ba-p/4529296",
-      "published": "2026-06-24T16:13:35+00:00",
-      "summary": "By Shantanu Patankar, and Azin Heidarshenas As part of Azure's MLPerf Training v6.0 submission, we scaled Llama 3.1 405B (NVFP4) pretraining to 8,192 GB200 GPUs across 128 racks on Azure's Fairwater infrastructure, converging in 7.07 minutes (MLPerf Training Blog). Llama 3.1, with 405 billion...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "shantanupatankar"
-    },
-    {
-      "title": "When the model has never seen your code",
-      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code/",
-      "published": "2026-06-24T14:04:52+00:00",
-      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
-      "published": "2026-06-24T12:50:23+00:00",
-      "summary": "Why put API Management in front of your MCP servers The Model Context Protocol (MCP) has quickly become the standard way for AI agents, such as GitHub Copilot in VS Code, to reach external tools and data. As soon as an MCP server does anything meaningful, the same questions that govern any API...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vzisiadis"
     }
   ]
 }
