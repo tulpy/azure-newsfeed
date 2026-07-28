@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-07-27T12:59:43.344555+00:00",
-  "totalArticles": 165,
+  "lastUpdated": "2026-07-28T12:32:53.074635+00:00",
+  "totalArticles": 168,
   "articles": [
+    {
+      "title": "Azure landing zone (ALZ) enters its next chapter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
+      "published": "2026-07-28T10:22:02+00:00",
+      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft"
+    },
+    {
+      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
+      "published": "2026-07-28T07:35:06+00:00",
+      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Turning surprise AI bills with GitHub into accountable growth",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-surprise-ai-bills-with-github-into-accountable-growth/ba-p/4541295",
+      "published": "2026-07-28T07:27:39+00:00",
+      "summary": "The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost. Engineering leaders, on the other hand, want to preserve the productivity gains behind the increased usage. The administrator needs to balance both priorities and put a policy in place that the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
+    {
+      "title": "Cap it with GitHub, make it count with Azure: governing GitHub Copilot spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cap-it-with-github-make-it-count-with-azure-governing-github/ba-p/4539492",
+      "published": "2026-07-28T01:37:12+00:00",
+      "summary": "The good news is that GitHub gives you real native controls, and you should turn them on first. The part worth writing down is where those native controls stop, and what an Azure API Management gateway plus GitHub Copilot bring-your-own-key adds on top. This is a two-layer story, not a replacement...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "tonimontez"
+    },
+    {
+      "title": "AI Gateway tier of API Management now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
+      "published": "2026-07-27T16:37:53+00:00",
+      "summary": "Today, we are introducing the AI Gateway tier of Azure API Management, now in public preview. It gives platform teams a purpose-built experience built specifically for AI workloads - publishing and governing models and MCP servers. Controls are configured through policy cards rather than XML and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino"
+    },
     {
       "title": "Preserve a Legacy IP During Azure Migration with Private Link Service Direct Connect",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/preserve-a-legacy-ip-during-azure-migration-with-private-link/ba-p/4540575",
@@ -327,15 +372,6 @@
       "author": "Abhishek Gupta"
     },
     {
-      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
-      "published": "2026-07-20T07:00:00+00:00",
-      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
       "title": "Premium SSD v2 and Instant Access Snapshots: A Better, Faster, Cheaper Disk for Your Azure VMs",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/premium-ssd-v2-and-instant-access-snapshots-a-better-faster/ba-p/4534571",
       "published": "2026-07-20T07:00:00+00:00",
@@ -658,15 +694,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "hetvip"
-    },
-    {
-      "title": "Azure landing zone (ALZ) enters its next chapter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
-      "published": "2026-07-14T17:31:13+00:00",
-      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft"
     },
     {
       "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
