@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-07-29T12:37:05.377378+00:00",
-  "totalArticles": 179,
+  "lastUpdated": "2026-07-30T12:30:57.041299+00:00",
+  "totalArticles": 182,
   "articles": [
+    {
+      "title": "Give Your E-Commerce App a Memory: Adding Agents That Actually Remember Your Customers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/give-your-e-commerce-app-a-memory-adding-agents-that-actually/ba-p/4524021",
+      "published": "2026-07-30T07:00:00+00:00",
+      "summary": "Ever shopped online and felt like the app had no idea who you are? You browse jackets every week, you told the chatbot you hate polyester, and yet it keeps showing you the same generic recommendations. That’s the problem. Most e-commerce apps treat every interaction as a blank slate. What if your...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
+    {
+      "title": "Introducing Cost Management and Pricing Toolsets in Azure Resource Manager MCP Server",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-cost-management-and-pricing-toolsets-in-azure/ba-p/4530710",
+      "published": "2026-07-30T05:41:39+00:00",
+      "summary": "The Azure Resource Manager MCP server was recently launched to give AI agents first-class access to Azure infrastructure operations through the Azure control plane. Today, Microsoft Cost Management is releasing the Cost Management and Pricing toolsets within Azure Resource Manager MCP, bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "demiajayi"
+    },
+    {
+      "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-orchestrator-to-azure-container-apps-jobs/ba-p/4541275",
+      "published": "2026-07-29T17:49:33+00:00",
+      "summary": "Azure Container Apps Jobs are a good fit for batch processing, ETL, machine learning, reports, and other tasks that run to completion. But when those tasks have dependencies, retries, or fan-out, you still need an orchestrator. Many teams already have one. The community-maintained Bring Your Own...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip"
+    },
+    {
+      "title": "Mastering GitHub Copilot Budgets: How to Prevent Surprise Overages Without Blocking Devs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/mastering-github-copilot-budgets-how-to-prevent-surprise/ba-p/4542073",
+      "published": "2026-07-29T17:33:31+00:00",
+      "summary": "1. The Core Mental Model: The Water Park Analogy To understand Copilot billing, think of your enterprise as a water park: The Shared Pool (Included Usage): Every Copilot Business ($19/mo) and Enterprise ($39/mo) seat license adds a set number of free AI credits into a shared corporate water tank...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj"
+    },
+    {
+      "title": "Share Azure Monitor Logs to Microsoft Fabric (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/share-azure-monitor-logs-to-microsoft-fabric-preview/ba-p/4541199",
+      "published": "2026-07-29T17:25:56+00:00",
+      "summary": "Azure Monitor Logs sharing to Microsoft Fabric is now in public preview. In just a few steps, you can share the logs you already send to a Log Analytics workspace with OneLake in Delta Parquet—the open format—without duplication, at no additional cost. This opens your observability data to all...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Ilana_Waitser"
+    },
+    {
+      "title": "Azure SDK Release (July 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-july-2026/",
+      "published": "2026-07-29T17:18:25+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (July 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt"
+    },
+    {
+      "title": "Terraform AzureRM provider 5.0 now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/terraform-azurerm-provider-5-0-now-generally-available/ba-p/4542085",
+      "published": "2026-07-29T16:57:47+00:00",
+      "summary": "The Terraform AzureRM provider serves as the bridge between Terraform configurations and Azure, giving teams a consistent, scalable, and secure way to define and manage Azure infrastructure as code. Today we're announcing general availability of Terraform AzureRM Provider 5.0. This major release...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "stevenjma"
+    },
+    {
+      "title": "Tell your model when to think harder",
+      "link": "https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder/",
+      "published": "2026-07-29T15:02:36+00:00",
+      "summary": "Not every question deserves the same amount of thought. Renaming a variable isn’t the same as debugging a memory leak, and they don’t need the same level of thinking. So why should your model treat them the same way every time? Starting in Visual Studio 18.9 Insiders 2, it doesn’t have to....",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Rachel Kang (SHE/HER)"
+    },
+    {
+      "title": "Executive AI Avatar Platform on Azure: Frontier Intelligence Meets Fireworks AI Open-Source",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/executive-ai-avatar-platform-on-azure-frontier-intelligence/ba-p/4541301",
+      "published": "2026-07-29T14:00:00+00:00",
+      "summary": "The 2 a.m. Question Nobody Wants to Answer Twice It is the night before open enrollment closes. An employee in another time zone has a question about HSA eligibility. No HR representative is available, and the FAQ PDF she received three months ago is nowhere to be found. She does not want to submit...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Gana_Chandrasekaran"
+    },
     {
       "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-deploying-microsoft-hosted-agents-to-microsoft/ba-p/4540376",
@@ -39,6 +120,15 @@
       "author": "Rafia_Aqil"
     },
     {
+      "title": "Secretless Microsoft Entra ID Authentication for AKS with Istio and oauth2-proxy",
+      "link": "https://azureglobalblackbelts.com/2026/07/29/secretless-entra-authentication-on-aks",
+      "published": "2026-07-29T00:00:00+00:00",
+      "summary": "Protect an AKS application with Istio external authorization, oauth2-proxy, Microsoft Entra ID, and AKS Workload Identity without an OAuth client secret.",
+      "blog": "Azure Global Black Belt Blog",
+      "blogId": "gbblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "Introducing Compliance Substate for Azure Policy Exemptions!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-compliance-substate-for-azure-policy-exemptions/ba-p/4541703",
       "published": "2026-07-28T23:26:47+00:00",
@@ -64,6 +154,15 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "prateekwrites"
+    },
+    {
+      "title": "Introducing Kimi K3 through Fireworks AI on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/ba-p/4540187",
+      "published": "2026-07-28T17:34:17+00:00",
+      "summary": "Need to process entire codebases, lengthy legal documents, or hours of meeting transcripts in a single prompt? Kimi K3's 1 million-token context window—one of the largest available—is now deployable on Microsoft Foundry through Fireworks AI. Here's what that massive context means for your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "davevoutila"
     },
     {
       "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
@@ -1362,15 +1461,6 @@
       "author": "Yura_Lee"
     },
     {
-      "title": "Foundry Control Plane and Agent 365: Two Control Planes Walk Into an Enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-control-plane-and-agent-365-two-control-planes-walk-into/ba-p/4520185",
-      "published": "2026-07-02T14:00:00+00:00",
-      "summary": "May 15, 2026 | 8 min read If you’ve been paying attention to Microsoft over the past six months, you’ve noticed a recurring theme: agents are everywhere. They’re reasoning over your SharePoint folders, reconciling your accounts, and if you squint at the Ignite 2025 keynote, they’re about three...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Anil_Korkut"
-    },
-    {
       "title": "Fundamentals of Azure DevOps with SQL projects",
       "link": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/",
       "published": "2026-07-02T13:54:53+00:00",
@@ -1479,15 +1569,6 @@
       "author": "j_folberth"
     },
     {
-      "title": "Agent-to-Agent Communication: Connecting Foundry and LangGraph Agents via A2A",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agent-to-agent-communication-connecting-foundry-and-langgraph/ba-p/4531378",
-      "published": "2026-07-01T13:00:00+00:00",
-      "summary": "As AI systems move from single agents to multi-agent workflows, one challenge becomes obvious: how do agents built in different frameworks discover each other, communicate, and collaborate reliably? This post walks through a practical Agent-to-Agent (A2A) integration between Microsoft Foundry and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA"
-    },
-    {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
       "published": "2026-07-01T12:52:43+00:00",
@@ -1558,60 +1639,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Mohit_Kumar1"
-    },
-    {
-      "title": "GitHub Copilot App - Canvas Is Not a UI Builder",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-copilot-app-canvas-is-not-a-ui-builder/ba-p/4531451",
-      "published": "2026-06-30T07:00:00+00:00",
-      "summary": "What if your development environment didn't just help you write code, but helped you observe, steer, and evolve a living system while it runs? That's the shift GitHub Copilot App Canvas represents. Canvas redefines how developers interact with agent-driven software: not by building traditional user...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Announcing General Availability of Client-Side Data Integrity Protections in Azure Blob Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/announcing-general-availability-of-client-side-data-integrity/ba-p/4531364",
-      "published": "2026-06-29T19:03:37+00:00",
-      "summary": "We are excited to announce the General Availability of client-side data integrity in Azure Blob Storage. Blob Storage has long supported integrity validation, starting with MD5 as part of the original HTTP standards and adding CRC64-NVME support in 2019. Today, CRC64-NVME is now integrated into the...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "wmarkley"
-    },
-    {
-      "title": "Your readiness playbook: adoption helper, costs, APIs, and the checklist",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/your-readiness-playbook-adoption-helper-costs-apis-and-the/ba-p/4528608",
-      "published": "2026-06-29T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The transition is not a project—it is a sequence of small, ordered decisions. Here is the readiness tool that scores your environment in minutes, the cost story you can take to finance, the API strategy that future-proofs your...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1"
-    },
-    {
-      "title": "WSL container is now available for public preview",
-      "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/",
-      "published": "2026-06-29T15:29:48+00:00",
-      "summary": "At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development – from cloud-native applications and AI workloads to testing and...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Craig Loewen"
-    },
-    {
-      "title": "Automating your Visual Studio extension builds with GitHub Actions",
-      "link": "https://devblogs.microsoft.com/visualstudio/automating-your-visual-studio-extension-builds-with-github-actions/",
-      "published": "2026-06-29T14:00:25+00:00",
-      "summary": "If you’re building and maintaining Visual Studio extensions, you’ve probably ended up with some sort of build and publishing workflow – whether it’s manual, scripted, or stitched together over time. This post is for extension authors who want a simple, repeatable way to build, version, and publish...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen"
-    },
-    {
-      "title": "My Journey with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/my-journey-with-azure-sre-agent/ba-p/4523519",
-      "published": "2026-06-29T13:22:32+00:00",
-      "summary": "Introduction A customer came to me with a problem that many organisations have. They control their infrastructure through Infrastructure as Code, but there are often scenarios where an admin needs to go in and make a change - even though they would ideally not want this to happen. The use an Entra...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jometzg"
     }
   ]
 }
