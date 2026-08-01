@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-07-31T12:34:43.079132+00:00",
-  "totalArticles": 184,
+  "lastUpdated": "2026-08-01T12:18:23.265084+00:00",
+  "totalArticles": 176,
   "articles": [
+    {
+      "title": "Scale limits in network security perimeter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/scale-limits-in-network-security-perimeter/ba-p/4542911",
+      "published": "2026-07-31T17:24:48+00:00",
+      "summary": "Presently, network security perimeter functionality can be used to support deployments of PaaS resources with common public network controls with following scale limitations: LimitationDescriptionNumber of network security perimetersSupported up to 100 as recommended limit per subscription.Profiles...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shashankamalladi"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-july-2026/ba-p/4542130",
+      "published": "2026-07-31T16:00:00+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In July, Sentinel adds custom detections support in Sentinel repositories, so you can manage detections as code alongside your analytics rules, playbooks, parsers, and workbooks, authoring in GitHub and deploying through the CI/CD pipelines you...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "vkokkengada"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-07-31T13:57:49+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put in place controls to meet...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "Governing Log Analytics retention at scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/governing-log-analytics-retention-at-scale/ba-p/4542538",
@@ -12,22 +39,13 @@
       "author": "TomClaes"
     },
     {
-      "title": "🚀 Foundry Toolkit for VS Code — July 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-july-2026-update/ba-p/4542786",
-      "published": "2026-07-31T11:02:15+00:00",
-      "summary": "July was a clean-up-and-level-up month. Four releases shipped for the Foundry Toolkit for VS Code: 1.6.3, 1.6.4, 1.6.5, and 1.6.6. The theme this month wasn't a single headline feature — it was making the extension feel like one coherent workspace instead of a pile of tree nodes. Your Foundry...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-07-30T22:32:12+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put in place controls to meet the unique compliance...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
+      "title": "Move a live GitLab project between groups without breaking Terraform state or CI/CD",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/move-a-live-gitlab-project-between-groups-without-breaking/ba-p/4539677",
+      "published": "2026-07-31T08:00:00+00:00",
+      "summary": "Why this is trickier than it looks A group transfer in GitLab isn't just a rename. It re-parents the project under a new namespace, which changes every path-based assumption downstream: inherited group variables, group-scoped runners, and any external system that hardcoded the old...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "HimanshuYadav"
     },
     {
       "title": "Domain controller showing \"Not ready for migration\"",
@@ -1567,96 +1585,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "yairgil"
-    },
-    {
-      "title": "Guest Access for Canvas and Model-Driven Apps with Microsoft Entra ID",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/guest-access-for-canvas-and-model-driven-apps-with-microsoft/ba-p/4529462",
-      "published": "2026-07-02T08:24:43+00:00",
-      "summary": "Introduction External collaboration is a common requirement for business applications built on Microsoft Power Platform. Organizations may need to provide controlled access to vendors, partners, contractors, or external business users without creating full internal user accounts. Microsoft Entra ID...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aakarshdhawan"
-    },
-    {
-      "title": "Upcoming Change: NTLM Removal in Git (libcurl) – Impact to Azure DevOps Server Customers",
-      "link": "https://devblogs.microsoft.com/devops/upcoming-change-ntlm-removal-in-git-libcurl-impact-to-azure-devops-server-customers/",
-      "published": "2026-07-01T23:25:39+00:00",
-      "summary": "Overview In September 2026, NTLM support will be removed from libcurl, which is used by Git for HTTP(S) operations. As a result, Git operations over HTTPS against Azure DevOps Server (on-premises) will stop working for customers who rely on NTLM authentication. This change is part of a broader...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "Audit Frontier AI Agents with SQL MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/",
-      "published": "2026-07-01T20:02:11+00:00",
-      "summary": "With On-Behalf-Of authentication, SQL MCP Server lets agents access Microsoft SQL without losing the user identity behind the request. Azure SQL can audit the signed-in user who invoked the operation, not just the agent, app, or MCP server that carried it out. The post Audit Frontier AI Agents with...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
-      "published": "2026-07-01T17:51:59+00:00",
-      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Natee_Pretikul"
-    },
-    {
-      "title": "How to build long-running MCP tools on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-build-long-running-mcp-tools-on-azure-functions/ba-p/4532653",
-      "published": "2026-07-01T16:10:42+00:00",
-      "summary": "Recently, a customer building servers with the Azure Functions MCP extension reached out and asked: How do I handle tools that take longer than the client is willing to wait? This becomes especially relevant when tool calls move beyond simple request/response into multi-step workflows and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
-    },
-    {
-      "title": "Now generally available: Serverless posture coverage in Microsoft Defender CSPM",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/now-generally-available-serverless-posture-coverage-in-microsoft/ba-p/4532353",
-      "published": "2026-07-01T16:00:48+00:00",
-      "summary": "Serverless workloads are a foundation of modern application development, powering everything from low-code and no-code solutions to AI applications and agentic workflows. Development teams use functions, app services, containers, APIs, and event-driven infrastructure to move quickly, scale on...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "donnalee"
-    },
-    {
-      "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-kars-an-agent-reference-stack-for-kubernetes/ba-p/4529800",
-      "published": "2026-07-01T15:35:28+00:00",
-      "summary": "kars is a Kubernetes-native runtime for AI agents on Azure. It treats every agent as untrusted code: per-pod kernel isolation, zero credentials in the agent process, end-to-end encrypted inter-agent mesh, and native consumption of the Microsoft Agent Governance Toolkit. Agents on any supported...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "pallakatos"
-    },
-    {
-      "title": "What AI benchmarks are not telling you",
-      "link": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you/",
-      "published": "2026-07-01T14:31:55+00:00",
-      "summary": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
-      "published": "2026-07-01T13:32:47+00:00",
-      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth"
-    },
-    {
-      "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
-      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
-      "published": "2026-07-01T12:52:43+00:00",
-      "summary": "We’re halfway through 2026, and Microsoft SQL has not slowed down. Since SQLCon/FabCon in March (where we released a ton of things, and those updates can be found in this updates video), we shipped a wave of updates across SQL Server, Azure SQL, and SQL database in Fabric, with Microsoft Build 2026...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Anna Hoffman"
     }
   ]
 }
