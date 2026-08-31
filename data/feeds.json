@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-30T12:04:13.487088+00:00",
-  "totalArticles": 156,
+  "lastUpdated": "2026-08-31T12:04:52.905373+00:00",
+  "totalArticles": 153,
   "articles": [
     {
       "title": "Only believe what you can validate: a verification framework for agentic AI",
@@ -1378,33 +1378,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
-    },
-    {
-      "title": "Scale limits in network security perimeter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/scale-limits-in-network-security-perimeter/ba-p/4542911",
-      "published": "2026-07-31T17:24:48+00:00",
-      "summary": "Presently, network security perimeter functionality can be used to support deployments of PaaS resources with common public network controls with following scale limitations: LimitationDescriptionNumber of network security perimetersSupported up to 100 as recommended limit per subscription.Profiles...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi"
-    },
-    {
-      "title": "AI-Enabled Map Production Using Microsoft's MARS Model",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/ai-enabled-map-production-using-microsoft-s-mars-model/ba-p/4542498",
-      "published": "2026-07-31T17:23:54+00:00",
-      "summary": "Maps have long served as the foundation for how organizations understand, navigate, and make decisions about the world. Yet generating and maintaining maps remains a highly manual, time-consuming, and costly process with susceptibility to human error. Traditional mapping workflows rely on skilled...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "nelsontam"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-july-2026/ba-p/4542130",
-      "published": "2026-07-31T16:00:00+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. In July, Sentinel adds custom detections support in Sentinel repositories, so you can manage detections as code alongside your analytics rules, playbooks, parsers, and workbooks, authoring in GitHub and deploying through the CI/CD pipelines you...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "vkokkengada"
     }
   ]
 }
