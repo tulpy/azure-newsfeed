@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-08-31T12:04:52.905373+00:00",
-  "totalArticles": 153,
+  "lastUpdated": "2026-09-01T12:04:53.025376+00:00",
+  "totalArticles": 160,
   "articles": [
+    {
+      "title": "Enterprise Live Migrations is now in public preview",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
+      "published": "2026-08-31T20:52:38+00:00",
+      "summary": "Move Azure DevOps repositories to GitHub Enterprise Cloud with data residency while minimizing disruption Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. We...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Soo Stahl"
+    },
+    {
+      "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
+      "published": "2026-08-31T18:38:04+00:00",
+      "summary": "Many applications use Azure Service Bus to decouple services, handle traffic spikes, and process workloads asynchronously. However, securely exposing messaging capabilities to applications, partners, and internal teams can require custom middleware or messaging-specific client implementations....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anishta"
+    },
+    {
+      "title": "Power Azure SRE Agent with the tools it needs",
+      "link": "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace/",
+      "published": "2026-08-31T18:37:17+00:00",
+      "summary": "Use Azure Connector Namespace to host MCP servers and give Azure SRE Agent access to the operational tools it needs without managing the server infrastructure yourself. The post Power Azure SRE Agent with the tools it needs appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma"
+    },
+    {
+      "title": "Bacpac and Dacpac, the similarities and differences",
+      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences/",
+      "published": "2026-08-31T15:13:57+00:00",
+      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they’re used in SqlPackage and...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Drew Skwiers-Koballa"
+    },
+    {
+      "title": "BizTalk Server 2020 End-of-Sale Announcement",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/biztalk-server-2020-end-of-sale-announcement/ba-p/4551317",
+      "published": "2026-08-31T09:00:00+00:00",
+      "summary": "Executive Summary: BizTalk Server 2020 is the final release of BizTalk Server, and Microsoft expects sales of BizTalk Server 2020 and Host Integration Server 2020 to end March 31, 2027. Mainstream support for BizTalk Server 2020 continues through April 12, 2028, after which the product remains...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu"
+    },
+    {
+      "title": "Advanced Windows Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/advanced-windows-firewall/ba-p/4551626",
+      "published": "2026-08-30T22:38:47+00:00",
+      "summary": "If you administer Windows, you’re already aware of Windows Firewall. You might use it to allow an application, open a port, or block unwanted inbound traffic. But those familiar tasks only scratch the surface of what it can do. The Microsoft Learn module Understand advanced Windows Firewall takes...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
     {
       "title": "Only believe what you can validate: a verification framework for agentic AI",
       "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
@@ -46,6 +100,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "junjieli"
+    },
+    {
+      "title": "Open-sourcing TauGrid: cloud-native AI infrastructure for GPU workloads on Kubernetes",
+      "link": "https://blog.aks.azure.com/2026/08/28/taugrid-open-source",
+      "published": "2026-08-28T00:00:00+00:00",
+      "summary": "TauGrid combines the tau CLI, Kueue, KubeRay, GPU health monitoring, and observability into one Kubernetes-native stack for AI workloads.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Zonal redundancy in API management Standard v2",
@@ -366,7 +429,7 @@
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
       "published": "2026-08-22T01:22:26+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed:...",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
