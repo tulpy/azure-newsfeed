@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-09-01T12:04:53.025376+00:00",
-  "totalArticles": 160,
+  "lastUpdated": "2026-09-02T12:04:46.117699+00:00",
+  "totalArticles": 167,
   "articles": [
+    {
+      "title": "Scaling AI Storage: Azure Managed Lustre excels in MLPerf Storage v3.0",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-ai-storage-azure-managed-lustre-excels-in-mlperf-storage/ba-p/4552351",
+      "published": "2026-09-02T08:27:06+00:00",
+      "summary": "In large scale AI clusters storage is responsible for delivering training data fast enough to keep accelerators busy and completing checkpoint saves and recoveries quickly enough to avoid costly stalls. MLPerf Storage is an industry-standard benchmark developed by MLCommons that reproduces the I/O...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "wolfgangdesalvador"
+    },
+    {
+      "title": "Why long-running tasks on Linux Batch pools can restart daily and how to prevent it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/why-long-running-tasks-on-linux-batch-pools-can-restart-daily/ba-p/4546215",
+      "published": "2026-09-02T04:57:13+00:00",
+      "summary": "In Azure Batch, customers running long tasks on Linux (Ubuntu) compute nodes sometimes observe that a task is interrupted and automatically re-run from the beginning on a recurring basis, often once per day, around the same time, even though no one cancelled or resubmitted the task, and the...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Sithu"
+    },
+    {
+      "title": "Automating Compliance Scope Enforcement with Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/automating-compliance-scope-enforcement-with-azure-policy/ba-p/4551921",
+      "published": "2026-09-02T00:08:55+00:00",
+      "summary": "Cloud compliance certifications like C5, ISO 27001, HIPAA, or PCI DSS never cover the whole platform. They only cover a defined set of services, listed in an official document published by Microsoft. A common and costly mistake is to assume that “Azure is certified for X” automatically means every...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "gurjsing"
+    },
+    {
+      "title": "Active Directory Domain Services modules on Microsoft Learn",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
+      "published": "2026-09-01T22:51:08+00:00",
+      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming). If you know all this, remember we have the free 45...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
+    {
+      "title": "Introducing APIOps CLI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-apiops-cli/ba-p/4552378",
+      "published": "2026-09-01T20:05:56+00:00",
+      "summary": "APIOps CLI helps teams extract, version, review, preview, and publish Azure API Management configuration through source-controlled DevOps workflows. Today, we're excited to announce APIOps CLI, a new command-line experience designed to help organizations manage Azure API Management (APIM) using...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Stop Letting Agents Run the Workflow",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/stop-letting-agents-run-the-workflow/ba-p/4550068",
+      "published": "2026-09-01T17:00:00+00:00",
+      "summary": "A user submits a ticket: \"Please grant temporary admin access to the finance reporting database for month-end close.\" A five-agent system handles it beautifully. A triage agent classifies the request. A policy agent checks entitlements. An approval agent decides a manager needs to sign off. An...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Kalaivanan"
+    },
+    {
+      "title": "Today I will… review GitHub PRs",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
+      "published": "2026-09-01T16:00:27+00:00",
+      "summary": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we’re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell"
+    },
+    {
+      "title": "Generally Available: Certificate Management for Azure Arc-enabled Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-certificate-management-for-azure-arc-enabled/ba-p/4542769",
+      "published": "2026-09-01T16:00:00+00:00",
+      "summary": "We are excited to announce the general availability of a new capability for edge Kubernetes workloads connected with Azure Arc, Certificate Management. Certificate Management enables Arc-enabled Kubernetes customers to install a single Microsoft-supported extension to automate TLS certificate and...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NicolasMondada"
+    },
+    {
+      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
+      "published": "2026-09-01T14:08:19+00:00",
+      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
+      "published": "2026-09-01T14:00:00+00:00",
+      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "abikomma"
+    },
     {
       "title": "Enterprise Live Migrations is now in public preview",
       "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
@@ -10,6 +100,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Soo Stahl"
+    },
+    {
+      "title": "Model Migration Process on Microsoft Foundry and Azure OpenAI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-migration-process-on-microsoft-foundry-and-azure-openai/ba-p/4541236",
+      "published": "2026-08-31T20:00:00+00:00",
+      "summary": "Every app built on an LLM will eventually move to a new model. The model you shipped may be retired, or a newer model may offer better quality, cost, or performance. Changing a model name in code from a retiring model such as gpt-4o to a newer one such as gpt-5.1 may take one line. That line hides...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "meera-kurup"
     },
     {
       "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
@@ -28,6 +127,42 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Lily Ma"
+    },
+    {
+      "title": "Simpler, private connectivity between Azure and AWS with Azure Multicloud Interconnect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simpler-private-connectivity-between-azure-and-aws-with-azure/ba-p/4550556",
+      "published": "2026-08-31T17:59:37+00:00",
+      "summary": "Multicloud is no longer the exception — it is how most enterprises operate. Teams run analytics in one cloud and applications in another, place workloads to meet data-residency requirements, and increasingly move large volumes of data between clouds to train and serve AI models. Yet the network...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sudha_Mahajan"
+    },
+    {
+      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
+      "published": "2026-08-31T17:30:00+00:00",
+      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "muafzal"
+    },
+    {
+      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
+      "published": "2026-08-31T17:13:25+00:00",
+      "summary": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vishal_kalal"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-august-2026/ba-p/4551405",
+      "published": "2026-08-31T16:00:00+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. This August, Sentinel innovation kicks off with the AI-powered playbook generator, generally available to all Sentinel customers in the Microsoft Defender portal. Meanwhile, User and Entity Behavior Analytics (UEBA) anomalies enter public preview on...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "spalani"
     },
     {
       "title": "Bacpac and Dacpac, the similarities and differences",
@@ -354,15 +489,6 @@
       "author": "Nir Mashkowski"
     },
     {
-      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
-      "published": "2026-08-25T14:00:00+00:00",
-      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "muafzal"
-    },
-    {
       "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
       "published": "2026-08-25T13:24:02+00:00",
@@ -631,15 +757,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "lily-ma"
-    },
-    {
-      "title": "Active Directory Domain Services modules on Microsoft Learn",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
-      "published": "2026-08-18T20:06:08+00:00",
-      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming). If you know all this, remember we have the free 45...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
     },
     {
       "title": "The Two Hybrid Searches in Microsoft SQL",
@@ -1173,15 +1290,6 @@
       "author": "abikomma"
     },
     {
-      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
-      "published": "2026-08-07T14:00:00+00:00",
-      "summary": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "vishal_kalal"
-    },
-    {
       "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
       "published": "2026-08-06T19:27:34+00:00",
@@ -1207,15 +1315,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "From Distillation to Reinforcement Fine-Tuning: Hill-Climbing in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-distillation-to-reinforcement-fine-tuning-hill-climbing-in/ba-p/4543260",
-      "published": "2026-08-06T14:00:00+00:00",
-      "summary": "TL; DR: Hill climbing means improving the deployable model package one measured step at a time across quality, latency, and cost. SFT made this workload cheaper, but did not transfer the teacher's planning quality. Adding explicit reasoning produced the major quality gain. RFT in Microsoft Foundry...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "srikantan"
     },
     {
       "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
@@ -1252,24 +1351,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "Dona_Mukherjee"
-    },
-    {
-      "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
-      "published": "2026-08-05T20:00:00+00:00",
-      "summary": "As organizations race to automate decision-making, content generation, analysis, and execution at scale, the future is shifting from isolated AI agents to multi-agent workflows where specialized agents collaborate, delegate, challenge, and refine each other's work. By allowing multiple AI agents to...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA"
-    },
-    {
-      "title": "Introducing Real-Time Multichannel Speech-to-Text",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-real-time-multichannel-speech-to-text/ba-p/4541701",
-      "published": "2026-08-05T18:00:00+00:00",
-      "summary": "Organizations working with stereo audio often face a difficult choice. In many contact center, conversational AI, and communication scenarios, participants are already recorded on separate channels. Keeping those channels separate provides valuable conversational context, especially when speakers...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "JanGoergen"
     },
     {
       "title": "Announcing Public Preview - Azure Private Link over IPv6",
@@ -1423,24 +1504,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "farhakareem"
-    },
-    {
-      "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
-      "published": "2026-08-03T07:00:00+00:00",
-      "summary": "We just concluded Microsoft IQ Deep Dive with Python, a three-part livestream series all about Microsoft IQ. We showed how to use the four IQs to ground your AI applications and agents: Work IQ: user-specific retrieval of M365 data, like Teams chats, emails, and calendar events. Fabric IQ:...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
-      "title": "Designing Azure Networks That Scale: From Small Deployments to Enterprise-Grade",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/designing-azure-networks-that-scale-from-small-deployments-to/ba-p/4542489",
-      "published": "2026-08-03T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever spent a long afternoon untangling overlapping CIDR ranges, chasing down a broken VNet peering, or trying to remember which UDR points to which firewall, this MAIS 2026 session is going to feel uncomfortably familiar. Jon Ormond (Principal PM, Azure Networking) brought...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
     }
   ]
 }
