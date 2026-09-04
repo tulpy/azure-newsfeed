@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-09-03T12:04:39.951275+00:00",
-  "totalArticles": 165,
+  "lastUpdated": "2026-09-04T12:04:36.794145+00:00",
+  "totalArticles": 166,
   "articles": [
+    {
+      "title": "SQL Decomposition in a Nutshell",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-decomposition/",
+      "published": "2026-09-03T20:06:28+00:00",
+      "summary": "Good software design principles apply inside the database too. See how decomposition, encapsulation, statelessness, and clear contracts can make complex T-SQL easier to read, test, reuse, and maintain. The post SQL Decomposition in a Nutshell appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Advocating for Uptime: The 6 Phases of Change",
+      "link": "https://devblogs.microsoft.com/azure-sql/schema-change/",
+      "published": "2026-09-03T19:09:04+00:00",
+      "summary": "Schema changes are inevitable, but downtime doesn’t have to be. Learn a phased approach to safely evolve a production SQL schema while applications remain online. The post Advocating for Uptime: The 6 Phases of Change appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-09-03T18:47:52+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerated-ai-analytics-workload-on-azure-blob-storage-up-to/ba-p/4551857",
+      "published": "2026-09-03T18:46:37+00:00",
+      "summary": "Today Azure Storage introduces in preview a new List Blobs optimization that accelerates listing operations by up to 25x with up to 15x lower client-side CPU utilization allowing customers to return millions of objects per second in List Blobs results. The list results are now returned in Apache...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "wolfgangdesalvador"
+    },
+    {
+      "title": "Building 3IQ Retail Assistant Demo – Part 1",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-1/ba-p/4547228",
+      "published": "2026-09-03T17:24:53+00:00",
+      "summary": "Introduction Recently I received a request from one of our GSI partners to demonstrate them 4IQs on a retail industry scenario. Unfortunately, Web IQ is still not in public preview. Hence, I promised them to come back with an example later with Web IQ. But even with the remaining Fabric IQ, Foundry...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "pranabpaul"
+    },
+    {
+      "title": "Building 3IQ Retail Assistant Demo – Part 2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-2/ba-p/4547231",
+      "published": "2026-09-03T17:24:04+00:00",
+      "summary": "In part 1 while setting up the Azure environment, I informed the template puts everything under VNET and all the services are having only private endpoints. Which is great from the security point of view. We also spoke about creating a jumpbox as a Bastion host to work on those services. If you did...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "pranabpaul"
+    },
+    {
+      "title": "Building 3IQ Retail Assistant Demo – Part 3",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-3/ba-p/4547233",
+      "published": "2026-09-03T17:23:13+00:00",
+      "summary": "We are now at the last part of our demo. We will build a Copilot Agent to connect it to a SharePoint List holding data related to Support case raised by the customers. Then connect the other 2 agents (Fabric Data Agent and Foundry Prompt Agent) to it. But before doing it ensure Work IQ is activated...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "pranabpaul"
+    },
+    {
+      "title": "Logic App Storage Inspector",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-app-storage-inspector/ba-p/4552352",
+      "published": "2026-09-03T16:28:54+00:00",
+      "summary": "Logic App Storage Inspector is a Kudu site extension for inspecting the storage used by an Azure Logic App Standard application. Read-only: The extension only reads Logic App storage data. It does not create, update, or delete workflows, tables, queues, blobs, messages, or other storage data....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Mohammed_Barqawi"
+    },
+    {
+      "title": "Build Advanced ServiceNow Response Plans in Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-advanced-servicenow-response-plans-in-azure-sre-agent/ba-p/4553059",
+      "published": "2026-09-03T14:07:15+00:00",
+      "summary": "A ServiceNow connection tells Azure SRE Agent which incidents it can see. Advanced filtering narrows that further, so each response plan handles only the incidents it should. Advanced filters let a plan express the rule your on-call team already follows: Send High-priority production network...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Dalibor_Kovacevic"
+    },
     {
       "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
@@ -390,15 +471,6 @@
       "author": "Dan Hellem"
     },
     {
-      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
-      "published": "2026-08-26T20:48:29+00:00",
-      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "austin-ma"
-    },
-    {
       "title": "Stop restricting the agent. Start restricting its environment.",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
       "published": "2026-08-26T18:48:33+00:00",
@@ -631,15 +703,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "SURENDRATANNEERU1"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-22T01:22:26+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
@@ -1254,15 +1317,6 @@
       "author": "Paul_VicenteH"
     },
     {
-      "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
-      "link": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers/",
-      "published": "2026-08-10T21:35:53+00:00",
-      "summary": "As app developers, our primary focus is building great user experiences, designing APIs, and shipping features quickly. What we don’t want is database friction—wasting hours configuring local DB instances, writing verbose migration scripts by hand, or worrying about unexpected cloud bills while...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Vandana Mahtani, Andrew Carter"
-    },
-    {
       "title": "Intelligent Terminal 0.2 is here with local model support",
       "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support/",
       "published": "2026-08-10T19:00:01+00:00",
@@ -1441,51 +1495,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
-      "published": "2026-08-05T07:00:00+00:00",
-      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Agentic Migrations and Modernization: How the Azure Migrate Agent Keeps Your Intent Alive End to End",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/agentic-migrations-and-modernization-how-the-azure-migrate-agent/ba-p/4542513",
-      "published": "2026-08-05T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever tried to move a few hundred VMs, a pile of databases, and a couple of web apps from on-prem to Azure, you already know the hard part is not the tooling. The hard part is keeping context, intent, and momentum alive across weeks of planning, hand-offs, and decisions. In...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/use-connectors-with-managed-identity-in-the-logic-apps-standard/ba-p/4539485",
-      "published": "2026-08-04T23:00:51+00:00",
-      "summary": "Managed Identity is Azure’s built-in way to authenticate to Microsoft Entra-protected resources without storing credentials, secrets, or connection strings. Deployed Logic Apps have supported it for a while, but the developer inner loop was a different story. You would wire up one authentication...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
-      "title": "Azure Virtual Network routing appliance is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-routing-appliance-is-now-generally/ba-p/4543616",
-      "published": "2026-08-04T20:42:46+00:00",
-      "summary": "Modern cloud networks are evolving faster than ever. Organizations are building larger AI platforms, connecting more services through private connectivity, adopting IPv6, and expanding applications across regions and business units. As these environments grow, the network becomes a critical...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Anshu_Verma"
-    },
-    {
-      "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
-      "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
-      "published": "2026-08-04T14:00:38+00:00",
-      "summary": "If you’ve been looking for a practical way to build Azure skills, Cloud Academy (a QA company) gives Visual Studio subscribers hands-on learning that fits into busy schedules. Whether you’re new to Azure, expanding your cloud expertise, working towards certifications or preparing for more advanced...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
     }
   ]
 }
