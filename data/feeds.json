@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-05T12:03:49.022667+00:00",
-  "totalArticles": 163,
+  "lastUpdated": "2026-09-06T12:04:07.005496+00:00",
+  "totalArticles": 161,
   "articles": [
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1450,24 +1450,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty"
-    },
-    {
-      "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
-      "published": "2026-08-06T19:27:34+00:00",
-      "summary": "Today, the Azure Arc team is pleased to announce that Extended Security Updates (ESUs) enabled by Azure Arc is now generally available for Windows Server 2016. By connecting your Windows Server 2016 machines to Azure Arc-enabled servers, you can enroll in ESUs and receive security updates. Enroll...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres"
-    },
-    {
-      "title": "Pull request annotations on work item cards",
-      "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards/",
-      "published": "2026-08-06T14:00:21+00:00",
-      "summary": "It’s now easier to track development progress without leaving your Kanban board. Azure Boards now displays pull request annotations directly on work item cards, making it easy to see at a glance when work is actively moving through code review. With pull request status visible directly on the...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
     }
   ]
 }
