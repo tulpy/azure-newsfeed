@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-06T12:04:07.005496+00:00",
-  "totalArticles": 161,
+  "lastUpdated": "2026-09-07T12:04:32.172915+00:00",
+  "totalArticles": 156,
   "articles": [
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1405,51 +1405,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Shamir_AbdulAziz"
-    },
-    {
-      "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-grafana-13-support-in-azure-managed-grafana/ba-p/4545199",
-      "published": "2026-08-07T22:24:56+00:00",
-      "summary": "Enhanced Dashboarding and Visualization Experience Grafana 13 introduces a number of improvements that make dashboards easier to build, reuse, and manage at scale. Teams can create richer observability experiences while reducing duplication and improving consistency across environments. These...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nuzhat-minhaz"
-    },
-    {
-      "title": "Build Durable, Long-Running MCP Tasks on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-durable-long-running-mcp-tasks-on-azure-app-service/ba-p/4545170",
-      "published": "2026-08-07T19:40:32+00:00",
-      "summary": "Not every tool call finishes in a few seconds. A compliance scan might inspect hundreds of resources. A deployment might wait for an approval. A batch import might run for an hour. Holding an HTTP connection open for that entire operation is fragile: clients restart, proxies time out, networks...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
-      "title": "AI-powered playbook generator, now available to more customers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/ai-powered-playbook-generator-now-available-to-more-customers/ba-p/4544385",
-      "published": "2026-08-07T19:28:40+00:00",
-      "summary": "We’re excited to announce we’re making it easier than ever to go from intent to action with the AI-powered playbook generator now available to more customers. What’s new All Microsoft Sentinel customers in Defender portal can now create AI-generated playbooks directly in their automation workflow....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "NoaCafri"
-    },
-    {
-      "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/expanding-the-azure-local-security-ecosystem-with-ibm-qradar-and/ba-p/4535101",
-      "published": "2026-08-07T18:00:00+00:00",
-      "summary": "As regulatory obligations, resilience requirements, and the need for greater control over data and infrastructure continue to grow, we are seeing increasing interest in Azure Local from governments, critical infrastructure operators, defense organizations, and regulated industries looking to deploy...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Ariel Netz"
-    },
-    {
-      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
-      "published": "2026-08-07T17:15:55+00:00",
-      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robert_Moriarty"
     }
   ]
 }
