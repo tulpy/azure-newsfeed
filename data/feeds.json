@@ -1,16 +1,7 @@
 {
-  "lastUpdated": "2026-09-11T12:04:53.848301+00:00",
-  "totalArticles": 156,
+  "lastUpdated": "2026-09-12T12:03:53.173874+00:00",
+  "totalArticles": 149,
   "articles": [
-    {
-      "title": "AI Agent ROI Framework",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
-      "published": "2026-09-10T22:36:02+00:00",
-      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Yagneswari"
-    },
     {
       "title": "September Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
@@ -19,6 +10,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Gloridel Morales"
+    },
+    {
+      "title": "Create multimodal applications with OpenAI models in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/create-multimodal-applications-with-openai-models-in-microsoft/ba-p/4543593",
+      "published": "2026-09-10T20:14:28+00:00",
+      "summary": "Imagine you are building a home design application. A customer says, “Show me a modern kitchen with dark cabinets and a large center island.” Images appear in seconds. Before the application finishes describing the design, the customer interrupts: “Make it brighter and add natural wood accents.”...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Dave_Jacobs"
     },
     {
       "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
@@ -39,15 +39,6 @@
       "author": "NaufalPrawironegoro"
     },
     {
-      "title": "Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101",
-      "published": "2026-09-10T16:06:38+00:00",
-      "summary": "Edge deployments rarely stay simple for long. What begins as an application running on a single Kubernetes cluster can quickly expand across stores, factories, branches, or other distributed locations, each having different configuration needs. That is exactly where workload orchestration for Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "mnshnth"
-    },
-    {
       "title": "Announcing the public preview of Azure Local workload management in Azure Arc Site Manager",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703",
       "published": "2026-09-10T16:00:00+00:00",
@@ -55,6 +46,24 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "kchoi"
+    },
+    {
+      "title": "Dell Managed PowerScale for Microsoft Azure is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/dell-managed-powerscale-for-microsoft-azure-is-now-generally/ba-p/4555367",
+      "published": "2026-09-10T15:23:53+00:00",
+      "summary": "Organizations continue to look for practical ways to manage growing volumes of unstructured data while maintaining the performance, resiliency, and familiar filesystem capabilities their applications require. Customers with existing PowerScale environments also want options for extending those...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "AzureAndrewChen"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-09-10T14:52:05+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
     },
     {
       "title": "How Azure uses AI to turn feedback into improved customer experience",
@@ -118,15 +127,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "viveksingla"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-09T16:02:16+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Can a Harmless Prompt Break an AI Guardrail?",
@@ -975,15 +975,6 @@
       "author": "SURENDRATANNEERU1"
     },
     {
-      "title": "Model router updates: new regions, a refreshed model pool, and understanding the hill climb",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-updates-new-regions-a-refreshed-model-pool-and/ba-p/4521310",
-      "published": "2026-08-21T17:47:58+00:00",
-      "summary": "Across Microsoft, \"hill climbing\" has become shorthand for how real AI progress happens: not in one dramatic leap, but through a disciplined loop. Microsoft AI defines the hill climb as an organization that continuously improves, cycle after cycle, through more compute, better data, and sharper...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "sanjeev_jagtap"
-    },
-    {
       "title": "Today I will… Modernize a .NET application",
       "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
       "published": "2026-08-21T17:00:45+00:00",
@@ -1351,60 +1342,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "tomkerkhovemicrosoft"
-    },
-    {
-      "title": "Resilient Azure Platforms: Durable Functions, Cosmos DB, and DR by Design",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/resilient-azure-platforms-durable-functions-cosmos-db-and-dr-by/ba-p/4546001",
-      "published": "2026-08-13T07:00:00+00:00",
-      "summary": "Hello Folks! Operating at Azure scale means managing change across multiple interconnected systems. As applications, services, and dependencies evolve, resilience becomes a foundational design principle rather than an afterthought. In this Microsoft Azure Infra Summit 2026 session, Bhavana...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
-      "published": "2026-08-13T04:30:00+00:00",
-      "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources, and is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI). If you want...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
-      "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/add-ai-to-the-workflows-you-already-have-using-serverless-agents/ba-p/4544824",
-      "published": "2026-08-12T22:51:34+00:00",
-      "summary": "There are a lot of ways to build with AI right now: chat frontends, copilots, greenfield agent apps, orchestration frameworks. All of them have their place, and some customers are building entirely new applications this way. But across customer engagements, a consistent pattern has emerged: the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Anirudh Garg"
-    },
-    {
-      "title": "Governing a Risk Operations Agent with the Microsoft Agent Framework Harness and AGT",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/governing-a-risk-operations-agent-with-the-microsoft-agent/ba-p/4546425",
-      "published": "2026-08-12T21:00:13+00:00",
-      "summary": "Introduction I hope you have already found Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core. This article demonstrates how you can leverage the Agent Governance Toolkit practically. This time, I'll take it a step further and combine the Microsoft Agent...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "daisami"
-    },
-    {
-      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
-      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
-      "published": "2026-08-12T18:43:01+00:00",
-      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Peyton Fraser, Krishnakumar Muthukrishnan, Joe Filcik"
-    },
-    {
-      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
-      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
-      "published": "2026-08-12T18:42:25+00:00",
-      "summary": "Enterprise content is no longer just something people consume. As organizations increasingly rely on AI to extract and act on information from documents, images, audio, and video, Azure Content Understanding is expanding support for the GPT-5 series and improving grounding and confidence to deliver...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Joe Filcik, Krishnakumar Muthukrishnan"
     }
   ]
 }
