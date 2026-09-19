@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-09-18T12:04:25.035327+00:00",
-  "totalArticles": 161,
+  "lastUpdated": "2026-09-19T12:04:09.085405+00:00",
+  "totalArticles": 155,
   "articles": [
+    {
+      "title": "FinOps-Ready Azure Landing Zone - Part 2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
+      "published": "2026-09-18T17:30:45+00:00",
+      "summary": "Author's Note: Vendor names referenced in this article are used solely as illustrative architectural examples and should not be interpreted as endorsements, recommendations, or advertisements. Introduction In Part 1, we looked at how Azure-native services can establish the foundation for a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "javedeqbal"
+    },
+    {
+      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
+      "published": "2026-09-18T14:58:25+00:00",
+      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Kiran Raja Ch KiranRaja​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Foundry IQ with D365F&O and Fabric IQ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557380",
+      "published": "2026-09-18T12:22:02+00:00",
+      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Sayanika"
+    },
+    {
+      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
+      "published": "2026-09-18T12:09:35+00:00",
+      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime"
+    },
     {
       "title": "Automating Azure VM Image Baking and Validation with Packer and Azure DevOps",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-vm-image-baking-and-validation-with-packer-and/ba-p/4557578",
@@ -136,15 +172,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "arronhoffer"
-    },
-    {
-      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
-      "published": "2026-09-16T13:59:47+00:00",
-      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "fiveisprime"
     },
     {
       "title": "Your AI coding agent evaluation is only as good as its sandbox",
@@ -921,15 +948,6 @@
       "author": "NicolasMondada"
     },
     {
-      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
-      "published": "2026-09-01T14:08:19+00:00",
-      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
       "published": "2026-09-01T14:00:00+00:00",
@@ -1378,78 +1396,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "From Detection to Action: Extending Azure Monitor Issues with Action Groups",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/from-detection-to-action-extending-azure-monitor-issues-with/ba-p/4548416",
-      "published": "2026-08-20T11:54:02+00:00",
-      "summary": "When the Azure Copilot Observability Agent detects a problem, correlates related alerts, investigates and creates an Azure Monitor issue, it does more than identify what happened. It creates a durable record that brings together investigation findings, severity, impacted resources, and recommended...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "ronitauber"
-    },
-    {
-      "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/voice-live-and-observability-for-production-agent-systems-part-5/ba-p/4541922",
-      "published": "2026-08-20T07:00:00+00:00",
-      "summary": "This is the fifth and final post in our series on the Microsoft agent platform. We cover two critical production concerns: Azure AI Voice Live for accessible, hands-free agent interaction, and observability, the tracing, evaluation, and monitoring infrastructure that keeps autonomous systems...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
-      "published": "2026-08-20T05:25:22+00:00",
-      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Dirk_Brinkmann"
-    },
-    {
-      "title": "Choosing the Right Agent in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/choosing-the-right-agent-in-microsoft-foundry/ba-p/4547827",
-      "published": "2026-08-19T22:52:13+00:00",
-      "summary": "Many discussions about Microsoft Foundry Agent Service eventually arrive at the same question: should this workload be implemented as a Prompt Agent or a Hosted Agent? While the documentation explains both options well, the architectural decision usually comes down to something much simpler: where...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "supriyas"
-    },
-    {
-      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
-      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/",
-      "published": "2026-08-19T21:01:30+00:00",
-      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Vandana Mahtani, Amit Khandelwal"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
-      "published": "2026-08-19T17:18:32+00:00",
-      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we’re introducing the Public Preview of the SQL Formatter alongside the General Availability of Azure SQL Database Provisioning and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen"
-    },
-    {
-      "title": "Announcing General Availability of Disable Multithreading and Configurable Constrained Cores",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-disable-multithreading-and/ba-p/4547908",
-      "published": "2026-08-19T16:00:12+00:00",
-      "summary": "Today, we are announcing General Availability of two new capabilities: Disable Simultaneous Multithreading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features give customers control over virtual CPU configurations, enabling performance optimization and potential software...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "misha-bansal"
-    },
-    {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-19T13:54:21+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
     }
   ]
 }
