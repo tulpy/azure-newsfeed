@@ -1,15 +1,24 @@
 {
-  "lastUpdated": "2026-09-21T12:04:44.843593+00:00",
-  "totalArticles": 154,
+  "lastUpdated": "2026-09-22T12:04:32.888450+00:00",
+  "totalArticles": 155,
   "articles": [
     {
-      "title": "Knowledge cutoff is a poor proxy for model capability",
-      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
-      "published": "2026-09-21T07:51:46+00:00",
-      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
+      "title": "When the Coding Agent Leaves the Codebase: Building a Multi-Runtime AI Agent Infra with Azure KARS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-the-coding-agent-leaves-the-codebase-building-a-multi/ba-p/4558449",
+      "published": "2026-09-22T07:00:00+00:00",
+      "summary": "1. The story starts with someone who doesn't write code Let me start with a scene I keep running into at community events. Late last year, after a meetup, I got an email. The sender wasn't a developer — he was a marketing manager at a manufacturing customer. He wrote: \"I installed Claude Code from...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "PostgreSQL to SQL Field Notes: Date & Time",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
+      "published": "2026-09-21T22:44:58+00:00",
+      "summary": "Moving from PostgreSQL to SQL Server? Learn the key differences between timestamp, timestamptz, datetime2, and datetimeoffset, including precision, time zones, offsets, and storage. The post PostgreSQL to SQL Field Notes: Date & Time appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
     },
     {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
