@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-09-23T12:05:04.157031+00:00",
-  "totalArticles": 170,
+  "lastUpdated": "2026-09-24T12:04:37.525681+00:00",
+  "totalArticles": 167,
   "articles": [
+    {
+      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
+      "published": "2026-09-23T21:44:16+00:00",
+      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
     {
       "title": "Microsoft Foundry Hosted Agents and MCP in Practice: Building Fibey Field Ops",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-hosted-agents-and-mcp-in-practice-building/ba-p/4557526",
@@ -1164,15 +1173,6 @@
       "author": "NicolasMondada"
     },
     {
-      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
-      "published": "2026-09-01T14:00:00+00:00",
-      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abikomma"
-    },
-    {
       "title": "Enterprise Live Migrations is now in public preview",
       "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
       "published": "2026-08-31T20:52:38+00:00",
@@ -1504,33 +1504,6 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Niels Laute"
-    },
-    {
-      "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
-      "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
-      "published": "2026-08-24T22:39:41+00:00",
-      "summary": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Tanmayee Kamath"
-    },
-    {
-      "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
-      "published": "2026-08-24T16:04:43+00:00",
-      "summary": "Move from a locally composed memory-enabled agent to a deployed Foundry Agent Service agent, with keyless Azure infrastructure and an interactive browser sample. In Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB, we introduced CosmosMemoryContextProvider: a Microsoft...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Now in public preview: Azure Virtual Desktop regional host pools",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-azure-virtual-desktop-regional-host-pools/ba-p/4474598",
-      "published": "2026-08-24T15:19:27+00:00",
-      "summary": "Editor's Note: August 2026 | This post has been updated to reflect changes since its original publication in January 2026. Opting in to the preview through a feature flag is no longer required, and the Azure portal is now supported for creating regional host pools. Session host update, dynamic...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "TomHickling"
     }
   ]
 }
