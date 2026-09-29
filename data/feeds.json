@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-09-28T12:05:24.683274+00:00",
-  "totalArticles": 156,
+  "lastUpdated": "2026-09-29T12:05:06.362038+00:00",
+  "totalArticles": 162,
   "articles": [
+    {
+      "title": "What’s new across Microsoft SQL at SQLCon/FabCon Europe 2026",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-sqlcon-fabcon-europe-2026/",
+      "published": "2026-09-29T07:30:04+00:00",
+      "summary": "Live From Barcelona Woo! I’m posting this live from the first ever European SQLCon (joint conference with FabCon EU), and the second ever SQLCon. The energy here is great, as the community comes together in Barcelona and as we prepare to go on the keynote stage and share what’s new! A heartfelt nod...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "How to build an app on Azure SQL with an AI coding agent",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-app-azure-sql-ai-coding-agent/",
+      "published": "2026-09-29T07:05:16+00:00",
+      "summary": "Developers have trusted SQL for decades, since long before AI existed. Now coding agents help choose the database, and they favor the one they can get running in the first few minutes. So today we’re shipping two things for that moment. Microsoft SQL Agent Skills teach your coding agent how Azure...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Iqra Shaikh"
+    },
+    {
+      "title": "Announcing Public Preview for Azure Cosmos DB in Fabric Database Hub!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-for-azure-cosmos-db-in-fabric-database-hub/",
+      "published": "2026-09-29T07:00:00+00:00",
+      "summary": "Azure Cosmos DB support in Fabric Database Hub is now available in public preview. For the first time, Azure Cosmos DB customers can discover and monitor their accounts from Database Hub alongside other Microsoft database engines. Database Hub provides a single place to view every Azure Cosmos DB...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jai Maldonado"
+    },
+    {
+      "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-september2026/",
+      "published": "2026-09-28T17:27:53+00:00",
+      "summary": "Get started faster with common SQL workflows and resources in one place. The MSSQL extension for VS Code v1.46 introduces a new Getting Started page experience in Public Preview with quick actions, guided walkthroughs, dev container templates, and one-click installation of the latest Microsoft SQL...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Yo-Lei Chen"
+    },
+    {
+      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
+      "published": "2026-09-28T16:41:45+00:00",
+      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Matt_Kazanowsky"
+    },
+    {
+      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
+      "published": "2026-09-28T16:02:00+00:00",
+      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Matt Hyon, David Levy"
+    },
+    {
+      "title": "Open Sourcing the Azure Policy Linter!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
+      "published": "2026-09-28T15:02:05+00:00",
+      "summary": "Today we’re excited to share that the Azure Policy Linter is now open source on GitHub: github.com/Azure/azure-policy-linter. It’s a command-line linter for Azure Policy definitions that surfaces known issues, gotchas, and best practices that you can run when authoring your policy definition and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "Announcing the Public Preview of Local Time Zone Support in Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/announcing-the-public-preview-of-local-time-zone-support-in-azure-sql-database/",
+      "published": "2026-09-28T15:00:17+00:00",
+      "summary": "We are thrilled to announce the public preview of local time zone support in Azure SQL Database. Starting today, you can configure the time zone directly at the database or session level — all from T-SQL, without changing any infrastructure settings. This feature addresses one of the most...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Umachandar Jayachandran (UC)"
+    },
     {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
@@ -10,15 +82,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "kinfey"
-    },
-    {
-      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
-      "published": "2026-09-25T18:56:13+00:00",
-      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Matt_Kazanowsky"
     },
     {
       "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
@@ -1396,15 +1459,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "OrinThomas"
-    },
-    {
-      "title": "Only believe what you can validate: a verification framework for agentic AI",
-      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
-      "published": "2026-08-29T12:45:11+00:00",
-      "summary": "How to read this article This article picks up where my January piece left off. My catch phrase is still the same: “only believe what you can validate”. This article is about validation. If you are new to agentic AI (in modernization contexts), I would highly recommend reading The Realities of...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "jkordick"
     }
   ]
 }
