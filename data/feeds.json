@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-09-29T12:05:06.362038+00:00",
-  "totalArticles": 162,
+  "lastUpdated": "2026-09-30T12:07:10.749494+00:00",
+  "totalArticles": 174,
   "articles": [
+    {
+      "title": "Cosmos DB Mirroring in Fabric Now Supports Virtual Network Data Gateways",
+      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-mirroring-in-fabric-now-supports-virtual-network-data-gateways/",
+      "published": "2026-09-30T07:00:35+00:00",
+      "summary": "Azure Cosmos DB mirroring in Microsoft Fabric now offers a simpler way to connect accounts secured by private endpoints or virtual networks. A virtual network data gateway provisioned inside your own virtual network keeps public network access disabled throughout setup and ongoing replication. This...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jai Maldonado"
+    },
+    {
+      "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/ba-p/4559851",
+      "published": "2026-09-30T07:00:00+00:00",
+      "summary": "What is Jev? Jev is a new AI model from TypeSafe AI, first released in early access on 15 September 2026. TypeSafe describes Jev as its first “System One” model, designed specifically to make fast, structured decisions rather than generate free-form text. You provide Jev with some state or context...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Robin_Lester"
+    },
+    {
+      "title": "Azure Databricks Cost and Workload Assessment: a Local Web UI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-cost-and-workload-assessment-a-local-web-ui/ba-p/4560943",
+      "published": "2026-09-30T03:26:49+00:00",
+      "summary": "Table of Contents Introduction 1. What you can assess 2. The five-step workflow Configure Validate Run analysis Visualize results Review & export 3. Reopen saved assessments 4. Architecture and collection flow 5. Get started Try it Learn more Contribute Introduction To review an Azure Databricks...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "varghesejoji"
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-6-1-sol-in-microsoft-foundry-advanced/ba-p/4560811",
+      "published": "2026-09-30T00:08:07+00:00",
+      "summary": "Today, OpenAI's GPT-6.1 Sol is generally available in Microsoft Foundry. GPT-6.1 Sol is an upgrade to GPT-6 Sol, delivering substantial improvements in agentic coding, computer use, and professional work, with performance approaching GPT-6 Astra across these evaluations. It offers a new balance of...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "AKS on bare metal now on Ubuntu",
+      "link": "https://blog.aks.azure.com/2026/09/25/aks-baremetal-ubuntu",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Run Azure Kubernetes Service on customer-owned Ubuntu infrastructure with bare metal performance, flexible hardware choices, and consistent Azure management.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Aspire 13.6: Your dashboard gets memory",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-6/",
+      "published": "2026-09-29T22:32:58+00:00",
+      "summary": "Aspire 13.6 keeps dashboard telemetry across runs, opens container exec shells right in the dashboard, adds first-party Java and Rust hosting, introduces portable volume paths, and previews Azure Container Apps Sandboxes. The post Aspire 13.6: Your dashboard gets memory appeared first on Aspire...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila"
+    },
+    {
+      "title": "Why content extraction still matters in the GenAI era",
+      "link": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
+      "published": "2026-09-29T21:30:42+00:00",
+      "summary": "Learn why stronger AI models make trustworthy content extraction more important, how Azure Content Understanding and Azure Document Intelligence serve different needs, and what comes next. The post Why content extraction still matters in the GenAI era appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Chu Lahlou, Cha Zhang"
+    },
+    {
+      "title": "Azure SDK Release (September 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-september-2026/",
+      "published": "2026-09-29T21:09:53+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (September 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt"
+    },
+    {
+      "title": "Bring Your Azure DevOps Repos to Azure SRE Agent Plugins",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-azure-devops-repos-to-azure-sre-agent-plugins/ba-p/4560857",
+      "published": "2026-09-29T20:00:25+00:00",
+      "summary": "Plugins package the skills, agents, and connector settings your team wants every SRE Agent to have. A plugin marketplace is a Git repository that lists those plugins so any agent can install them. Until now, that repository had to be on GitHub. If your team keeps its runbooks and tooling in Azure...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Dalibor_Kovacevic"
+    },
+    {
+      "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
+      "published": "2026-09-29T18:25:14+00:00",
+      "summary": "Why evaluation and observability belong together Agent evaluation and observability answer two related questions: Is the agent producing the right result? What happened from the initial request through every model and tool call? Evaluation measures quality with repeatable scores (is our system...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "emiller635"
+    },
+    {
+      "title": "Announcing General Availability of Azure Lasv5 and Laosv5 VMs Based on 5th Gen AMD EPYC™ processors",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-lasv5-and-laosv5-vms/ba-p/4552700",
+      "published": "2026-09-29T17:50:50+00:00",
+      "summary": "We’re excited to announce the general availability of Azure Lasv5 and Laosv5 local storage optimized virtual machines, powered by 5th Generation AMD EPYC™ (“Turin\") processors. Designed for data-intensive workloads that demand high local disk capacity, throughput, and I/O performance, these new VM...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "sarah-zhou"
+    },
+    {
+      "title": "WSLC Architecture deep dive",
+      "link": "https://devblogs.microsoft.com/commandline/wslc-architecture-deep-dive/",
+      "published": "2026-09-29T17:00:19+00:00",
+      "summary": "WSL containers is now generally available! Check out this blog post to learn more about this overall feature enabling seamless access to Linux containers on Windows via the new “wslc.exe” command. This new Linux container platform comes with multiple architectures changes compared to WSL, which...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Pierre Boulay"
+    },
+    {
+      "title": "Visual Studio September Update – Power Your Workflow with Your Model",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
+      "published": "2026-09-29T16:00:04+00:00",
+      "summary": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers. The post Visual Studio September Update – Power Your Workflow with Your Model appeared...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
+      "published": "2026-09-29T15:00:22+00:00",
+      "summary": "Today, we are announcing the general availability of DiskANN Vector Index & Search across Azure SQL Database, Azure SQL Managed Instance with the always-up-to-date update policy, and SQL database in Microsoft Fabric. DiskANN brings scalable approximate nearest-neighbor search directly to the SQL...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Pooja Kamath"
+    },
     {
       "title": "What’s new across Microsoft SQL at SQLCon/FabCon Europe 2026",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-sqlcon-fabcon-europe-2026/",
@@ -28,6 +154,33 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Jai Maldonado"
+    },
+    {
+      "title": "Sending Email from an AKS Pod Without a Single Secret",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sending-email-from-an-aks-pod-without-a-single-secret/ba-p/4556222",
+      "published": "2026-09-29T04:15:00+00:00",
+      "summary": "The problem You have a workload running in AKS that occasionally needs to send an email — a notification, an alert, a report. The obvious options all come with baggage: An SMTP relay means yet another credential to store, rotate, and eventually leak. A shared \"app password\" mailbox account means an...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jamesdld23"
+    },
+    {
+      "title": "Claude Sonnet 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-5-is-now-available-in-microsoft-foundry/ba-p/4559774",
+      "published": "2026-09-28T18:18:01+00:00",
+      "summary": "Today, Claude Sonnet 5.5 is available in Microsoft Foundry, bringing Anthropic’s latest Sonnet model to developers building AI applications and agents. Claude Sonnet 5.5 is a smarter, more efficient Sonnet, delivering a clear step forward from Sonnet 5 on coding and knowledge work with a lower cost...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Introducing voice agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
+      "published": "2026-09-28T18:09:24+00:00",
+      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yiwen_Rong"
     },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
@@ -100,15 +253,6 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "carlosbermudezlopez"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-24T22:02:23+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong"
     },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
@@ -235,6 +379,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "nitya"
+    },
+    {
+      "title": "AKS desktop evolves with AI troubleshooting and plugins",
+      "link": "https://blog.aks.azure.com/2026/09/24/aks-desktop-ai-troubleshooting",
+      "published": "2026-09-24T00:00:00+00:00",
+      "summary": "See how AKS desktop v0.10.0 uses AI-assisted troubleshooting, cluster context, proactive diagnosis, and plugins to help teams resolve Kubernetes issues.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Azure Container Apps Sandboxes, Now Generally Available",
@@ -1227,15 +1380,6 @@
       "author": "Mohammed_Barqawi"
     },
     {
-      "title": "MAI-Transcribe-2: Highest quality transcription, at the fastest speed and lowest cost",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-transcribe-2-highest-quality-transcription-at-the-fastest/ba-p/4550972",
-      "published": "2026-09-03T14:34:32+00:00",
-      "summary": "Speech is where a growing share of our work starts. Voice agents have to hear before they can respond. Meeting assistants, contact center analytics platforms, and media libraries all depend on turning audio into text accurate enough to build on top of. Transcription has become foundational...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Build Advanced ServiceNow Response Plans in Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-advanced-servicenow-response-plans-in-azure-sre-agent/ba-p/4553059",
       "published": "2026-09-03T14:07:15+00:00",
@@ -1243,15 +1387,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Dalibor_Kovacevic"
-    },
-    {
-      "title": "Bringing Open Models to Fireworks on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-open-models-to-fireworks-on-microsoft-foundry/ba-p/4550173",
-      "published": "2026-09-03T14:00:00+00:00",
-      "summary": "Enterprises want faster access to capable open models, but they also need identity, governance, cost control, and a clear understanding of where data is processed. Fireworks on Microsoft Foundry is designed to bring those needs together: customers can discover and deploy supported open models...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MuraliKumanduri"
     },
     {
       "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
@@ -1432,33 +1567,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "spalani"
-    },
-    {
-      "title": "Bacpac and Dacpac, the similarities and differences",
-      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences/",
-      "published": "2026-08-31T15:13:57+00:00",
-      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they’re used in SqlPackage and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Drew Skwiers-Koballa"
-    },
-    {
-      "title": "BizTalk Server 2020 End-of-Sale Announcement",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/biztalk-server-2020-end-of-sale-announcement/ba-p/4551317",
-      "published": "2026-08-31T09:00:00+00:00",
-      "summary": "Executive Summary: BizTalk Server 2020 is the final release of BizTalk Server, and Microsoft expects sales of BizTalk Server 2020 and Host Integration Server 2020 to end March 31, 2027. Mainstream support for BizTalk Server 2020 continues through April 12, 2028, after which the product remains...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu"
-    },
-    {
-      "title": "Advanced Windows Firewall",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/advanced-windows-firewall/ba-p/4551626",
-      "published": "2026-08-30T22:38:47+00:00",
-      "summary": "If you administer Windows, you’re already aware of Windows Firewall. You might use it to allow an application, open a port, or block unwanted inbound traffic. But those familiar tasks only scratch the surface of what it can do. The Microsoft Learn module Understand advanced Windows Firewall takes...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
     }
   ]
 }
