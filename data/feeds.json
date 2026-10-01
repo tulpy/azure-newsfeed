@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-09-30T12:07:10.749494+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-10-01T12:05:07.148189+00:00",
+  "totalArticles": 180,
   "articles": [
+    {
+      "title": "Migrating Elasticsearch Mappings to Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/migrating-elasticsearch-mappings-to-azure-cosmos-db/",
+      "published": "2026-10-01T07:00:57+00:00",
+      "summary": "This post focuses on one of the most important design tasks when migrating from Elasticsearch to Azure Cosmos DB: translating an Elasticsearch mapping into Azure Cosmos DB container configuration. In Elasticsearch, a mapping defines how document fields are stored and indexed. Azure Cosmos DB is...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Madeline Egan"
+    },
+    {
+      "title": "Everything released in September 2026 for Azure Developer CLI",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-september-2026/",
+      "published": "2026-09-30T18:45:59+00:00",
+      "summary": "The September recap for the Azure Developer CLI (`azd`). Extension management gains dependency-aware uninstall and versioned contracts, project configuration adds top-level infrastructure and service layers, deployment phases support concurrency limits, and external authentication hosts can use...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack"
+    },
+    {
+      "title": "From \"Agent Deployed\" to \"Agent Ready\" - Agent Acceptance Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-quot-agent-deployed-quot-to-quot-agent-ready-quot-agent/ba-p/4558096",
+      "published": "2026-09-30T18:00:00+00:00",
+      "summary": "A Microsoft Foundry handover story The infrastructure team has finished the AI landing zone. The Microsoft Foundry project exists. The prompt agent is already created, connected to its model, and configured with the tools or connections it needs. That is an important milestone, but it is not the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SudhirRawat"
+    },
+    {
+      "title": "Updates to Copilot Code Reviews for Azure Repos",
+      "link": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
+      "published": "2026-09-30T17:05:16+00:00",
+      "summary": "We announced the public preview of Copilot Code Review for Azure Repos in late August. Since then, we have continued to make improvements, fix bugs, and add new features. We wanted to share an update on some of the recent changes. Effort levels The effort level controls how much time Copilot spends...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "Microsoft and IBM bring enterprise-scale workload orchestration to Azure with IBM Spectrum Symphony",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/microsoft-and-ibm-bring-enterprise-scale-workload-orchestration/ba-p/4560890",
+      "published": "2026-09-30T17:00:00+00:00",
+      "summary": "Enterprises running large scale AI, Analytic, and High-Performance Computing (HPC) environments need more than just infrastructure. They need to dynamically match thousands of jobs with available capacity while balancing performance, resilience, availability, and cost. Today, Microsoft Azure and...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "DanaCozmei"
+    },
+    {
+      "title": "Cohere Embed V5 brings more relevant retrieval to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-embed-v5-brings-more-relevant-retrieval-to-microsoft/ba-p/4560845",
+      "published": "2026-09-30T16:59:02+00:00",
+      "summary": "Today, we’re introducing Cohere Embed V5 Pro and Embed V5 Fast in Microsoft Foundry, bringing stronger multimodal retrieval to enterprise search and AI applications. With Fast and Pro options, support for more than 100 languages, and flexible vector sizes, Embed V5 gives developers more control...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
+    {
+      "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
+      "published": "2026-09-30T16:37:45+00:00",
+      "summary": "Once a month, the Azure Arc team releases an episode covering a new hybrid and multicloud management scenario. To request a topic or view additional episodes, visit aka.ms/the-azure-arc-check-in. Scenario: Your infrastructure team needs to apply monthly security updates across hybrid Windows...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres"
+    },
+    {
+      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
+      "published": "2026-09-30T16:06:24+00:00",
+      "summary": "Resiliency and data sovereignty improvements are arriving for Azure Virtual Desktop. Regional host pools reduce cross-region metadata dependencies to help improve service resiliency. The same regional resiliency improvements are also coming soon to Windows 365 through a gradual, service-managed...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Vidya_Iyer"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: September 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-september-2026/ba-p/4560902",
+      "published": "2026-09-30T16:00:00+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In September, Case Management brings investigation and collaboration together in Microsoft Defender, with a shared workspace to track work through resolution. Defender unified RBAC custom roles for granular delegated admin privileges (GDAP) give you...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "vkokkengada"
+    },
+    {
+      "title": "Let the query decide: introducing auto retrieval reasoning effort",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/let-the-query-decide-introducing-auto-retrieval-reasoning-effort/ba-p/4558943",
+      "published": "2026-09-30T16:00:00+00:00",
+      "summary": "Introducing auto: a new retrieval reasoning effort mode that recovers 97.6% of the evidence recall of the highest effort level at 46.9% fewer query planning tokens. Enterprise retrieval workloads mix simple lookup queries with complex questions that require searching across many documents. Today,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amaias"
+    },
+    {
+      "title": "Bring managed browser automation to your agent applications",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-managed-browser-automation-to-your-agent-applications/ba-p/4561184",
+      "published": "2026-09-30T14:25:38+00:00",
+      "summary": "AI agents become more useful when they can move beyond conversation and complete real workflows. Playwright Cloud Browsers provides managed, on-demand browser capacity that agent applications can access through Model Context Protocol (MCP). You can connect Playwright Cloud Browsers to agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Arun_Kumar_Thiagarajan"
+    },
+    {
+      "title": "Azure Cosmos DB Migration Guide for Elasticsearch Users",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-migration-guide-for-elasticsearch-users/",
+      "published": "2026-09-30T13:44:08+00:00",
+      "summary": "Azure Cosmos DB’s full-text search capabilities can improve price performance and simplify application architecture by consolidating operational data and search in a single service. For customers currently using Elasticsearch, these capabilities create a practical path to bringing operational data...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Madeline Egan"
+    },
+    {
+      "title": "Demystifying Dynamic AI Routing: Exploring the model router in Foundry Models with RouteLab",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/demystifying-dynamic-ai-routing-exploring-the-model-router-in/ba-p/4557388",
+      "published": "2026-09-30T13:00:00+00:00",
+      "summary": "As enterprise generative AI applications mature, engineering teams face a continuous balancing act between cost, latency, and response quality. Hard-coding a frontier model for every request ensures high quality but maximizes token costs and latency. Conversely, defaulting to smaller, faster models...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vikaspandey"
+    },
     {
       "title": "Cosmos DB Mirroring in Fabric Now Supports Virtual Network Data Gateways",
       "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-mirroring-in-fabric-now-supports-virtual-network-data-gateways/",
@@ -46,6 +163,15 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
+    },
+    {
+      "title": "Now Available: Management Group–Scoped Savings Plan and Reservation Recommendations in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/now-available-management-group-scoped-savings-plan-and/ba-p/4560869",
+      "published": "2026-09-29T23:47:56+00:00",
+      "summary": "Smarter commitments, at the scope that matters We're excited to announce that both savings plan and reservation (including P3) recommendations are now available at the management group scope in the Azure Portal and via REST API. With management group–scoped recommendations, you can now evaluate and...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Obinna_Nwokolo"
     },
     {
       "title": "Aspire 13.6: Your dashboard gets memory",
@@ -118,6 +244,15 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mark Downie"
+    },
+    {
+      "title": "More EDA Job Sets per Volume: Azure NetApp Files Raises the Performance Bar",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/more-eda-job-sets-per-volume-azure-netapp-files-raises-the/ba-p/4558993",
+      "published": "2026-09-29T16:00:00+00:00",
+      "summary": "Table of Contents Introduction New benchmark proof with large volume breakthrough mode The same volume, nearly double the performance The scaling paradigm has not changed. The scale unit has. And your data does not have to move first Already in the flow Bringing it together Learn more Introduction...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
     },
     {
       "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
@@ -568,15 +703,6 @@
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
       "author": "EldertGrootenboer"
-    },
-    {
-      "title": "Demystifying Dynamic AI Routing: Exploring the model router in Foundry Models with RouteLab",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/demystifying-dynamic-ai-routing-exploring-the-model-router-in/ba-p/4557388",
-      "published": "2026-09-21T15:00:00+00:00",
-      "summary": "As enterprise generative AI applications mature, engineering teams face a continuous balancing act between cost, latency, and response quality. Hard-coding a frontier model for every request ensures high quality but maximizes token costs and latency. Conversely, defaulting to smaller, faster models...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "vikaspandey"
     },
     {
       "title": "Elasticsearch Vector Database on Azure: semantic search and RAG without managing a cluster",
@@ -1128,15 +1254,6 @@
       "author": "HilaryWang"
     },
     {
-      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
-      "published": "2026-09-09T21:13:26+00:00",
-      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yassine_El_Ghali"
-    },
-    {
       "title": "Generally Available: Restrict usage of user delegation SAS to an Entra ID identity",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967",
       "published": "2026-09-09T19:44:54+00:00",
@@ -1279,24 +1396,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Justin Bettencourt"
-    },
-    {
-      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
-      "published": "2026-09-04T18:00:00+00:00",
-      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Madhura Amlekar"
-    },
-    {
-      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash: Quality and speed at production scale",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-quality-and-speed-at/ba-p/4550970",
-      "published": "2026-09-04T16:02:11+00:00",
-      "summary": "Image generation has moved beyond the demo stage. Marketing teams are shipping campaign assets, retailers are building catalogs, and product teams are generating visuals inside the tools they already use. That shift changes what matters. A model must do more than create a striking one-off image. It...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
     },
     {
       "title": "What’s new in Azure Firewall: Recent innovations",
@@ -1522,51 +1621,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "NicolasMondada"
-    },
-    {
-      "title": "Enterprise Live Migrations is now in public preview",
-      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
-      "published": "2026-08-31T20:52:38+00:00",
-      "summary": "Move Azure DevOps repositories to GitHub Enterprise Cloud with data residency while minimizing disruption Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. We...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Soo Stahl"
-    },
-    {
-      "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
-      "published": "2026-08-31T18:38:04+00:00",
-      "summary": "Many applications use Azure Service Bus to decouple services, handle traffic spikes, and process workloads asynchronously. However, securely exposing messaging capabilities to applications, partners, and internal teams can require custom middleware or messaging-specific client implementations....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anishta"
-    },
-    {
-      "title": "Power Azure SRE Agent with the tools it needs",
-      "link": "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace/",
-      "published": "2026-08-31T18:37:17+00:00",
-      "summary": "Use Azure Connector Namespace to host MCP servers and give Azure SRE Agent access to the operational tools it needs without managing the server infrastructure yourself. The post Power Azure SRE Agent with the tools it needs appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lily Ma"
-    },
-    {
-      "title": "Simpler, private connectivity between Azure and AWS with Azure Multicloud Interconnect",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simpler-private-connectivity-between-azure-and-aws-with-azure/ba-p/4550556",
-      "published": "2026-08-31T17:59:37+00:00",
-      "summary": "Multicloud is no longer the exception — it is how most enterprises operate. Teams run analytics in one cloud and applications in another, place workloads to meet data-residency requirements, and increasingly move large volumes of data between clouds to train and serve AI models. Yet the network...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Sudha_Mahajan"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-august-2026/ba-p/4551405",
-      "published": "2026-08-31T16:00:00+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. This August, Sentinel innovation kicks off with the AI-powered playbook generator, generally available to all Sentinel customers in the Microsoft Defender portal. Meanwhile, User and Entity Behavior Analytics (UEBA) anomalies enter public preview on...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "spalani"
     }
   ]
 }
