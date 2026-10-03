@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-10-02T12:05:01.263350+00:00",
-  "totalArticles": 184,
+  "lastUpdated": "2026-10-03T13:28:17.710181+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
+      "published": "2026-10-03T04:08:41+00:00",
+      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-10-02T13:43:37+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db/",
@@ -21,6 +39,15 @@
       "author": "kinfey"
     },
     {
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-10-02T02:23:51+00:00",
+      "summary": "Author's: Aladdin Alchalabi AladdinAlchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
       "title": "Data API builder 2.1.5: JSON and Vector Data Type Support, and More",
       "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-2-1-5-json-and-vector-data-type-support-and-more/",
       "published": "2026-10-02T01:10:52+00:00",
@@ -32,11 +59,29 @@
     {
       "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
-      "published": "2026-10-01T18:31:20+00:00",
+      "published": "2026-10-01T23:06:57+00:00",
       "summary": "Editor’s note (October 1, 2026): This post was updated to clarify the benefits of regional host pools and provide additional context on recent resiliency improvements. Resiliency improvements are arriving for Azure Virtual Desktop. Regional host pools reduce cross-region metadata dependencies to...",
       "blog": "Azure Virtual Desktop",
       "blogId": "azurevirtualdesktopblog",
       "author": "Vidya_Iyer"
+    },
+    {
+      "title": "Run an Ollaya decision model on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-an-ollaya-decision-model-on-azure-container-apps/ba-p/4561558",
+      "published": "2026-10-01T21:48:30+00:00",
+      "summary": "Many AI calls are not really conversations. A support message needs an intent. A workflow needs a route. A policy check needs a yes or no. An agent needs to select its next action from a known list. These are bounded decisions, but they are often sent to a general-purpose LLM. The LLM reads the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj"
+    },
+    {
+      "title": "Your Agent Shouldn't Wait for a Prompt: Build an Event-Driven Microsoft Foundry Routine",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agent-shouldn-t-wait-for-a-prompt-build-an-event-driven/ba-p/4559897",
+      "published": "2026-10-01T19:00:00+00:00",
+      "summary": "Most agents are still waiting in a chat window. They may be capable of classifying an incident, finding the right documentation, or recommending an owner - but nothing happens until someone remembers to ask. The hard part is no longer always the reasoning. It is noticing that work has arrived,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "taniamuley"
     },
     {
       "title": "Bringing rich terminal experiences to Aspire",
@@ -46,6 +91,33 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Mitch Denny"
+    },
+    {
+      "title": "Build expressive voice experiences with new MAI models in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-expressive-voice-experiences-with-new-mai-models-in/ba-p/4524637",
+      "published": "2026-10-01T17:01:24+00:00",
+      "summary": "A voice agent has to do more than hear a request and produce a reply. It has to keep the interaction moving while it listens, reasons, uses tools, and speaks. A delay at either end can turn a conversation into a series of awkward pauses. Today, we’re introducing three new Microsoft AI (MAI) models...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "Deploying hosted agents in Foundry Agent Service via Terraform",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-hosted-agents-in-foundry-agent-service-via-terraform/ba-p/4560435",
+      "published": "2026-10-01T16:44:00+00:00",
+      "summary": "Background Your Terraform workflow already manages your Azure infrastructure but deploying hosted agents still requires manual SDK calls or REST API scripts. This post shows you how to bring agent deployments into your existing IaC pipeline using the AzAPI provider, so your entire Foundry stack can...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "j_folberth"
+    },
+    {
+      "title": "Foundry IQ in Microsoft Copilot Studio is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-in-microsoft-copilot-studio-is-now-generally/ba-p/4557687",
+      "published": "2026-10-01T16:33:20+00:00",
+      "summary": "Today, we're announcing the general availability of the Foundry IQ integration with Microsoft Copilot Studio. Users can connect a Foundry IQ knowledge base to an agent in Copilot Studio, giving the agent access to grounded enterprise knowledge and citations. Additionally, for organizations that...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Angie-Silva-Pereyra"
     },
     {
       "title": "Scaling distributed AI infrastructure with Azure’s ExpressRoute and AI Points of Presence (AI PoPs)",
@@ -60,7 +132,7 @@
       "title": "Genspark protects live agent sessions with Azure Cosmos DB Global Secondary Indexes",
       "link": "https://devblogs.microsoft.com/cosmosdb/genspark-protects-live-agent-sessions-with-azure-cosmos-db-global-secondary-indexes/",
       "published": "2026-10-01T16:00:12+00:00",
-      "summary": "The work does not end when the prompt does A user comes to Genspark with a goal: research a market, build a presentation, produce a report, analyze a dataset, or complete another complex assignment. Our agents take it from there, working across tools, sources, and multiple steps until the user has...",
+      "summary": "This article was authored by Justin Liu, co-founder and chief architect, Genspark. The work does not end when the prompt does A user comes to Genspark with a goal: research a market, build a presentation, produce a report, analyze a dataset, or complete another complex assignment. Our agents take...",
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Azure Cosmos DB Team"
@@ -82,6 +154,24 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Rebekah_Midkiff"
+    },
+    {
+      "title": "From fragmented data to trusted intelligence: Microsoft at TM Forum Innovate Americas 2026",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/from-fragmented-data-to-trusted-intelligence-microsoft-at-tm/ba-p/4561272",
+      "published": "2026-10-01T13:36:34+00:00",
+      "summary": "AI is reshaping telecom, but moving from isolated pilots to AI-native operations requires more than capable models and agents. It requires trusted data, shared operational context, and governance that enables AI to act safely across network, customer, and business workflows. At TM Forum Innovate...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "rickliev"
+    },
+    {
+      "title": "Beyond Agent Scores: Building Consequence-Aware Release Gates with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-agent-scores-building-consequence-aware-release-gates/ba-p/4559709",
+      "published": "2026-10-01T13:00:00+00:00",
+      "summary": "A better score does not always mean a safer release An AI agent can produce a polished response and still take an action it was never permitted to take. Consider a retail support agent handling an over-policy refund request. The response sounds helpful, the tone is appropriate, and a semantic...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Abhishek Kumar"
     },
     {
       "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
@@ -795,15 +885,6 @@
       "author": "Jerry Nixon"
     },
     {
-      "title": "The Complete Guide to Azure Databricks Cost Optimization",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
-      "published": "2026-09-21T22:03:58+00:00",
-      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
       "published": "2026-09-21T21:29:25+00:00",
@@ -966,15 +1047,6 @@
       "author": "abhilashasr"
     },
     {
-      "title": "Foundry IQ with D365F&O and Fabric IQ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557381",
-      "published": "2026-09-17T14:47:21+00:00",
-      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sayanika"
-    },
-    {
       "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/automating-azure-managed-redis-capacity-acquisition-with-bounded/ba-p/4546462",
       "published": "2026-09-17T04:15:00+00:00",
@@ -1063,15 +1135,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "gauravbhardwaj"
-    },
-    {
-      "title": "Create multimodal applications with OpenAI models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/create-multimodal-applications-with-openai-models-in-microsoft/ba-p/4543593",
-      "published": "2026-09-15T19:50:55+00:00",
-      "summary": "Imagine you are building a home design application. A customer says, “Show me a modern kitchen with dark cabinets and a large center island.” Images appear in seconds. Before the application finishes describing the design, the customer interrupts: “Make it brighter and add natural wood accents.”...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Dave_Jacobs"
     },
     {
       "title": "Introducing Foundry Dev Pack: One Command to Start Building",
@@ -1218,15 +1281,6 @@
       "author": "Yeliz_Kilinc"
     },
     {
-      "title": "Can a Harmless Prompt Break an AI Guardrail?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4555111",
-      "published": "2026-09-14T14:00:00+00:00",
-      "summary": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team Where we left off This is Part 2 of two. Part 1 is — it covers how we ran the challenge, the sixteen attack techniques the crowd produced, and the five...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "tamaragaidar"
-    },
-    {
       "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
       "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
       "published": "2026-09-14T13:25:23+00:00",
@@ -1308,15 +1362,6 @@
       "author": "Rena Liu"
     },
     {
-      "title": "Voice to Chat Best Practice for Call Centre Use Cases",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/voice-to-chat-best-practice-for-call-centre-use-cases/ba-p/4554634",
-      "published": "2026-09-10T18:00:00+00:00",
-      "summary": "The model is the easy part Whisper stays popular for a reason its accuracy score does not show. It was pretrained on large scale multilingual data and reaches up to 99 languages, which matters more in a Jakarta contact centre than a few tenths of a percentage point. The cost is speed. Comparing...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NaufalPrawironegoro"
-    },
-    {
       "title": "Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101",
       "published": "2026-09-10T16:06:38+00:00",
@@ -1342,15 +1387,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "AzureAndrewChen"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-10T14:52:05+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "How Azure uses AI to turn feedback into improved customer experience",
@@ -1407,15 +1443,6 @@
       "author": "viveksingla"
     },
     {
-      "title": "Can a Harmless Prompt Break an AI Guardrail?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4553727",
-      "published": "2026-09-09T16:00:00+00:00",
-      "summary": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team About this two-part series At BlueHat IL 2026 we put a guardrailed AI agent in front of roughly 2,200 security professionals and let them attack it for two...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "tamaragaidar"
-    },
-    {
       "title": "Build an AI-assisted support email workflow with Power Automate and Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-support-email-workflow-with-power-automate/ba-p/4554297",
       "published": "2026-09-09T15:28:16+00:00",
@@ -1441,15 +1468,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/wiring-azure-devops-pipeline-templates-without-the-parameter/ba-p/4554182",
-      "published": "2026-09-08T17:28:12+00:00",
-      "summary": "Where reusable pipelines start to hurt Who this is for: Platform and DevOps engineers who build shared Azure DevOps Pipeline Templates and want other teams to adopt them consistently. If you have ever built a set of shared Azure DevOps Pipeline Templates, you probably know how this goes. You write...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "pratikpanda"
     },
     {
       "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
@@ -1495,15 +1513,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "The Evidence Gateway Pattern",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-evidence-gateway-pattern/ba-p/4552812",
-      "published": "2026-09-07T14:00:00+00:00",
-      "summary": "Introduction — The Monday morning bundle Imagine a case manager opening a new request on Monday morning. The case is not represented by one neat digital form. It arrives as a bundle: a letter generated by a system, a report printed and scanned, a photograph embedded in a PDF, a multi-page invoice,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SudhirRawat"
     },
     {
       "title": "Introducing Inside Microsoft Foundry: Quickstart 🎬",
@@ -1594,69 +1603,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Mohammed_Barqawi"
-    },
-    {
-      "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
-      "published": "2026-09-03T12:00:00+00:00",
-      "summary": "Cloud environments can generate large volumes of application, infrastructure, audit, and platform logs. Moving eligible tables to the Basic or Auxiliary table plan can help control costs while keeping the data available for search. But during an incident, teams may still need those logs to...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yairgil"
-    },
-    {
-      "title": "From AI Infrastructure to Secure AI Agent Infrastructure with kars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ai-infrastructure-to-secure-ai-agent-infrastructure-with/ba-p/4551519",
-      "published": "2026-09-03T07:00:00+00:00",
-      "summary": "Opening scene: a three-minute bug fix that is still unsafe for an enterprise ByteCraft AI is a four-person startup. Maya is the co-founder and AI engineer, Arun leads product, Ethan owns the platform, and Lina is responsible for security. They have six months of runway and one design partner. Their...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Introducing Radius Canvas: visualize, review and deploy applications in the GitHub Copilot app",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-radius-canvas-visualize-review-and-deploy/ba-p/4549760",
-      "published": "2026-09-02T19:00:00+00:00",
-      "summary": "September 3, 2026 - AI can generate thousands of lines of code in minutes. Understanding what it changed across your application, and whether it is ready to deploy, takes far longer. The Microsoft Azure Incubations team announced the public preview of Radius Canvas for the GitHub Copilot app. With...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "reshmarahim"
-    },
-    {
-      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
-      "published": "2026-09-02T18:14:16+00:00",
-      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Steve_Downs"
-    },
-    {
-      "title": "Azure Firewall explicit proxy is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-is-now-generally-available/ba-p/4552450",
-      "published": "2026-09-02T15:40:04+00:00",
-      "summary": "We are excited to announce the general availability of explicit proxy in Azure Firewall. This capability brings the familiar explicit proxy configuration model natively to Azure Firewall, enabling applications and browsers to send outbound HTTP and HTTPS traffic directly to the firewall through...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi"
-    },
-    {
-      "title": "AI Gateway tier of Azure API Management — August 2026 updates",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-azure-api-management-august-2026-updates/ba-p/4552703",
-      "published": "2026-09-02T14:26:41+00:00",
-      "summary": "The August 2026 update for the AI Gateway tier (preview) of Azure API Management introduces new capabilities for observing AI workloads and governing model spend. Release highlights Richer OpenTelemetry observability: AI Gateway can now emit logs, distributed traces, token metrics, and estimated...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "budzynski"
-    },
-    {
-      "title": "Stop alt-tabbing into the wrong Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
-      "published": "2026-09-02T14:00:12+00:00",
-      "summary": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen"
     }
   ]
 }
