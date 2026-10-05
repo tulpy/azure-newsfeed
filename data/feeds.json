@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-04T13:45:12.764596+00:00",
-  "totalArticles": 173,
+  "lastUpdated": "2026-10-05T12:05:20.653143+00:00",
+  "totalArticles": 169,
   "articles": [
     {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
@@ -1522,42 +1522,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "Introducing Inside Microsoft Foundry: Quickstart 🎬",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-inside-microsoft-foundry-quickstart/ba-p/4552692",
-      "published": "2026-09-04T18:29:11+00:00",
-      "summary": "Developers don’t adopt platforms. They solve problems. When you’re building AI agents, the questions are rarely about products. They’re about outcomes: Which model should I choose? How do I ground my agent in my own data? How do I know if the responses are actually good? How do I move from a local...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste"
-    },
-    {
-      "title": "Azure SDK Release (August 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-august-2026/",
-      "published": "2026-09-04T18:20:42+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (August 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt"
-    },
-    {
-      "title": "What’s new in Azure Firewall: Recent innovations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
-      "published": "2026-09-04T15:48:26+00:00",
-      "summary": "Organizations are modernizing their networks while managing a growing mix of applications, protocols, and security requirements. Recent Azure Firewall releases strengthen this journey with simpler traffic routing, expanded protocol support, more flexible application controls, improved health...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi"
-    },
-    {
-      "title": "Your Private Endpoint Does Not Cover Agent Egress: Locking Down Azure AI Foundry in Both Directions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/your-private-endpoint-does-not-cover-agent-egress-locking-down/ba-p/4547864",
-      "published": "2026-09-04T14:59:04+00:00",
-      "summary": "I got asked a question a few weeks ago that sounded simple. Lock down Azure AI Foundry with Private Link, and let the agents call an MCP server hosted on a VM in a different virtual network. Everything private, nothing over the public internet, and proof rather than a diagram. I said yes, that is...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "rgarofalo"
     }
   ]
 }
