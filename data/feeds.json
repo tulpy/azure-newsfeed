@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-10-07T12:05:24.713068+00:00",
-  "totalArticles": 182,
+  "lastUpdated": "2026-10-08T12:05:06.987293+00:00",
+  "totalArticles": 190,
   "articles": [
+    {
+      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
+      "published": "2026-10-08T08:03:09+00:00",
+      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
+      "published": "2026-10-08T00:48:21+00:00",
+      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
+      "published": "2026-10-07T20:21:05+00:00",
+      "summary": "Email remains one of the most common entry points for security threats. Yet email products often describe the same activity with different table names, fields, and values. This makes it harder to build detections and investigations that work consistently across data sources. The Microsoft Sentinel...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JamesAde"
+    },
+    {
+      "title": "Making evaluations cost-efficient",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/making-evaluations-cost-efficient/ba-p/4561786",
+      "published": "2026-10-07T19:00:00+00:00",
+      "summary": "Every evaluation run is, under the hood, a stack of LLM-as-judge calls. Behind Microsoft Foundry's evaluation service, every graded row becomes judge traffic: hundreds of thousands of judge calls a day, billions of prompt tokens in any given two-week window, and roughly a dozen judge calls beneath...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amq"
+    },
+    {
+      "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
+      "link": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
+      "published": "2026-10-07T18:45:01+00:00",
+      "summary": "Compare Azure Document Intelligence and Azure Content Understanding across extraction architectures, workload fit, Layout capabilities, deployment options, and practical evaluation criteria. The post Azure Document Intelligence and Azure Content Understanding: a practical guide appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Chu Lahlou"
+    },
+    {
+      "title": "Anyscale on Azure is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/anyscale-on-azure-is-now-generally-available/ba-p/4562547",
+      "published": "2026-10-07T17:12:20+00:00",
+      "summary": "Anyscale on Azure is now Generally Available. Enterprises can run the Ray distributed runtime as a managed service on Azure Kubernetes Service (AKS), with workloads running in the customer’s own Azure subscription, network, and identity boundary. With General Availability, Anyscale on Azure is...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bobmital"
+    },
+    {
+      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
+      "published": "2026-10-07T17:00:00+00:00",
+      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "AlexandraMiller-Browne"
+    },
+    {
+      "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
+      "published": "2026-10-07T15:00:26+00:00",
+      "summary": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which introduced the principles and lifecycle of SDD. Here, we focus on the next...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Apoorv Gupta"
+    },
+    {
+      "title": "Meet Microsoft at Oracle AI World 2026",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/meet-microsoft-at-oracle-ai-world-2026/ba-p/4562468",
+      "published": "2026-10-07T14:00:00+00:00",
+      "summary": "Where your Oracle data meets Microsoft AI Most enterprise AI runs into the same wall: the data lives in Oracle, and the AI lives somewhere else. Oracle AI Database@Azure closes that gap, running Oracle data alongside Microsoft’s trusted AI platform. Microsoft is a sponsor at Oracle AI World 2026 —...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "AlexStairs"
+    },
+    {
+      "title": "Public Preview: Onboard Kubernetes Clusters to Azure Arc with the Multicloud Connector",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/public-preview-onboard-kubernetes-clusters-to-azure-arc-with-the/ba-p/4556330",
+      "published": "2026-10-07T13:59:49+00:00",
+      "summary": "Today we're announcing that the Azure Arc Multuicloud Connector Arc onboarding solution for Kubernetes clusters is in public preview for both Amazon EKS and Google GKE! With this release, the Multicloud Connector automatically discovers eligible EKS clusters in your connected AWS accounts and GKE...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "jalenmcg"
+    },
     {
       "title": "Update network rules for the API Management service tag",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/update-network-rules-for-the-api-management-service-tag/ba-p/4562518",
@@ -55,6 +145,15 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon"
+    },
+    {
+      "title": "Build Azure canvases with the Canvas authoring plugin",
+      "link": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring/",
+      "published": "2026-10-06T18:30:00+00:00",
+      "summary": "Learn how the Canvas authoring plugin helps you build Azure canvases with Microsoft Canvas Toolkit, from a read-only starter to a working app you can inspect, test, and adapt.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Alex Weininger"
     },
     {
       "title": "GitOps with Argo CD extension for AKS is Now Generally Available",
@@ -118,6 +217,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "OlivierB123"
+    },
+    {
+      "title": "What is Agent Experience (AX)?",
+      "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
+      "published": "2026-10-06T09:18:05+00:00",
+      "summary": "Your agent says it's done, and the code compiles, but did it pick your technology? Did it use it correctly? Learn what Agent Experience (AX) is, how to measure it, and why the obvious fix isn't always the right one.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Your Agents Need More Than a Place to Run",
@@ -588,15 +696,6 @@
       "author": "varghesejoji"
     },
     {
-      "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-6-1-sol-in-microsoft-foundry-advanced/ba-p/4560811",
-      "published": "2026-09-30T00:08:07+00:00",
-      "summary": "Today, OpenAI's GPT-6.1 Sol is generally available in Microsoft Foundry. GPT-6.1 Sol is an upgrade to GPT-6 Sol, delivering substantial improvements in agentic coding, computer use, and professional work, with performance approaching GPT-6 Astra across these evaluations. It offers a new balance of...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "AKS on bare metal now on Ubuntu",
       "link": "https://blog.aks.azure.com/2026/09/25/aks-baremetal-ubuntu",
       "published": "2026-09-30T00:00:00+00:00",
@@ -651,6 +750,15 @@
       "author": "Dalibor_Kovacevic"
     },
     {
+      "title": "Build with Azure Canvases: a shared workspace for agents",
+      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
+      "published": "2026-09-29T18:30:00+00:00",
+      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Matt Hernandez"
+    },
+    {
       "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
       "published": "2026-09-29T18:25:14+00:00",
@@ -676,6 +784,15 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Pierre Boulay"
+    },
+    {
+      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
+      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
+      "published": "2026-09-29T16:30:35+00:00",
+      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Fernando de Oliveira"
     },
     {
       "title": "Visual Studio September Update – Power Your Workflow with Your Model",
@@ -741,22 +858,13 @@
       "author": "Jamesdld23"
     },
     {
-      "title": "Claude Sonnet 5.5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-5-is-now-available-in-microsoft-foundry/ba-p/4559774",
-      "published": "2026-09-28T18:18:01+00:00",
-      "summary": "Today, Claude Sonnet 5.5 is available in Microsoft Foundry, bringing Anthropic’s latest Sonnet model to developers building AI applications and agents. Claude Sonnet 5.5 is a smarter, more efficient Sonnet, delivering a clear step forward from Sonnet 5 on coding and knowledge work with a lower cost...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-28T18:09:24+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong"
+      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
+      "published": "2026-09-28T18:05:00+00:00",
+      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Dan Wahlin"
     },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
@@ -1515,15 +1623,6 @@
       "author": "AzureAndrewChen"
     },
     {
-      "title": "How Azure uses AI to turn feedback into improved customer experience",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
-      "published": "2026-09-10T02:27:37+00:00",
-      "summary": "Authors: eshaanbhattad​, jenniferjhan​, lakshminarasimha​, bharadwajr​ The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bharadwajr"
-    },
-    {
       "title": "What’s new in Microsoft Foundry: July and August 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
       "published": "2026-09-09T23:00:39+00:00",
@@ -1612,33 +1711,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Justin Yoo"
-    },
-    {
-      "title": "The Agentic Road to Revenue",
-      "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
-      "published": "2026-09-08T04:45:34+00:00",
-      "summary": "The Agentic Road to Revenue From SaaS concept to Microsoft Marketplace. Building a SaaS application is only part of becoming a commercial software provider. To sell through the Microsoft Marketplace., the application also needs tenant isolation, subscription lifecycle management, billing...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "davidwright"
-    },
-    {
-      "title": "AKS Configurable Scheduler Profiles",
-      "link": "https://blog.aks.azure.com/2026/09/08/aks-config-scheduler-profiles",
-      "published": "2026-09-08T00:00:00+00:00",
-      "summary": "Improve GPU and CPU utilization, align pod placement to critical workloads, and reduce node costs at scale with Configurable Scheduler Profiles on AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-september-2026/ba-p/4553787",
-      "published": "2026-09-07T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month September 2026's Ace Aviator: Parth Talaviya Product Leader @ EG4 Eletronics What's your role and title? What are your responsibilities? AI-Powered Azure/.NET Solution ArchitectI...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     }
   ]
 }
