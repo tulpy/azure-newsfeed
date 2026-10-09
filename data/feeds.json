@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-10-08T12:05:06.987293+00:00",
-  "totalArticles": 190,
+  "lastUpdated": "2026-10-09T12:04:51.850986+00:00",
+  "totalArticles": 194,
   "articles": [
+    {
+      "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-native-confluent-cloud-connector-experience-in-azure-cosmos-db/",
+      "published": "2026-10-09T07:00:28+00:00",
+      "summary": "Co-authored with Praveen Raja P Azure Cosmos DB already includes a powerful event foundation: change feed provides a durable, ordered record of item changes within each logical partition. It is ideal for reacting to operational data as it changes, building projections, and driving workflows...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
+      "published": "2026-10-09T04:40:50+00:00",
+      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
+    },
+    {
+      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
+      "published": "2026-10-09T01:46:15+00:00",
+      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
+      "published": "2026-10-08T20:00:00+00:00",
+      "summary": "Teams developing voice agents need automated evaluation because human review alone cannot keep pace with thousands of calls and frequent agent updates. Microsoft Foundry addresses this need with multi-turn evaluators that assess agent behavior and outcomes across complete conversations. To...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "nemo-nano"
+    },
+    {
+      "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
+      "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
+      "published": "2026-10-08T19:09:00+00:00",
+      "summary": "Azure Functions is the event-driven application platform, and Hosted Skills adds AI reasoning to your app. Dynamic Workflows give the app a durable way to carry out AI-led, multi-step work after the triggering invocation is finished. The model writes a plan (a DAG) one time, and Durable Functions...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Tsuyoshi Ushio"
+    },
+    {
+      "title": "Adding persistence to the Aspire dashboard",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence/",
+      "published": "2026-10-08T17:00:00+00:00",
+      "summary": "Aspire 13.6 adds dashboard persistence and run history. Revisit telemetry after a restart, retain more data, and explore the SQLite and Dapper implementation behind it. The post Adding persistence to the Aspire dashboard appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "James Newton-King"
+    },
+    {
+      "title": "A closer look at noise reduction in Stacks What-If",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-closer-look-at-noise-reduction-in-stacks-what-if/ba-p/4548210",
+      "published": "2026-10-08T16:12:33+00:00",
+      "summary": "Following the general availability of what-if for Azure Deployment Stacks, this article deep dives into the co-released feature of \"noise reduction\", which was a top community feature ask from Deployment Stacks customers. In this article, we will cover what noise reduction solves, how it works, and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "torreyt"
+    },
+    {
+      "title": "New Wiki Editor Experience",
+      "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience/",
+      "published": "2026-10-08T14:24:03+00:00",
+      "summary": "We are excited to announce a new editing experience for Wiki pages. We are replacing the existing editor with a new editor built on Monaco Editor, the same editor technology that powers Visual Studio Code. Monaco brings many of the editing capabilities familiar to Visual Studio Code to Wiki pages,...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "When the Answer Isn’t in the Document: Metadata-Aware Agentic RAG with Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-the-answer-isn-t-in-the-document-metadata-aware-agentic-rag/ba-p/4562237",
+      "published": "2026-10-08T13:00:00+00:00",
+      "summary": "The problem SharePoint libraries often contain years of carefully curated metadata, including root cause, severity, business unit, document type, owner and classification. If that metadata never reaches the retrieval pipeline, however, a RAG system cannot use it. This creates a common blind spot:...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shikhasinha"
+    },
+    {
+      "title": "Azure Key Vault and BYOK: Lessons Learned",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
+      "published": "2026-10-08T12:41:54+00:00",
+      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "gurjsing"
+    },
     {
       "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
@@ -615,15 +705,6 @@
       "author": "DanaCozmei"
     },
     {
-      "title": "Cohere Embed V5 brings more relevant retrieval to Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-embed-v5-brings-more-relevant-retrieval-to-microsoft/ba-p/4560845",
-      "published": "2026-09-30T16:59:02+00:00",
-      "summary": "Today, we’re introducing Cohere Embed V5 Pro and Embed V5 Fast in Microsoft Foundry, bringing stronger multimodal retrieval to enterprise search and AI applications. With Fast and Pro options, support for more than 100 languages, and flexible vector sizes, Embed V5 gives developers more control...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
-    },
-    {
       "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
       "published": "2026-09-30T16:37:45+00:00",
@@ -640,15 +721,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "vkokkengada"
-    },
-    {
-      "title": "Let the query decide: introducing auto retrieval reasoning effort",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/let-the-query-decide-introducing-auto-retrieval-reasoning-effort/ba-p/4558943",
-      "published": "2026-09-30T16:00:00+00:00",
-      "summary": "Introducing auto: a new retrieval reasoning effort mode that recovers 97.6% of the evidence recall of the highest effort level at 46.9% fewer query planning tokens. Enterprise retrieval workloads mix simple lookup queries with complex questions that require searching across many documents. Today,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amaias"
     },
     {
       "title": "Bring managed browser automation to your agent applications",
@@ -1218,15 +1290,6 @@
       "author": "Waldek Mastykarz"
     },
     {
-      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
-      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
-      "published": "2026-09-21T07:00:11+00:00",
-      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
       "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
       "published": "2026-09-21T07:00:00+00:00",
@@ -1684,33 +1747,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "christinchen"
-    },
-    {
-      "title": "Your work might not need the smartest model",
-      "link": "https://devblogs.microsoft.com/blog/your-work-might-not-need-the-smartest-model/",
-      "published": "2026-09-09T09:14:04+00:00",
-      "summary": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
-      "published": "2026-09-08T17:00:00+00:00",
-      "summary": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "kshatzkamer"
-    },
-    {
-      "title": "Today I will… find hidden latency across a distributed .NET application",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
-      "published": "2026-09-08T16:00:22+00:00",
-      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Justin Yoo"
     }
   ]
 }
