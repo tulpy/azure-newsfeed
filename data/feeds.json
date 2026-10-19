@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-10-18T12:04:16.227899+00:00",
+  "lastUpdated": "2026-10-19T12:05:08.803010+00:00",
   "totalArticles": 184,
   "articles": [
+    {
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "link": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+      "published": "2026-10-19T10:32:13+00:00",
+      "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control. The post Browser automation tool in Microsoft Foundry is now GA appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nandini Muralidharan"
+    },
+    {
+      "title": "Beyond One-Size-Fits-All: Decision Routing for GitHub Copilot in CLI & VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-one-size-fits-all-decision-routing-for-github-copilot-in/ba-p/4564778",
+      "published": "2026-10-19T07:00:00+00:00",
+      "summary": "As developer tools move into the age of agentic AI, it is easy to fall into a familiar habit: when a task matters, choose the strongest—and usually most expensive—model available. Real software work is more varied than that. Explaining a function, editing a README, adding a boundary test, debugging...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Deploying Logic Apps Hybrid through an Azure DevOps pipeline",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/deploying-logic-apps-hybrid-through-an-azure-devops-pipeline/ba-p/4556246",
+      "published": "2026-10-19T05:16:43+00:00",
+      "summary": "Overview Logic Apps Hybrid runs Standard workflows on your own infrastructure: an Arc-enabled Kubernetes cluster that appears in Azure as a connected environment. You still author and manage the workflows in Azure, but the runtime is yours. Until now, setting up CI/CD for this meant writing the ARM...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon"
+    },
+    {
+      "title": "Why AI Agents Need External Grounding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-ai-agents-need-external-grounding/ba-p/4565283",
+      "published": "2026-10-18T15:00:00+00:00",
+      "summary": "Earlier this year, we introduced Microsoft Web IQ, a suite of AI-native web search and grounding APIs that gives LLMs, AI agents, and applications access to current, relevant web information. This post explores why web grounding is becoming a foundational layer of AI, how it helps deliver answers...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "bkingms"
+    },
     {
       "title": "Five Web IQ use cases: bring the outside world into your AI agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/five-web-iq-use-cases-bring-the-outside-world-into-your-ai-agent/ba-p/4565273",
@@ -1621,42 +1657,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "Madhura Amlekar"
-    },
-    {
-      "title": "FinOps-Ready Azure Landing Zone - Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
-      "published": "2026-09-18T17:30:45+00:00",
-      "summary": "Author's Note: Vendor names referenced in this article are used solely as illustrative architectural examples and should not be interpreted as endorsements, recommendations, or advertisements. Introduction In Part 1, we looked at how Azure-native services can establish the foundation for a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "javedeqbal"
-    },
-    {
-      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
-      "published": "2026-09-18T14:58:25+00:00",
-      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Kiran Raja Ch KiranRaja​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Foundry IQ with D365F&O and Fabric IQ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557380",
-      "published": "2026-09-18T12:22:02+00:00",
-      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sayanika"
-    },
-    {
-      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
-      "published": "2026-09-18T12:09:35+00:00",
-      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "fiveisprime"
     }
   ]
 }
