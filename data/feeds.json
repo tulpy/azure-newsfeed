@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-10-20T12:04:26.379235+00:00",
-  "totalArticles": 188,
+  "lastUpdated": "2026-10-21T12:04:28.626560+00:00",
+  "totalArticles": 196,
   "articles": [
+    {
+      "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
+      "published": "2026-10-21T11:06:49+00:00",
+      "summary": "We’re back with a fresh PowerToys release! This one brings two new mouse utilities, Mouse Button Lock and CursorHide, an optional quick-access shelf for Command Palette, snip dictation in ZoomIt, and a set of new command-line tools for automating PowerToys. Color Picker and Text Extractor also move...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute"
+    },
+    {
+      "title": "Introducing Azure Copilot for Azure Local: AI-powered operations for distributed infrastructure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-azure-copilot-for-azure-local-ai-powered-operations/ba-p/4565723",
+      "published": "2026-10-20T20:25:48+00:00",
+      "summary": "Managing distributed infrastructure can be complex. When an issue occurs, operators may need to navigate multiple tools, review health signals and diagnostics, interpret logs, and determine the right troubleshooting steps before they can move toward resolution. Azure Copilot for Azure Local helps...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "naafiahsadique"
+    },
+    {
+      "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940",
+      "published": "2026-10-20T19:34:43+00:00",
+      "summary": "As security teams bring in more data from more sources and use it across SIEM and XDR workflows, decisions about connector health, ingestion volume, and cost optimization get harder. Today, we’re announcing the public preview of Unified Data Management for Microsoft Sentinel, available in the new...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "amybook"
+    },
+    {
+      "title": "Cloud Security Billing, Simplified: Introducing the Defender Workload Unit",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/cloud-security-billing-simplified-introducing-the-defender/ba-p/4559743",
+      "published": "2026-10-20T19:02:27+00:00",
+      "summary": "That's the thinking behind an upcoming improvement to Microsoft Defender for Cloud: the Defender Workload Unit, or DWU. It's a new billing model and product experience that translates workload-specific usage into a common billing unit, with one unit price and one place to estimate and track costs....",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "danielacardon"
+    },
+    {
+      "title": "Expanded cross-tenant delegated access in Microsoft Defender is generally available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/expanded-cross-tenant-delegated-access-in-microsoft-defender-is/ba-p/4565941",
+      "published": "2026-10-20T17:24:44+00:00",
+      "summary": "Security operations rarely stop at a single tenant boundary. Managed security service providers (MSSPs) protect many customer environments, and central security teams often operate across a tenant estate spanning business units, regions, or subsidiaries. In both cases, teams need to delegate...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robi Czitron"
+    },
+    {
+      "title": "Azure DevOps available in Microsoft Copilot",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
+      "published": "2026-10-20T16:48:07+00:00",
+      "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Chat, Cowork, and Code, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "Can a local git remote replace GitHub in your agent eval?",
+      "link": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval/",
+      "published": "2026-10-20T14:53:27+00:00",
+      "summary": "We swapped GitHub for a local git remote in our agent evals. Rebasing and pushing on request were unaffected, but the agent pushed on its own 11 points less often. Here's when a local remote is a safe shortcut, and when it isn't.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Advancing sovereign AI with Foundry Local and Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/advancing-sovereign-ai-with-foundry-local-and-azure-local/ba-p/4566144",
+      "published": "2026-10-20T11:40:28+00:00",
+      "summary": "The next chapter of AI is about more than powerful models. It’s about bringing AI closer to the data, applications, and systems that organizations depend on every day. For governments, regulated industries, and organizations operating critical infrastructure, this means making AI accessible in...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "insagiv"
+    },
+    {
+      "title": "GitHub Enterprise Local: Bringing modern development to environments you control",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/github-enterprise-local-bringing-modern-development-to/ba-p/4560556",
+      "published": "2026-10-20T08:30:00+00:00",
+      "summary": "Today at the Frontier Tour in Paris, we’re announcing the next milestone for GitHub Enterprise Local, which will become generally available at Microsoft Ignite. GitHub Enterprise Local brings the GitHub Enterprise Server experience to organizations’ own environments, helping them keep source code...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "sushil_jarwal"
+    },
+    {
+      "title": "Sovereign Private Cloud: Bringing more choice and control to AI and cloud infrastructure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/sovereign-private-cloud-bringing-more-choice-and-control-to-ai/ba-p/4565953",
+      "published": "2026-10-20T08:30:00+00:00",
+      "summary": "To identify which sovereign cloud solution may fit your organization’s needs, take the Microsoft Sovereign Cloud assessment Digital sovereignty is essential for organizations as they modernize critical infrastructure and bring AI into more sensitive and regulated environments. We’re hearing from...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "meenagowdar"
+    },
     {
       "title": "What is new in Sovereign Public Cloud",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/what-is-new-in-sovereign-public-cloud/ba-p/4566000",
@@ -190,6 +280,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Nick Brady"
+    },
+    {
+      "title": "Reducing AKS cold starts with Prepared Image Specification",
+      "link": "https://blog.aks.azure.com/2026/10/16/reducing-aks-cold-starts-with-prepared-image-specification",
+      "published": "2026-10-16T00:00:00+00:00",
+      "summary": "Learn how Prepared Image Specification can reduce AKS scale-out latency by preparing container images, models, and host customizations before nodes start.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Azure Container Apps Sandboxes, Now Generally Available",
@@ -1666,33 +1765,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "piyush05"
-    },
-    {
-      "title": "Knowledge cutoff is a poor proxy for model capability",
-      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
-      "published": "2026-09-21T07:51:46+00:00",
-      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
-      "published": "2026-09-21T07:00:00+00:00",
-      "summary": "In the rapidly evolving landscape of generative AI, large language model (LLM) evaluations have matured into standardized benchmark suites, Elo leaderboards, and automated judge pipelines. However, in the realm of Text-to-Image (T2I) synthesis, technical teams frequently slip back into what can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "You Get One Exchange Left: Rethinking Azure Commitments Before February 2027",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/you-get-one-exchange-left-rethinking-azure-commitments-before/ba-p/4552401",
-      "published": "2026-09-21T00:03:58+00:00",
-      "summary": "Azure gives you two main ways to pay less by committing up front. A reservation gets you the deepest discount, but you are locking in a specific SKU in a specific region. A savings plan gives up some of that discount in exchange for freedom: you are only committing to spend a certain amount per...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Madhura Amlekar"
     }
   ]
 }
