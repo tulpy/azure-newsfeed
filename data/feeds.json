@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T12:04:06.326524+00:00",
-  "totalArticles": 201,
+  "lastUpdated": "2026-10-25T12:04:07.195248+00:00",
+  "totalArticles": 193,
   "articles": [
     {
       "title": "Making Azure Container Registry Activity Visible at Scale",
@@ -1738,78 +1738,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "kinfey"
-    },
-    {
-      "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
-      "published": "2026-09-25T04:15:53+00:00",
-      "summary": "One of the most common questions Azure Storage administrators ask after enabling immutable storage is: \"Why can't I delete my storage account anymore?\" Azure Immutable Storage is designed to provide WORM (Write Once, Read Many) protection, ensuring that data cannot be modified or deleted during a...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "carlosbermudezlopez"
-    },
-    {
-      "title": "Getting the best out of Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
-      "published": "2026-09-24T20:24:01+00:00",
-      "summary": "A common question that we get from our customers is \"Hey guys, we are excited about SRE agent and we 've created one but whats the best way to configure it?\". The below guide aims at sharing some of the best practices that anyone can follow to make the most out of our SRE Agent. This guide is based...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "puneetguptams"
-    },
-    {
-      "title": "Introducing bicep docs: generate documentation from your Bicep modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/introducing-bicep-docs-generate-documentation-from-your-bicep/ba-p/4559737",
-      "published": "2026-09-24T19:55:33+00:00",
-      "summary": "TL;DR: The Bicep CLI has a new experimental command, bicep docs generate. Point it at a Bicep module and it writes a README.md next to it that describes the module's resources, parameters, types, outputs and usage examples, all read straight from your code. You can change the layout with your own...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jaredfholgate"
-    },
-    {
-      "title": "IBC Reflections and Where Media is Headed",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/ibc-reflections-and-where-media-is-headed/ba-p/4559411",
-      "published": "2026-09-24T19:00:00+00:00",
-      "summary": "Over the last several years, it has been easy to focus on the magical experiences produced with AI-generated content. The media industry has responded with growing short-form video, IP licensing for quality AI generated content, and various other approaches, but the core end-to-end workflows and...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "kshatzkamer"
-    },
-    {
-      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
-      "link": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
-      "published": "2026-09-24T17:55:06+00:00",
-      "summary": "Define and attach an outbound policy to a hosted agent in Microsoft Foundry, observe calls in Audit, and verify allowed and denied destinations under Enforced mode. The post Control where your hosted agent connects with network egress in Foundry Agent Service appeared first on Microsoft Foundry...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Muzz Imam"
-    },
-    {
-      "title": "Oracle AI Database@Azure Expands with Azure Native Oracle GoldenGate User Experience, Observability",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-ai-database-azure-expands-with-azure-native-oracle/ba-p/4559430",
-      "published": "2026-09-24T17:29:07+00:00",
-      "summary": "Customers running mission-critical Oracle workloads on Azure want more than database infrastructure in an Azure datacenter. They want their Oracle environments to fit naturally into the way their teams already build, govern, monitor, and purchase services on Azure. Today, Oracle AI Database@Azure...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RajyaLaxmiYellajosyula"
-    },
-    {
-      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion - Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion-part/ba-p/4559649",
-      "published": "2026-09-24T15:05:05+00:00",
-      "summary": "In Part1, we discussed how to use HTTP action to migrate from the deprecated Data Collector API to Log Ingestion API. However, since the deprecated Data Collector API was allowing message payload up to 30MB, some migration scenarios encountered issues; since the new Log Ingestion API has only 1MB...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "mshboul"
-    },
-    {
-      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
-      "link": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
-      "published": "2026-09-24T15:00:57+00:00",
-      "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly opened GitHub issue, respond when a message...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Linda Li"
     }
   ]
 }
