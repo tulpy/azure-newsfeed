@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-10-25T12:04:07.195248+00:00",
-  "totalArticles": 193,
+  "lastUpdated": "2026-10-26T13:09:04.450755+00:00",
+  "totalArticles": 195,
   "articles": [
+    {
+      "title": "PHP2Shell and Azure DevOps: what to check",
+      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
+      "published": "2026-10-26T13:00:38+00:00",
+      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin"
+    },
+    {
+      "title": "Keep your investigation between sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
+      "published": "2026-10-26T12:00:10+00:00",
+      "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jason Chlus, Mads Kristensen"
+    },
+    {
+      "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
+      "link": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/",
+      "published": "2026-10-25T11:23:29+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored, investigated, tested, and researched. Our engineering team partners closely with MSR...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
     {
       "title": "Making Azure Container Registry Activity Visible at Scale",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-azure-container-registry-activity-visible-at-scale/ba-p/4567301",
@@ -1711,15 +1738,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Matt_Kazanowsky"
-    },
-    {
-      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
-      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
-      "published": "2026-09-28T16:02:00+00:00",
-      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, David Levy"
     },
     {
       "title": "Open Sourcing the Azure Policy Linter!",
