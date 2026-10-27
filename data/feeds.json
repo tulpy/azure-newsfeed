@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-10-26T13:09:04.450755+00:00",
-  "totalArticles": 195,
+  "lastUpdated": "2026-10-27T12:05:03.936067+00:00",
+  "totalArticles": 198,
   "articles": [
+    {
+      "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
+      "published": "2026-10-27T08:51:18+00:00",
+      "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade platform. Learn best practices from our engineering teams through real-world lessons, architectural patterns, and operational strategies for building,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RamyaSharma"
+    },
+    {
+      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
+      "published": "2026-10-26T18:52:23+00:00",
+      "summary": "In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a laptop: the Lenovo Yoga 9n 2-in-1 (16\", 11) with NVIDIA's RTX Spark N1X and 64 GB of unified memory. On a short code-generation benchmark it decodes 44.7 tokens a second for one request, and it holds the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+      "published": "2026-10-26T17:10:00+00:00",
+      "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency. The post Announcing Azure AI Speech LLM 09-2026: Broader locale support appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Rena Liu"
+    },
+    {
+      "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
+      "published": "2026-10-26T15:15:49+00:00",
+      "summary": "The problem nobody talks about at cloud conferences Walk the floor at any cloud event and you'll hear a lot about AI-assisted operations: agents that triage alerts, correlate signals, and hand your on-call engineer a root cause instead of a wall of logs. It's genuinely useful. But there's a quiet...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "FaizaanMerchant"
+    },
     {
       "title": "PHP2Shell and Azure DevOps: what to check",
       "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
@@ -1621,15 +1657,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Matt Hernandez"
-    },
-    {
-      "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
-      "published": "2026-09-29T18:25:14+00:00",
-      "summary": "Why evaluation and observability belong together Agent evaluation and observability answer two related questions: Is the agent producing the right result? What happened from the initial request through every model and tool call? Evaluation measures quality with repeatable scores (is our system...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "emiller635"
     },
     {
       "title": "Announcing General Availability of Azure Lasv5 and Laosv5 VMs Based on 5th Gen AMD EPYC™ processors",
