@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-10-27T12:05:03.936067+00:00",
-  "totalArticles": 198,
+  "lastUpdated": "2026-10-28T12:03:44.761848+00:00",
+  "totalArticles": 205,
   "articles": [
+    {
+      "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
+      "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
+      "published": "2026-10-28T11:00:02+00:00",
+      "summary": "Give each coding task its own disposable database environment, then merge the reviewed changes – not the test database. When parallel coding agents share a database In From Local Development to CI Workflows with the Azure Cosmos DB Emulator, we used FleetCharge to make local development and CI...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jay Gordon"
+    },
+    {
+      "title": "MANA out-of-tree (OOT) driver for Linux LTS kernels",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/mana-out-of-tree-oot-driver-for-linux-lts-kernels/ba-p/4566923",
+      "published": "2026-10-27T20:40:38+00:00",
+      "summary": "The Microsoft Azure Network Adapter (MANA) driver is part of the upstream Linux kernel and provides networking support for Azure Accelerated Networking. Today, we’re announcing an out-of-tree (OOT) driver, so you can use MANA on supported Linux LTS kernels without upgrading your kernel. MANA...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "KashanK"
+    },
+    {
+      "title": "Azure DevOps Server RC (26H2) Is Now Available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+      "published": "2026-10-27T20:31:59+00:00",
+      "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today. A direct upgrade to Azure DevOps Server RC...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "Bringing Azure Applications Closer to Oracle AI Database@Azure with Proximity Placement Groups",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/bringing-azure-applications-closer-to-oracle-ai-database-azure/ba-p/4567806",
+      "published": "2026-10-27T19:30:00+00:00",
+      "summary": "Azure proximity placement group (PPG) integration is now generally available for Exadata Database Service on Dedicated Infrastructure in Oracle AI Database@Azure. New PPG-enabled deployments can place supported Azure application virtual machines (VMs) close to Oracle-managed Exadata infrastructure...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "Venkat_Ramakrishnan"
+    },
+    {
+      "title": "Sovereign controls for Oracle AI Database@Azure",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/sovereign-controls-for-oracle-ai-database-azure/ba-p/4567321",
+      "published": "2026-10-27T19:30:00+00:00",
+      "summary": "Regulated industries like banking, healthcare, and government face non-negotiable requirements for data localization, privacy, operational control, and compliance. Building on the controls already in Oracle AI Database@Azure, the Oracle Azure Resource Provider now supports the EU Data Boundary, so...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "RamKakani"
+    },
+    {
+      "title": "What’s new for Oracle AI Database@Azure at Oracle AI World 2026",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/what-s-new-for-oracle-ai-database-azure-at-oracle-ai-world-2026/ba-p/4567429",
+      "published": "2026-10-27T19:30:00+00:00",
+      "summary": "The newest wave of enhancements includes plans to bring Oracle AI Database@Azure to Microsoft Azure Government Cloud, new sovereign controls, like EU Data Boundary and Azure Policy support, and Proximity Placement Group. These new capabilities offer customers more control over where and how they...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "KalyanKaki"
+    },
+    {
+      "title": "Global enterprise multi-agent systems in production: Release and operations (Part 2)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/global-enterprise-multi-agent-systems-in-production-release-and/ba-p/4564916",
+      "published": "2026-10-27T16:00:00+00:00",
+      "summary": "With hosted agents in Microsoft Foundry, the Azure Developer CLI packages and deploys each agent in a multi-agent system. Release work goes further: proving that users reach the exact release you tested, in every region, and that it keeps working. An agent that starts successfully can still be the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "dhangerkapil"
+    },
+    {
+      "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
+      "published": "2026-10-27T16:00:00+00:00",
+      "summary": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors. The post Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
+      "published": "2026-10-27T15:00:00+00:00",
+      "summary": "From creative exploration to enterprise workflows Creating a compelling image is one step. Making image generation useful across a business means giving teams the control to refine an idea, adapt it for different audiences, and keep moving when the work scales. MAI-Image-2.6 and MAI-Image-2.6-Flash...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "alexanderhughes"
+    },
+    {
+      "title": "Inspecting Local Data with Azure Cosmos DB Shell",
+      "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
+      "published": "2026-10-27T13:31:06+00:00",
+      "summary": "Explore local data from the terminal with Azure Cosmos DB Shell. Connect to the emulator, inspect FleetCharge documents, run queries, and point-read depot partitions. The post Inspecting Local Data with Azure Cosmos DB Shell appeared first on Azure Cosmos DB Blog.",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jay Gordon"
+    },
     {
       "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
@@ -10,6 +100,33 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "RamyaSharma"
+    },
+    {
+      "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
+      "published": "2026-10-27T03:49:57+00:00",
+      "summary": "Key findings for technical decision makers Hybrid Logic Apps ran a high-volume, file-driven integration workload on deliberately modest on-premises hardware: one host shared by the cluster, file storage and SQL Server 2025. Across both 30-minute tests there were no failed runs, and the one-hour...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "praveensri"
+    },
+    {
+      "title": "Azure WAF custom rules for PHP2Shell mitigation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
+      "published": "2026-10-26T19:00:38+00:00",
+      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Remember, Retrieve, Revalidate-or Forget? Architecting Memory for Production AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/remember-retrieve-revalidate-or-forget-architecting-memory-for/ba-p/4564392",
+      "published": "2026-10-26T19:00:00+00:00",
+      "summary": "An implementation architecture: who decides, which component executes, where the data lives, what source is authoritative, and how each operation fails-traced end to end for Remember, Retrieve, Revalidate, and Forget. A memory‑aware agent is not a cleverer prompt or a bigger vector store. Remember,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shrutikakade"
     },
     {
       "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
@@ -21,6 +138,33 @@
       "author": "Wuyi_Weng"
     },
     {
+      "title": "GPT-6.1 Terra now generally available in Microsoft Foundry: build agents that see and act",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-1-terra-now-generally-available-in-microsoft-foundry-build/ba-p/4567769",
+      "published": "2026-10-26T18:31:26+00:00",
+      "summary": "AI agents that read dense charts, navigate desktop apps, and process scanned documents are only as capable as the model behind them. OpenAI’s GPT-6.1 Terra, now generally available in Microsoft Foundry, delivers significant gains in visual reasoning and computer-use speed, so the apps and agents...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-26T18:19:55+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-26T18:19:26+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery"
+    },
+    {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
       "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
       "published": "2026-10-26T17:10:00+00:00",
@@ -30,6 +174,15 @@
       "author": "Rena Liu"
     },
     {
+      "title": "Global enterprise multi-agent systems in production: Design and security (Part 1)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/global-enterprise-multi-agent-systems-in-production-design-and/ba-p/4564913",
+      "published": "2026-10-26T16:00:00+00:00",
+      "summary": "The work behind this series began with customers while hosted agents in Microsoft Foundry were still in private preview. Customers adopted the service because it took the platform work off their plates: running, scaling, open ecosystem and versioning agents, each with its own identity and built-in...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "dhangerkapil"
+    },
+    {
       "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
       "published": "2026-10-26T15:15:49+00:00",
@@ -37,6 +190,24 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "FaizaanMerchant"
+    },
+    {
+      "title": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
+      "link": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
+      "published": "2026-10-26T15:05:12+00:00",
+      "summary": "Build, query, and troubleshoot without leaving VS Code.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Cynthia Zanoni"
+    },
+    {
+      "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-fine-tuning-to-shared-serving-multi-lora-deployment-on/ba-p/4565959",
+      "published": "2026-10-26T15:00:00+00:00",
+      "summary": "We're introducing Multi-LoRA adapter deployment on Managed Compute in Microsoft Foundry, now in preview. Multi-LoRA lets you deploy multiple compatible fine-tuned LoRA adapters on a shared base-model deployment, so you can serve specialized model experiences without provisioning separate compute...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "GulsimoOsimi"
     },
     {
       "title": "PHP2Shell and Azure DevOps: what to check",
@@ -73,15 +244,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "cabarker"
-    },
-    {
-      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
-      "published": "2026-10-23T20:17:17+00:00",
-      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "yuvalpery"
     },
     {
       "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
@@ -165,15 +327,6 @@
       "author": "Shivani_Tripathi"
     },
     {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-22T19:41:32+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
       "title": "What production taught us about reviewing AI translations",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948",
       "published": "2026-10-22T18:24:53+00:00",
@@ -226,15 +379,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Akshay-Kireet-18"
-    },
-    {
-      "title": "Azure WAF custom rules for PHP2Shell mitigation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
-      "published": "2026-10-22T13:56:46+00:00",
-      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
     },
     {
       "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
@@ -993,15 +1137,6 @@
       "author": "chandanAggarwal"
     },
     {
-      "title": "Beyond the Script: Evaluating Voice Agents with Voice User Simulator",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-the-script-evaluating-voice-agents-with-voice-user/ba-p/4559696",
-      "published": "2026-10-09T15:00:00+00:00",
-      "summary": "Voice agents engage with users in real-time, interactive conversations. Their success depends on what users say, how they sound, and when they speak. Static evaluations provide a task without further user interaction, leaving much of this conversational behavior untested. Human testing captures...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "nemo-nano"
-    },
-    {
       "title": "Azure Managed Redis Deployment Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
       "published": "2026-10-09T12:30:36+00:00",
@@ -1036,15 +1171,6 @@
       "blog": "Azure Tools",
       "blogId": "azuretoolsblog",
       "author": "Alex-wdy"
-    },
-    {
-      "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
-      "published": "2026-10-08T20:00:00+00:00",
-      "summary": "Teams developing voice agents need automated evaluation because human review alone cannot keep pace with thousands of calls and frequent agent updates. Microsoft Foundry addresses this need with multi-turn evaluators that assess agent behavior and outcomes across complete conversations. To...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "nemo-nano"
     },
     {
       "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
@@ -1083,15 +1209,6 @@
       "author": "Dan Hellem"
     },
     {
-      "title": "When the Answer Isn’t in the Document: Metadata-Aware Agentic RAG with Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-the-answer-isn-t-in-the-document-metadata-aware-agentic-rag/ba-p/4562237",
-      "published": "2026-10-08T13:00:00+00:00",
-      "summary": "The problem SharePoint libraries often contain years of carefully curated metadata, including root cause, severity, business unit, document type, owner and classification. If that metadata never reaches the retrieval pipeline, however, a RAG system cannot use it. This creates a common blind spot:...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shikhasinha"
-    },
-    {
       "title": "Azure Key Vault and BYOK: Lessons Learned",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
       "published": "2026-10-08T12:41:54+00:00",
@@ -1101,15 +1218,6 @@
       "author": "gurjsing"
     },
     {
-      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
-      "published": "2026-10-08T00:48:21+00:00",
-      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
       "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
       "published": "2026-10-07T20:21:05+00:00",
@@ -1117,15 +1225,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "JamesAde"
-    },
-    {
-      "title": "Making evaluations cost-efficient",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/making-evaluations-cost-efficient/ba-p/4561786",
-      "published": "2026-10-07T19:00:00+00:00",
-      "summary": "Every evaluation run is, under the hood, a stack of LLM-as-judge calls. Behind Microsoft Foundry's evaluation service, every graded row becomes judge traffic: hundreds of thousands of judge calls a day, billions of prompt tokens in any given two-week window, and roughly a dozen judge calls beneath...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amq"
     },
     {
       "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
@@ -1144,15 +1243,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "bobmital"
-    },
-    {
-      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
-      "published": "2026-10-07T17:00:00+00:00",
-      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "AlexandraMiller-Browne"
     },
     {
       "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
@@ -1441,24 +1531,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "frrey"
-    },
-    {
-      "title": "Genspark protects live agent sessions with Azure Cosmos DB Global Secondary Indexes",
-      "link": "https://devblogs.microsoft.com/cosmosdb/genspark-protects-live-agent-sessions-with-azure-cosmos-db-global-secondary-indexes/",
-      "published": "2026-10-01T16:00:12+00:00",
-      "summary": "This article was authored by Justin Liu, co-founder and chief architect, Genspark. The work does not end when the prompt does A user comes to Genspark with a goal: research a market, build a presentation, produce a report, analyze a dataset, or complete another complex assignment. Our agents take...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Azure Cosmos DB Team"
-    },
-    {
-      "title": "Azure Cosmos DB Shell is now available in the Azure portal",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-shell-is-now-available-in-the-azure-portal/",
-      "published": "2026-10-01T15:21:32+00:00",
-      "summary": "You can now open Azure Cosmos DB Shell directly from Data Explorer in the Azure portal. The shell gives you a terminal-style way to work with Azure Cosmos DB. You can move through databases and containers as you would through folders, run NoSQL queries, inspect resources, and update data. When you...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
     },
     {
       "title": "Build and govern AI agents across a multitenant organization",
@@ -1774,15 +1846,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
-    },
-    {
-      "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
-      "published": "2026-09-28T06:11:14+00:00",
-      "summary": "0. Why I'm writing this now Two things landed on my radar in the same week. First, TypeSafe AI published \"Introducing System One Models & Jev\" (Sep 15, 2026) and the developer community immediately started arguing about it. The pitch is unusual: instead of another chat model, Jev is described as \"a...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
     }
   ]
 }
