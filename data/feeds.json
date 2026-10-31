@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-10-30T12:03:47.697383+00:00",
-  "totalArticles": 192,
+  "lastUpdated": "2026-10-31T12:02:41.226598+00:00",
+  "totalArticles": 185,
   "articles": [
+    {
+      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
+      "published": "2026-10-31T06:03:11+00:00",
+      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
+      "published": "2026-10-31T06:03:06+00:00",
+      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
+      "published": "2026-10-31T04:56:48+00:00",
+      "summary": "Updated October 30, 2026: the sample now runs vLLM 0.32 with async scheduling, 14% more decode steps a second on the code benchmark, and the memory bandwidth figure is corrected. See the update at the end. In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Everything released in October 2026 for Azure Developer CLI",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2026/",
+      "published": "2026-10-30T19:02:14+00:00",
+      "summary": "The October recap for the Azure Developer CLI (`azd`). Preview service deployments before making changes, deploy to Container Apps express, remove stored environment values, and use extension-defined infrastructure providers in generated pipelines. Extension APIs gain stable contracts, and...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack"
+    },
+    {
+      "title": "Is Azure SQL Database Hyperscale “distributed SQL”?",
+      "link": "https://devblogs.microsoft.com/azure-sql/is-azure-sql-database-hyperscale-distributed-sql/",
+      "published": "2026-10-30T16:52:56+00:00",
+      "summary": "In my last post, I broke down the Socrates paper, the research that became Azure SQL Database Hyperscale. Writing it made me want to tackle a question I think trips a lot of people up when they’re choosing a database: is Azure SQL Database Hyperscale “distributed SQL”? It’s a fair question....",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
+      "published": "2026-10-30T16:00:22+00:00",
+      "summary": "Keeping the Azure Connected Machine agent up to date across a large server estate requires persistent coordination and manual work. When enabled, Automatic Agent Upgrade simplifies this process by allowing Microsoft to manage agent upgrades for you. What is Automatic Agent Upgrade? Automatic Agent...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein"
+    },
+    {
+      "title": "Stay ahead of Azure Arc agent health with Azure Advisor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/stay-ahead-of-azure-arc-agent-health-with-azure-advisor/ba-p/4568747",
+      "published": "2026-10-30T16:00:00+00:00",
+      "summary": "Azure Advisor helps you stay ahead of potential connectivity issues by analyzing your Azure Arc-enabled servers and providing reliability recommendations when servers have been disconnected for an extended period. These recommendations give you visibility into potential issues and help you act...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein"
+    },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
@@ -109,15 +172,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Sandeep Sen"
-    },
-    {
-      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
-      "published": "2026-10-28T14:28:39+00:00",
-      "summary": "Keeping the Azure Connected Machine agent up to date across a large server estate requires persistent coordination and manual work. When enabled, Automatic Agent Upgrade simplifies this process by allowing Microsoft to manage agent upgrades for you. What is Automatic Agent Upgrade? Automatic Agent...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "yunishussein"
     },
     {
       "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
@@ -244,15 +298,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "shrutikakade"
-    },
-    {
-      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
-      "published": "2026-10-26T18:52:23+00:00",
-      "summary": "In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a laptop: the Lenovo Yoga 9n 2-in-1 (16\", 11) with NVIDIA's RTX Spark N1X and 64 GB of unified memory. On a short code-generation benchmark it decodes 44.7 tokens a second for one request, and it holds the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
     },
     {
       "title": "GPT-6.1 Terra now generally available in Microsoft Foundry: build agents that see and act",
@@ -1164,24 +1209,6 @@
       "author": "Chu Lahlou"
     },
     {
-      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
-      "published": "2026-10-12T17:05:45+00:00",
-      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
-    },
-    {
-      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
-      "published": "2026-10-10T07:27:28+00:00",
-      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
-    },
-    {
       "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
       "published": "2026-10-09T22:00:58+00:00",
@@ -1639,96 +1666,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Eric van Wijk"
-    },
-    {
-      "title": "What a Burger Combo Taught Me About Agents: Jev, LLMs, and Model Routers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-a-burger-combo-taught-me-about-agents-jev-llms-and-model/ba-p/4558830",
-      "published": "2026-10-01T07:00:00+00:00",
-      "summary": "Imagine leaving the office and asking an AI assistant: “Find me a grilled chicken burger combo with a medium Coke at a nearby McDonald’s. Pickup, please. Check the price, but don’t place an order.” It sounds simple. To software, however, that sentence contains at least six decisions: which meal,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Network security perimeter metrics are now generally available in Public Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-metrics-are-now-generally-available/ba-p/4561244",
-      "published": "2026-09-30T19:35:03+00:00",
-      "summary": "We are excited to announce the general availability (GA) of network security perimeter metrics, a capability that helps administrators monitor network access patterns, understand the impact of the access rules, and identify unexpected traffic behaviour across protected resources. These metrics are...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi"
-    },
-    {
-      "title": "Bring Azure Logic Apps connectors into your .NET applications with the Azure Connectors SDK",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bring-azure-logic-apps-connectors-into-your-net-applications/ba-p/4555823",
-      "published": "2026-09-30T19:29:35+00:00",
-      "summary": "Modern business applications rarely work in isolation. An order exception might need an email, a support case might need a Teams notification, and a completed document might need to be stored in SharePoint. Developers can build each integration directly against a service API, but that also means...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "David_Burg"
-    },
-    {
-      "title": "Everything released in September 2026 for Azure Developer CLI",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-september-2026/",
-      "published": "2026-09-30T18:45:59+00:00",
-      "summary": "The September recap for the Azure Developer CLI (`azd`). Extension management gains dependency-aware uninstall and versioned contracts, project configuration adds top-level infrastructure and service layers, deployment phases support concurrency limits, and external authentication hosts can use...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-09-30T17:39:21+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe"
-    },
-    {
-      "title": "Updates to Copilot Code Reviews for Azure Repos",
-      "link": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
-      "published": "2026-09-30T17:05:16+00:00",
-      "summary": "We announced the public preview of Copilot Code Review for Azure Repos in late August. Since then, we have continued to make improvements, fix bugs, and add new features. We wanted to share an update on some of the recent changes. Effort levels The effort level controls how much time Copilot spends...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Microsoft and IBM bring enterprise-scale workload orchestration to Azure with IBM Spectrum Symphony",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/microsoft-and-ibm-bring-enterprise-scale-workload-orchestration/ba-p/4560890",
-      "published": "2026-09-30T17:00:00+00:00",
-      "summary": "Enterprises running large scale AI, Analytic, and High-Performance Computing (HPC) environments need more than just infrastructure. They need to dynamically match thousands of jobs with available capacity while balancing performance, resilience, availability, and cost. Today, Microsoft Azure and...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "DanaCozmei"
-    },
-    {
-      "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
-      "published": "2026-09-30T16:37:45+00:00",
-      "summary": "Once a month, the Azure Arc team releases an episode covering a new hybrid and multicloud management scenario. To request a topic or view additional episodes, visit aka.ms/the-azure-arc-check-in. Scenario: Your infrastructure team needs to apply monthly security updates across hybrid Windows...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-september-2026/ba-p/4560902",
-      "published": "2026-09-30T16:00:00+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. In September, Case Management brings investigation and collaboration together in Microsoft Defender, with a shared workspace to track work through resolution. Defender unified RBAC custom roles for granular delegated admin privileges (GDAP) give you...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "vkokkengada"
-    },
-    {
-      "title": "Bring managed browser automation to your agent applications",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-managed-browser-automation-to-your-agent-applications/ba-p/4561184",
-      "published": "2026-09-30T14:25:38+00:00",
-      "summary": "AI agents become more useful when they can move beyond conversation and complete real workflows. Playwright Cloud Browsers provides managed, on-demand browser capacity that agent applications can access through Model Context Protocol (MCP). You can connect Playwright Cloud Browsers to agent...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Arun_Kumar_Thiagarajan"
     }
   ]
 }
