@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T12:02:41.226598+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-11-01T12:02:36.192801+00:00",
+  "totalArticles": 174,
   "articles": [
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
@@ -39,6 +39,15 @@
       "author": "Kristen Womack"
     },
     {
+      "title": "Turn enterprise knowledge into a personalized voice and avatar agent in minutes with Voice Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-enterprise-knowledge-into-a-personalized-voice-and-avatar/ba-p/4564809",
+      "published": "2026-10-30T17:00:00+00:00",
+      "summary": "A customer asks how a product works, then follows up: “Can you give me an example?” They need a useful explanation based on your product documentation, without searching through pages of information. Now imagine that conversation delivered in a voice and with a face that represent your brand. Voice...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "YufangQin"
+    },
+    {
       "title": "Is Azure SQL Database Hyperscale “distributed SQL”?",
       "link": "https://devblogs.microsoft.com/azure-sql/is-azure-sql-database-hyperscale-distributed-sql/",
       "published": "2026-10-30T16:52:56+00:00",
@@ -46,6 +55,24 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Anna Hoffman"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-october-2026/ba-p/4568804",
+      "published": "2026-10-30T16:44:57+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In October, cross-tenant delegated access reaches general availability so you can run security operations across tenants with least privilege, the Advanced Security Information Model (ASIM) EmailEvent schema gives you one consistent structure for...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "vkokkengada"
+    },
+    {
+      "title": "Bring Your Own Telephony to Voice Agents via SIP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/ba-p/4562702",
+      "published": "2026-10-30T16:07:09+00:00",
+      "summary": "Voice agents in Microsoft Foundry give developers an integrated way to build intelligent, natural voice experiences, bringing together models, agent capabilities, tools, and the platform capabilities needed to move from experimentation to production. Foundry continuously expands channel integration...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "ArcherZ"
     },
     {
       "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
@@ -64,6 +91,24 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "yunishussein"
+    },
+    {
+      "title": "Designing Least-Privilege Tool Access for AI Agents with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/designing-least-privilege-tool-access-for-ai-agents-with/ba-p/4567029",
+      "published": "2026-10-30T16:00:00+00:00",
+      "summary": "An AI agent does not need broad access because it might need a tool. It needs the smallest permission set required for the current task, under the correct identity, with a decision trail that explains every allow or deny. That distinction matters. A prompt can tell an agent not to delete data, but...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Abhishek Kumar"
+    },
+    {
+      "title": "Hypercharging Work IQ with Decision APIs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hypercharging-work-iq-with-decision-apis/ba-p/4562938",
+      "published": "2026-10-30T14:00:00+00:00",
+      "summary": "The pattern in this post: a Decision API picks the Work IQ tool before it runs. In short A Decision API picks the Work IQ tool (fetch, retrieve or ask) before anything runs, then checks the result. \"Who is my manager?\" took 20 to 25 seconds with ask and 1.3 seconds with fetch, with the same answer....",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "hieunhu"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -91,15 +136,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "JPCalhau"
-    },
-    {
-      "title": "Bring Your Own Telephony to Voice Agents via SIP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/ba-p/4562702",
-      "published": "2026-10-29T16:20:09+00:00",
-      "summary": "Voice agents in Microsoft Foundry give developers an integrated way to build intelligent, natural voice experiences, bringing together models, agent capabilities, tools, and the platform capabilities needed to move from experimentation to production. Foundry continuously expands channel integration...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "ArcherZ"
     },
     {
       "title": "Architecting Governed Memory State for Production AI Agents with Microsoft Foundry",
@@ -930,15 +966,6 @@
       "author": "OrinThomas"
     },
     {
-      "title": "Muse Spark Open is available in Microsoft Foundry Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/muse-spark-open-is-available-in-microsoft-foundry-models/ba-p/4564585",
-      "published": "2026-10-16T16:46:17+00:00",
-      "summary": "Building useful coding agents takes more than generating code. Agents need to analyze an existing codebase, work across files and dependencies, use tools reliably, and keep making progress as a task evolves. Muse Spark Open, a coding-optimized open-weight model from Meta, is available today in...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MaheshBalachandran"
-    },
-    {
       "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
       "published": "2026-10-16T15:14:27+00:00",
@@ -1074,15 +1101,6 @@
       "author": "paulyuk"
     },
     {
-      "title": "GPT-chat-latest gets more intelligent, interactive, and personal in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-chat-latest-gets-more-intelligent-interactive-and-personal/ba-p/4564574",
-      "published": "2026-10-14T21:24:46+00:00",
-      "summary": "What if a conversational AI could respond with an interactive chart instead of a wall of text and start delivering useful information before the full answer is even ready? GPT-chat-latest in Microsoft Foundry now makes both possible. This update brings GPT-6-level intelligence to conversational and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "truptiparkar"
-    },
-    {
       "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
       "published": "2026-10-14T20:35:34+00:00",
@@ -1153,15 +1171,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Gloridel Morales"
-    },
-    {
-      "title": "Which Reflection Model Should Power your Agent Optimizer?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/which-reflection-model-should-power-your-agent-optimizer/ba-p/4562671",
-      "published": "2026-10-13T17:00:00+00:00",
-      "summary": "Authors: Priyanka Paul, Abi Komma, Charles Kim, Luffy Chen, Morteza Ziyadi Agent optimizer in Foundry Agent Service automatically improves prompt agents and hosted agents by evaluating their behavior and generating candidate configurations. Depending on the agent type, it can improve instructions,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "priyankapaul"
     },
     {
       "title": "Microsoft at OCP Global Summit 2026",
@@ -1558,114 +1567,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db/",
-      "published": "2026-10-02T07:00:14+00:00",
-      "summary": "This tutorial shows how common Elasticsearch search requests can be expressed using Azure Cosmos DB query patterns. Some Elasticsearch capabilities map directly to Cosmos DB full-text search functions, while others require separate queries or application-layer handling. Each step shows the closest...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Madeline Egan"
-    },
-    {
-      "title": "When AI Starts Taking Action: Building Execution Boundaries with OpenSandbox and AKS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-ai-starts-taking-action-building-execution-boundaries-with/ba-p/4561601",
-      "published": "2026-10-02T06:26:45+00:00",
-      "summary": "1. An agent needs more than a smarter model Imagine you are building a food-ordering assistant. In its first version, it says, “You might enjoy a burger and fries.” That is primarily a content-generation problem. In the next version, it queries coupons, reads a menu, calculates prices, creates...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-10-02T02:23:51+00:00",
-      "summary": "Author's: Aladdin Alchalabi AladdinAlchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Microsoft FinOps News - September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-finops-news-september-2026/ba-p/4561596",
-      "published": "2026-10-02T01:27:20+00:00",
-      "summary": "We've scoured product announcements, blogs, videos and more to bring you a monthly wrap-up of news related to FinOps and cost management, including AI - across all of our Microsoft products. Did we miss something? Let us know in the comments! Microsoft Foundry and Azure OpenAI Microsoft Foundry...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "SoniaCuff"
-    },
-    {
-      "title": "Data API builder 2.1.5: JSON and Vector Data Type Support, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-2-1-5-json-and-vector-data-type-support-and-more/",
-      "published": "2026-10-02T01:10:52+00:00",
-      "summary": "Data API builder (DAB) 2.1.5 is now available as a stable release, and it is about meeting modern data where it lives: documents next to rows, embeddings next to both. This release brings native support for the SQL json and vector data types to the REST and GraphQL endpoints, so the same entities...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, Aniruddh Munde"
-    },
-    {
-      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
-      "published": "2026-10-01T23:06:57+00:00",
-      "summary": "Editor’s note (October 1, 2026): This post was updated to clarify the benefits of regional host pools and provide additional context on recent resiliency improvements. Resiliency improvements are arriving for Azure Virtual Desktop. Regional host pools reduce cross-region metadata dependencies to...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Vidya_Iyer"
-    },
-    {
-      "title": "Run an Ollaya decision model on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-an-ollaya-decision-model-on-azure-container-apps/ba-p/4561558",
-      "published": "2026-10-01T21:48:30+00:00",
-      "summary": "Many AI calls are not really conversations. A support message needs an intent. A workflow needs a route. A policy check needs a yes or no. An agent needs to select its next action from a known list. These are bounded decisions, but they are often sent to a general-purpose LLM. The LLM reads the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj"
-    },
-    {
-      "title": "Bringing rich terminal experiences to Aspire",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-terminal-support/",
-      "published": "2026-10-01T18:12:09+00:00",
-      "summary": "Aspire 13.5 introduced WithTerminal() for interactive terminal sessions on app resources. Aspire 13.6 builds on it with richer terminal emulation and docked terminals for REPLs. See how to enable, attach to, and automate terminal experiences in your app. The post Bringing rich terminal experiences...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Mitch Denny"
-    },
-    {
-      "title": "Scaling distributed AI infrastructure with Azure’s ExpressRoute and AI Points of Presence (AI PoPs)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/scaling-distributed-ai-infrastructure-with-azure-s-expressroute/ba-p/4560483",
-      "published": "2026-10-01T16:00:27+00:00",
-      "summary": "Rethinking connectivity for distributed AI infrastructure AI is changing more than the applications organizations build. It is reshaping where the infrastructure powering those applications is deployed. For years, cloud computing has been anchored by hyperscale regions that combine compute,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "frrey"
-    },
-    {
-      "title": "Build and govern AI agents across a multitenant organization",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/build-and-govern-ai-agents-across-a-multitenant-organization/ba-p/4559921",
-      "published": "2026-10-01T14:23:11+00:00",
-      "summary": "Preview features: This article uses generally available Microsoft Agent 365 together with capabilities that are currently in preview, including Microsoft Entra Tenant Governance, multitenant agent management, and the Azure API Management dedicated AI Gateway tier. Preview capabilities are provided...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Rebekah_Midkiff"
-    },
-    {
-      "title": "From fragmented data to trusted intelligence: Microsoft at TM Forum Innovate Americas 2026",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/from-fragmented-data-to-trusted-intelligence-microsoft-at-tm/ba-p/4561272",
-      "published": "2026-10-01T13:36:34+00:00",
-      "summary": "AI is reshaping telecom, but moving from isolated pilots to AI-native operations requires more than capable models and agents. It requires trusted data, shared operational context, and governance that enables AI to act safely across network, customer, and business workflows. At TM Forum Innovate...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rickliev"
-    },
-    {
-      "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
-      "link": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
-      "published": "2026-10-01T12:27:54+00:00",
-      "summary": "Today, we’re announcing the general availability of GitHub-hosted agents and pay-as-you-go pricing in Azure Pipelines. GitHub-hosted agents give teams access to more compute options for their pipelines, including native Apple silicon and larger Linux and Windows machines. Instead of purchasing...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Eric van Wijk"
     }
   ]
 }
