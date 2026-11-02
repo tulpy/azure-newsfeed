@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-11-01T12:02:36.192801+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-11-02T12:03:46.576034+00:00",
+  "totalArticles": 175,
   "articles": [
+    {
+      "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-access-control-growing-teams/",
+      "published": "2026-11-02T12:00:45+00:00",
+      "summary": "Your project started with one or two people. Now developers, operators, analysts, and applications all need access to Azure Cosmos DB. Giving everyone the same permissions might feel efficient, but it makes every identity more powerful than its job requires. As your team grows, organize access...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara, Sudhanshu Khera"
+    },
+    {
+      "title": "How Microsoft SQL learned to recover without undoing everything first",
+      "link": "https://devblogs.microsoft.com/azure-sql/your-server-wasnt-slow-it-was-waiting-we-fixed-it-with-constant-time-recovery/",
+      "published": "2026-11-02T11:49:03+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 2 Here’s a scenario that used to be genuinely frightening: you kick off a bulk load of a few hundred million rows in a single transaction. Somewhere in the middle, the server goes down. Not because of your load, just an unlucky reboot. When...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Building Secure, Ephemeral GitHub Actions Runners on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-secure-ephemeral-github-actions-runners-on-azure/ba-p/4569209",
+      "published": "2026-11-01T07:35:00+00:00",
+      "summary": "A practical architecture using KEDA autoscaling, GitHub App authentication, private Key Vault access, Microsoft Container Registry, and GitHub OIDC Implementation guide and field learnings What this architecture delivers · A repository-scoped runner that exists only for one workflow · Automatic...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ibrahimbaig"
+    },
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
@@ -1549,24 +1576,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sudhanshu Khera, Iria Osara"
-    },
-    {
-      "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
-      "published": "2026-10-03T04:08:41+00:00",
-      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-10-02T13:43:37+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     }
   ]
 }
