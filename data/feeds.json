@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-04T12:03:35.622485+00:00",
-  "totalArticles": 189,
+  "lastUpdated": "2026-11-05T12:03:42.070856+00:00",
+  "totalArticles": 190,
   "articles": [
+    {
+      "title": "What’s new in Microsoft Foundry | October 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+      "published": "2026-11-05T11:40:48+00:00",
+      "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What’s new in Microsoft Foundry | October 2026 appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
+    {
+      "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-invoice-approval-workflow-with-power/ba-p/4569292",
+      "published": "2026-11-05T08:00:00+00:00",
+      "summary": "Difficulty: Intermediate Your team receives invoice PDFs by email. Before approving them, someone needs to find the purchase order, compare the amount, and make sure the invoice has not already been registered. The next invoice starts the same sequence again. If your company already uses Power...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "MinseokSong"
+    },
+    {
+      "title": "Intelligent Terminal 0.3: A new way to manage your tabs and agents",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-v0-3-a-new-way-to-see-and-manage-your-tabs-and-agents/",
+      "published": "2026-11-04T22:00:48+00:00",
+      "summary": "This is the biggest update to Intelligent Terminal since we launched. This release introduces the new sidebar for managing your tabs and agents, including recent agent sessions and agents running in other terminal windows. You also get rich tab information you can customize, global search, and a...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani"
+    },
+    {
+      "title": "Can Fabric Copilot Run on a Separate Capacity?",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/can-fabric-copilot-run-on-a-separate-capacity/ba-p/4570365",
+      "published": "2026-11-04T20:38:19+00:00",
+      "summary": "Microsoft Cloud Architects: Yassine El Ouardi and Rafia Aqil Customer question: Can we bill our team’s Fabric Copilot usage to a separate capacity while keeping data processing and reporting on our existing capacity? Answer: Yes. An organization can designate a Fabric capacity for Copilot usage and...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-11-04T15:56:30+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
+      "published": "2026-11-04T15:43:50+00:00",
+      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Fernando_Vasconcellos"
+    },
+    {
+      "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/",
+      "published": "2026-11-04T15:30:28+00:00",
+      "summary": "Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That’s where VSLive! can help. It brings technical learning, hands-on experience, expert guidance, and a community of developers together in one place, giving you...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
     {
       "title": "Extending Azure VM Image Automation with an MCP Operations Layer",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/extending-azure-vm-image-automation-with-an-mcp-operations-layer/ba-p/4570121",
@@ -48,15 +111,6 @@
       "author": "soniagupta"
     },
     {
-      "title": "An engineering guide to Claude Code on Microsoft Foundry with Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-engineering-guide-to-claude-code-on-microsoft-foundry-with/ba-p/4569334",
-      "published": "2026-11-03T20:00:00+00:00",
-      "summary": "How do you give developers Claude Code while keeping identity, model access, budgets and private networking under enterprise control? I built Claude Code on Foundry (CCOF) to address that challenge, and I have taken this implementation live in multiple enterprises using this architecture. This...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NaveenGopalakrishna"
-    },
-    {
       "title": "Sovereign controls for Oracle AI Database@Azure",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/sovereign-controls-for-oracle-ai-database-azure/ba-p/4567321",
       "published": "2026-11-03T18:48:12+00:00",
@@ -73,15 +127,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "vamsiboya_microsoft"
-    },
-    {
-      "title": "Build a Grounded Package Upgrade Advisor with Microsoft-Decision-1",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-grounded-package-upgrade-advisor-with-microsoft-decision/ba-p/4568374",
-      "published": "2026-11-03T17:00:00+00:00",
-      "summary": "About the Microsoft Decision Model In October 2026, Microsoft announced Microsoft-Decision-1, the latest model for fast decision-scoring available on Microsoft Foundry. Unlike LLMs that generate textual outputs, decision models return structured outputs that allow software to immediately act on,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA"
     },
     {
       "title": "Go beyond the basics: Explore specialized Azure plugins for your AI agent",
@@ -408,6 +453,15 @@
       "author": "Sandeep Sen"
     },
     {
+      "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/information-extraction-with-low-inference-cost-models-85-f1-gain/ba-p/4563661",
+      "published": "2026-10-28T14:00:00+00:00",
+      "summary": "Authors: Shih-Yao Lin, Apurva Saksena The task: turn documents into structured data Many business workflows need to turn documents into structured data. The model must find the right values, capture the requested records, and return output the next system can use. Long documents and repeated tables...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin"
+    },
+    {
       "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
       "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
       "published": "2026-10-28T11:00:02+00:00",
@@ -525,15 +579,6 @@
       "author": "Naomi Moneypenny"
     },
     {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-26T18:19:55+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
       "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
       "published": "2026-10-26T17:10:00+00:00",
@@ -622,6 +667,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "MaheshBalachandran"
+    },
+    {
+      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
+      "published": "2026-10-23T19:34:09+00:00",
+      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi"
     },
     {
       "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
@@ -1657,51 +1711,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "James Rempt"
-    },
-    {
-      "title": "What is Agent Experience (AX)?",
-      "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
-      "published": "2026-10-06T09:18:05+00:00",
-      "summary": "Your agent says it's done, and the code compiles, but did it pick your technology? Did it use it correctly? Learn what Agent Experience (AX) is, how to measure it, and why the obvious fix isn't always the right one.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Connect Azure Functions to more services with managed connectors",
-      "link": "https://devblogs.microsoft.com/azure-sdk/connect-azure-functions-to-more-services-with-managed-connectors/",
-      "published": "2026-10-05T19:43:44+00:00",
-      "summary": "Learn how Azure Functions managed connectors provide access to 1,700 services, with triggers and typed clients available for supported service connectors, and walk through a sample that automates RFP intake across SharePoint, Azure Content Understanding, and Teams. The post Connect Azure Functions...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lily Ma"
-    },
-    {
-      "title": "Azure Site Recovery for Azure Local Is Now Generally Available!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-stack-blog/azure-site-recovery-for-azure-local-is-now-generally-available/ba-p/4529925",
-      "published": "2026-10-05T16:00:00+00:00",
-      "summary": "Today, we are excited to announce the general availability of Azure Site Recovery (ASR) for Azure Local, making enterprise-grade disaster recovery for on-premises virtual machine workloads simpler, more secure, and more accessible than ever before. Since its public preview, Azure Site Recovery for...",
-      "blog": "Azure Stack",
-      "blogId": "azurestackblog",
-      "author": "KerimHanif"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - October 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-october-2026/ba-p/4561308",
-      "published": "2026-10-05T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month October 2026's Ace Aviator: Hicham Boutaleb Hicham Boutaleb - Enterprise Integration & Azure Solution Architect @ 5-Nines Consulting What's your role and title? What are your...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
-      "title": "From an Empty Folder to an AI Agent: Meet create-cosmos-agent",
-      "link": "https://devblogs.microsoft.com/cosmosdb/from-an-empty-folder-to-an-ai-agent-meet-create-cosmos-agent/",
-      "published": "2026-10-05T14:12:38+00:00",
-      "summary": "The first few minutes of a new AI project often feel productive. Create a chat endpoint, connect a model, send a prompt, and display the answer. Then the real questions arrive. Where should the agent store memory? How do we keep one customer’s data away from another? How do we trace the source of...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
     }
   ]
 }
