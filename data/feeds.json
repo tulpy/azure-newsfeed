@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-11-07T12:02:41.454746+00:00",
-  "totalArticles": 183,
+  "lastUpdated": "2026-11-08T12:02:41.111901+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
+      "published": "2026-11-07T20:50:12+00:00",
+      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
+    {
+      "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
+      "published": "2026-11-07T16:06:48+00:00",
+      "summary": "Consider an illustrative ground-floor apartment in a 1960s portiekflat, a Dutch walk-up apartment building. In February, the tenant reports a back door that sticks and lets in drafts. A repair contractor adjusts the frame and orders a part; a second visit in March installs it. In April, another...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
+    {
+      "title": "Dutch Social Housing Transformation: Smarter Repairs, Faster Renovations, Accountable Tech",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/dutch-social-housing-transformation-smarter-repairs-faster/ba-p/4571311",
+      "published": "2026-11-07T15:38:21+00:00",
+      "summary": "Picture an ordinary week at a Dutch housing association. A tenant reports bedroom mold for the third time, and the repair desk books a contractor to treat it. Across the office, the asset team is finalizing next year’s insulation and ventilation program for the same building. Each team acts...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-07T00:59:02+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Announcing Live Migration for Confidential Computing",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-live-migration-for-confidential-computing/ba-p/4524558",
+      "published": "2026-11-06T20:40:50+00:00",
+      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Live Migration for Azure confidential computing, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "mmcrey"
+    },
     {
       "title": "Direct your next shot with fal on Microsoft Foundry and ComfyUI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/direct-your-next-shot-with-fal-on-microsoft-foundry-and-comfyui/ba-p/4570230",
@@ -37,15 +82,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "Azure-Hacker"
-    },
-    {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-06T06:15:29+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1173,15 +1209,6 @@
       "author": "Krishnaprasad_Hande"
     },
     {
-      "title": "Announcing Live Migration for Confidential Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-live-migration-for-confidential-computing/ba-p/4524558",
-      "published": "2026-10-19T19:14:23+00:00",
-      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Live Migration for Confidential Computing, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory and...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "mmcrey"
-    },
-    {
       "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
       "published": "2026-10-19T18:02:57+00:00",
@@ -1576,78 +1603,6 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "LuisFilipe"
-    },
-    {
-      "title": "Introducing the Agent Experience (AX) Practitioner Playbook",
-      "link": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
-      "published": "2026-10-09T09:44:25+00:00",
-      "summary": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
-      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-native-confluent-cloud-connector-experience-in-azure-cosmos-db/",
-      "published": "2026-10-09T07:00:28+00:00",
-      "summary": "Co-authored with Praveen Raja P Azure Cosmos DB already includes a powerful event foundation: change feed provides a durable, ordered record of item changes within each logical partition. It is ideal for reacting to operational data as it changes, building projections, and driving workflows...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
-      "published": "2026-10-09T04:40:50+00:00",
-      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy"
-    },
-    {
-      "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
-      "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
-      "published": "2026-10-08T19:09:00+00:00",
-      "summary": "Azure Functions is the event-driven application platform, and Hosted Skills adds AI reasoning to your app. Dynamic Workflows give the app a durable way to carry out AI-led, multi-step work after the triggering invocation is finished. The model writes a plan (a DAG) one time, and Durable Functions...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Tsuyoshi Ushio"
-    },
-    {
-      "title": "Adding persistence to the Aspire dashboard",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence/",
-      "published": "2026-10-08T17:00:00+00:00",
-      "summary": "Aspire 13.6 adds dashboard persistence and run history. Revisit telemetry after a restart, retain more data, and explore the SQLite and Dapper implementation behind it. The post Adding persistence to the Aspire dashboard appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "James Newton-King"
-    },
-    {
-      "title": "A closer look at noise reduction in Stacks What-If",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-closer-look-at-noise-reduction-in-stacks-what-if/ba-p/4548210",
-      "published": "2026-10-08T16:12:33+00:00",
-      "summary": "Following the general availability of what-if for Azure Deployment Stacks, this article deep dives into the co-released feature of \"noise reduction\", which was a top community feature ask from Deployment Stacks customers. In this article, we will cover what noise reduction solves, how it works, and...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "torreyt"
-    },
-    {
-      "title": "New Wiki Editor Experience",
-      "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience/",
-      "published": "2026-10-08T14:24:03+00:00",
-      "summary": "We are excited to announce a new editing experience for Wiki pages. We are replacing the existing editor with a new editor built on Monaco Editor, the same editor technology that powers Visual Studio Code. Monaco brings many of the editing capabilities familiar to Visual Studio Code to Wiki pages,...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Azure Key Vault and BYOK: Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
-      "published": "2026-10-08T12:41:54+00:00",
-      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gurjsing"
     }
   ]
 }
