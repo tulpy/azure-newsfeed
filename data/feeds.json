@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-09T12:03:47.113717+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-11-10T12:03:35.361988+00:00",
+  "totalArticles": 181,
   "articles": [
+    {
+      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
+      "published": "2026-11-10T11:20:16+00:00",
+      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker"
+    },
+    {
+      "title": "Durable Task extension for Microsoft Agent Framework is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/durable-task-extension-for-microsoft-agent-framework-is-now/ba-p/4571100",
+      "published": "2026-11-09T20:43:58+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Durable Task extension for Microsoft Agent Framework. It brings the reliable execution model of Durable Task to Agent Framework, helping agents and agentic workflows recover from failures and interruptions without losing their...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NickGreenfield"
+    },
+    {
+      "title": "When one pass isn’t enough: agentic mode in Azure Content Understanding",
+      "link": "https://devblogs.microsoft.com/foundry/when-one-pass-isnt-enough-agentic-mode-in-azure-content-understanding/",
+      "published": "2026-11-09T20:04:00+00:00",
+      "summary": "Most document analysis takes one efficient pass. Learn how agentic mode gives AI a document-native harness for the hardest tasks, and when to choose it over standard mode. “Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.” Francis Bacon, “Of Studies”,...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik"
+    },
+    {
+      "title": "Granular control with scoped enforcement actions in Azure Policy for AKS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/granular-control-with-scoped-enforcement-actions-in-azure-policy/ba-p/4571773",
+      "published": "2026-11-09T18:34:10+00:00",
+      "summary": "Azure Policy for AKS now supports scoped enforcement actions. This feature allows you to define the enforcement action (deny, audit, or warn) with the enforcement point where that action is applied. With Validating Admission Policy (VAP) now generally available, customers gain a new enforcement...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "Real-Time Multichannel Speech-to-Text is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/real-time-multichannel-speech-to-text-is-now-generally-available/ba-p/4569649",
+      "published": "2026-11-09T17:00:00+00:00",
+      "summary": "In August, we introduced Real-Time Multichannel Speech-to-Text in public preview. It gave contact centers and conversational AI builders a simpler way to transcribe stereo audio without giving up channel separation. Today, Real-Time Multichannel Speech-to-Text is generally available in Azure...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JanGoergen"
+    },
+    {
+      "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203",
+      "published": "2026-11-09T16:00:00+00:00",
+      "summary": "Microsoft Ignite 2026 is almost here! Join us November 17–20 in San Francisco or online to explore the latest innovations across Microsoft. As organizations operate across increasingly distributed environments, consistent visibility, governance, and management are more important than ever. Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres"
+    },
+    {
+      "title": "From Python Agents to Copilot Harness : Putting Microsoft Foundry to the Test",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-python-agents-to-copilot-harness-putting-microsoft-foundry/ba-p/4570037",
+      "published": "2026-11-09T14:00:00+00:00",
+      "summary": "You have built the agents. Written the Python. Connected the data. Worked out how the pieces talk to each other. Then the conversation shifts to harnesses. The prospect of convergence around the GitHub Copilot harness across GitHub, Microsoft Foundry and Copilot Studio (CPS) raises a very practical...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "OlivierB123"
+    },
     {
       "title": "How do you run a query against data the database can’t read?",
       "link": "https://devblogs.microsoft.com/azure-sql/how-do-you-run-a-query-against-data-the-database-cant-read/",
@@ -10,6 +73,33 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Anna Hoffman"
+    },
+    {
+      "title": "From Files to Insights: Building a Medallion Architecture with Microsoft Fabric",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-files-to-insights-building-a-medallion-architecture-with/ba-p/4571519",
+      "published": "2026-11-09T03:36:14+00:00",
+      "summary": "Organizations often receive critical business data through files, spreadsheets, and SharePoint, but turning that information into trusted, analytics-ready insights can quickly become complex. Microsoft Fabric simplifies this journey by bringing ingestion, transformation, governance, and analytics...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Flat and overlapping networks in Application Network",
+      "link": "https://blog.aks.azure.com/2026/11/09/appnet-network-names",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Learn how Azure Kubernetes Application Network connects AKS clusters across flat and overlapping pod networks, and why network names do not create reachability.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Build the platform, not the plumbing, on AKS",
+      "link": "https://blog.aks.azure.com/2026/11/09/build-the-platform-not-the-plumbing",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Why platform engineers should build internal developer platforms on AKS: let Azure run the undifferentiated work so your team can own the developer contract.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
@@ -82,15 +172,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "kedikala"
-    },
-    {
-      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
-      "published": "2026-11-06T13:47:24+00:00",
-      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Azure-Hacker"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -867,15 +948,6 @@
       "author": "cabarker"
     },
     {
-      "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft/ba-p/4567265",
-      "published": "2026-10-23T19:52:29+00:00",
-      "summary": "AI applications and agents do more than generate content. They constantly make decisions about what should happen next. Which model should handle this request? Is a customer issue urgent? Did an agent’s output meet the required criteria? Should a workflow continue, try another approach, or involve...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MaheshBalachandran"
-    },
-    {
       "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/before-your-next-azure-vm-refresh-revisit-the-paas-options/ba-p/4562940",
       "published": "2026-10-23T18:57:34+00:00",
@@ -919,15 +991,6 @@
       "blog": "Azure Tools",
       "blogId": "azuretoolsblog",
       "author": "jtracey93msft"
-    },
-    {
-      "title": "Foundry Fine-Tuning: open-source model expansion, MAI-Code, and shared multi-LoRA deployments",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-fine-tuning-open-source-model-expansion-mai-code-and/ba-p/4565915",
-      "published": "2026-10-22T21:53:18+00:00",
-      "summary": "Today, Microsoft Foundry Managed Fine-Tuning expands its collection with four new open-source models and brings MAI-Code-1.1-Flash to Foundry resources, all in public preview. Alongside them, Multi-LoRA Managed Compute deployments enter public preview, letting compatible adapters share base-model...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "wujohn"
     },
     {
       "title": "Simplify private connectivity for Azure Databricks Serverless with Private Network Gateway",
