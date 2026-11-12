@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-11T12:04:10.200237+00:00",
-  "totalArticles": 190,
+  "lastUpdated": "2026-11-12T12:03:36.945057+00:00",
+  "totalArticles": 195,
   "articles": [
+    {
+      "title": "Resources for the SQL AI Developer",
+      "link": "https://devblogs.microsoft.com/azure-sql/dp-800-sql-ai-certification/",
+      "published": "2026-11-11T22:48:44+00:00",
+      "summary": "I see three agentic stories shaping SQL’s future. Here’s how DP-800 connects the pieces and helps you build the skills to put SQL’s AI capabilities to work. The post Resources for the SQL AI Developer appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+      "published": "2026-11-11T18:24:28+00:00",
+      "summary": "Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, giving you more choices for document, text, speech, and video workflows. This adds to the existing set of supported models like the GPT-5 series. To help customers understand how to use this expanded set of...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik"
+    },
+    {
+      "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203",
+      "published": "2026-11-11T17:31:56+00:00",
+      "summary": "Microsoft Ignite 2026 is almost here! Join us November 17–20 in San Francisco or online to explore the latest innovations across Microsoft. As organizations operate across increasingly distributed environments, consistent visibility, governance, and management are more important than ever. Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres"
+    },
+    {
+      "title": "Bring Your Own Model is now generally available in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/",
+      "published": "2026-11-11T17:00:48+00:00",
+      "summary": "Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, Bring Your Own Model (BYOM) lets you use those models without leaving Visual Studio. BYOM is now generally available in Visual Studio 18.12. Since...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Praveen Sethuraman"
+    },
+    {
+      "title": "Python support has arrived in the guided Copilot experience for VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/python-support-has-arrived-in-the-guided-copilot-experience-for/ba-p/4572591",
+      "published": "2026-11-11T16:56:47+00:00",
+      "summary": "When we introduced the guided Copilot experience for building Azure apps in VS Code, we started with JavaScript and TypeScript, with Python on the roadmap. Since then, we've seen people creating Python projects with the experience, and we wanted to make sure our Python lovers had proper support....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime"
+    },
+    {
+      "title": "Public preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-auto-scaling-of-ingestion-limits-in-azure-monitor/ba-p/4570377",
+      "published": "2026-11-11T16:00:00+00:00",
+      "summary": "If you run Azure Monitor Workspace at scale, you've probably had to request a higher ingestion limit at some point. A new service rolls out, a cluster scales out, or cardinality creeps up, and suddenly usage is close to your limit. Until now, the fix was a manual request, and you were at risk of...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "sunayanasingh"
+    },
+    {
+      "title": "What’s new across Microsoft SQL in 2026 so far: the PASS Summit West roundup",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-the-pass-summit-west-roundup/",
+      "published": "2026-11-11T11:48:48+00:00",
+      "summary": "[almost] A year of building on Microsoft SQL – 2026 I’m back with a really long and exhaustive list of updates across Microsoft SQL in 2026. This time I’m tuning in from PASS Summit West, and I actually did this blog as a session with other members from the Microsoft SQL team. I’ll put a […] The...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
     {
       "title": "Azure NetApp Files: The Data Backbone for NVIDIA AI Model Training, Inference, and Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-netapp-files-the-data-backbone-for-nvidia-ai-model/ba-p/4571839",
@@ -57,6 +120,15 @@
       "author": "LauraVerghote"
     },
     {
+      "title": "Retirement of Microsoft HPC Pack",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
+      "published": "2026-11-10T20:15:05+00:00",
+      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "XinXin"
+    },
+    {
       "title": ".NET 11 is now generally available in Azure Functions",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/net-11-is-now-generally-available-in-azure-functions/ba-p/4571176",
       "published": "2026-11-10T19:58:09+00:00",
@@ -100,6 +172,15 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Jamshed Damkewala"
+    },
+    {
+      "title": "Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877",
+      "published": "2026-11-10T16:25:29+00:00",
+      "summary": "Advancing model intelligence starts with training, and training starts with data. Before GPU supercomputers can train a model, enormous fleets of CPUs must collect, clean, filter, and format that data. If CPUs fall behind, expensive GPU capacity becomes underutilized and delays the delivery of...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jvenkatesh"
     },
     {
       "title": "Azure Container Linux (ACL): making immutable infrastructure practical at scale",
@@ -199,15 +280,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203",
-      "published": "2026-11-09T16:00:00+00:00",
-      "summary": "Microsoft Ignite 2026 is almost here! Join us November 17–20 in San Francisco or online to explore the latest innovations across Microsoft. As organizations operate across increasingly distributed environments, consistent visibility, governance, and management are more important than ever. Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres"
     },
     {
       "title": "From Python Agents to Copilot Harness : Putting Microsoft Foundry to the Test",
@@ -1551,15 +1623,6 @@
       "author": "HilaryWang"
     },
     {
-      "title": "Stop waiting on a failed build",
-      "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build/",
-      "published": "2026-10-15T14:00:50+00:00",
-      "summary": "Stop solution builds after the first project failure so you can return to fixing the error sooner. The post Stop waiting on a failed build appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen"
-    },
-    {
       "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
       "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator/",
       "published": "2026-10-15T13:38:16+00:00",
@@ -1591,15 +1654,6 @@
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
       "published": "2026-10-15T03:51:09+00:00",
       "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati"
-    },
-    {
-      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
-      "published": "2026-10-15T03:50:21+00:00",
-      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "dchelupati"
@@ -1702,15 +1756,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "Bryankel"
-    },
-    {
-      "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
-      "link": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
-      "published": "2026-10-13T14:20:35+00:00",
-      "summary": "Learn how Azure Content Understanding prebuilt analyzers combine domain knowledge with grounding and confidence, and what Advanced Contextualization preview benchmarks show about quality, modeled cost, and latency. The post Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Chu Lahlou"
     }
   ]
 }
