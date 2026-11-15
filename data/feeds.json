@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-14T12:02:54.808337+00:00",
-  "totalArticles": 198,
+  "lastUpdated": "2026-11-15T12:02:37.022480+00:00",
+  "totalArticles": 191,
   "articles": [
     {
       "title": "From Purview Data Governance to the Fabric OneLake Catalog",
@@ -1720,69 +1720,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "abhilashasr"
-    },
-    {
-      "title": "SQL developer tools at SQL Modernization Day",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sql-developer-tools-at-sql-modernization-day/ba-p/4562634",
-      "published": "2026-10-16T07:00:00+00:00",
-      "summary": "SQL developers can now do most of their database work without leaving VS Code. The MSSQL extension ships updates every month, GitHub Copilot understands your schema, and the Microsoft SQL drivers keep pace with SQL Server 2025. And new Microsoft SQL skills, now in public preview, let your coding...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "RicardoDuncan"
-    },
-    {
-      "title": "Migrating Azure Cosmos DB Across Regions",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/migrating-azure-cosmos-db-across-regions/ba-p/4564983",
-      "published": "2026-10-16T04:38:18+00:00",
-      "summary": "What this article delivers? A decision-oriented, implementation-ready walkthrough based on a hands-on Azure Cosmos DB for NoSQL lab. It corrects the online copy sequence, includes the required Azure CLI snippets, and separates migration duration from application cutover downtime. Regional migration...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
-      "published": "2026-10-16T04:12:58+00:00",
-      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | September 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
-      "published": "2026-10-16T02:04:50+00:00",
-      "summary": "Explore September's models, Routines, Tool Search, Model Router, and Insights through one two-agent workflow that turns public releases into a Foundry developer changelog. The post What’s new in Microsoft Foundry | September 2026 appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
-    },
-    {
-      "title": "Reducing AKS cold starts with Prepared Image Specification",
-      "link": "https://blog.aks.azure.com/2026/10/16/reducing-aks-cold-starts-with-prepared-image-specification",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Learn how Prepared Image Specification can reduce AKS scale-out latency by preparing container images, models, and host customizations before nodes start.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Generally Available: Automatic Zone Balance for Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/generally-available-automatic-zone-balance-for-virtual-machine/ba-p/4562654",
-      "published": "2026-10-15T22:38:30+00:00",
-      "summary": "We’re excited to announce the general availability of automatic zone balance for Virtual Machine Scale Sets. Automatic zone balance continuously monitors your scale set and redistributes VM instances across availability zones, reducing the risk that a single-zone failure disproportionately impacts...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "HilaryWang"
-    },
-    {
-      "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator/",
-      "published": "2026-10-15T13:38:16+00:00",
-      "summary": "Over a typical 2 day window, we record 10 times as many emulator sessions lasting more than 30 minutes for vNext as for the legacy emulator. Our bet is that agentic development is helping drive the difference! The appeal is straightforward: coding agents need a database they can run anywhere. They...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
     }
   ]
 }
