@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-15T12:02:37.022480+00:00",
-  "totalArticles": 191,
+  "lastUpdated": "2026-11-16T12:03:57.670848+00:00",
+  "totalArticles": 189,
   "articles": [
+    {
+      "title": "Deploying an AI Application on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
+      "published": "2026-11-15T09:51:38+00:00",
+      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Devi_Priya"
+    },
+    {
+      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
+      "published": "2026-11-14T19:38:07+00:00",
+      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Fernando_Vasconcellos"
+    },
     {
       "title": "From Purview Data Governance to the Fabric OneLake Catalog",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
@@ -217,15 +235,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "jevontan"
-    },
-    {
-      "title": "Deploying an AI Application on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
-      "published": "2026-11-11T19:12:23+00:00",
-      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Devi_Priya"
     },
     {
       "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
@@ -757,15 +766,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor"
-    },
-    {
-      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
-      "published": "2026-11-04T15:43:50+00:00",
-      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Fernando_Vasconcellos"
     },
     {
       "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
@@ -1702,24 +1702,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "bkingms"
-    },
-    {
-      "title": "Troubleshoot Hyper-V guarded fabrics and shielded VMs",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/troubleshoot-hyper-v-guarded-fabrics-and-shielded-vms/ba-p/4565441",
-      "published": "2026-10-17T04:44:13+00:00",
-      "summary": "Use this FAQ when a guarded fabric can't be deployed, a host can't attest, a shielded virtual machine (VM) can't be provisioned or started, or an operation such as migration, servicing, or recovery fails. It accompanies the Microsoft Learn module:...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
-    },
-    {
-      "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
-      "published": "2026-10-16T15:14:27+00:00",
-      "summary": "An engineer opens an Azure incident and asks an AI assistant: \"Why is this application slow?\" The assistant queries Azure Monitor, reviews Log Analytics results, inspects an App Service configuration, and compares the affected resource with a healthy deployment. The investigation that once required...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "abhilashasr"
     }
   ]
 }
