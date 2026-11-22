@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-11-21T12:02:46.453389+00:00",
-  "totalArticles": 299,
+  "lastUpdated": "2026-11-22T12:03:05.815582+00:00",
+  "totalArticles": 292,
   "articles": [
+    {
+      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
+      "published": "2026-11-22T02:13:31+00:00",
+      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan"
+    },
+    {
+      "title": "Rotating credentials in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
+      "published": "2026-11-21T22:12:12+00:00",
+      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino"
+    },
+    {
+      "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+      "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+      "published": "2026-11-21T18:12:21+00:00",
+      "summary": "The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why a subnet stays in use after you delete...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Muzz Imam"
+    },
+    {
+      "title": "Implement Virtual WAN Secure Hub with Customer-Owned Public IPs for Firewall using AVM",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/implement-virtual-wan-secure-hub-with-customer-owned-public-ips/ba-p/4575390",
+      "published": "2026-11-21T10:27:54+00:00",
+      "summary": "Azure Virtual WAN provides a managed networking architecture that simplifies connectivity between virtual networks, branch locations, VPN connections, and ExpressRoute connections. At the centre of this architecture is the Virtual Hub, which provides managed connectivity and routing. When Azure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Seema_gupta"
+    },
     {
       "title": "Azure API Management Premium v2 now supports private CNAME records",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-premium-v2-now-supports-private-cname/ba-p/4575312",
@@ -19,6 +55,15 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Dhruv Malik"
+    },
+    {
+      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
+      "published": "2026-11-20T22:08:45+00:00",
+      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Kiran_Cherukuwada"
     },
     {
       "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
@@ -48,6 +93,15 @@
       "author": "michamcr"
     },
     {
+      "title": "Turn Human Feedback into a Reusable Quality Bar for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-human-feedback-into-a-reusable-quality-bar-for-ai-agents/ba-p/4574554",
+      "published": "2026-11-20T19:16:58+00:00",
+      "summary": "Human-in-the-loop for evaluation quality is now in public preview in Microsoft Foundry, announced at Microsoft Ignite on November 17, 2026. Your agent handled 10,000 conversations last week. Your team reviewed 50 and uncovered critical issues. But what happens to those findings? Too often, they end...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "YanChen"
+    },
+    {
       "title": "Copilot Code Reviews for Azure Repos is generally available",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
       "published": "2026-11-20T18:41:47+00:00",
@@ -57,13 +111,22 @@
       "author": "Dan Hellem"
     },
     {
-      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
-      "published": "2026-11-20T17:30:47+00:00",
-      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Arun Kishan"
+      "title": "Microsoft-Decision-1 as a judge in Foundry Evaluations",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-decision-1-as-a-judge-in-foundry-evaluations/ba-p/4572676",
+      "published": "2026-11-20T17:36:33+00:00",
+      "summary": "Authors: Charles Kim and Ahmad Qardahji Why this matters Many eval questions have a short, fixed answer. Did the agent follow the policy? Did it complete the task? Does the response meet the rubric criterion? A generative LLM judge writes a paragraph to answer questions like these. Often you only...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amq"
+    },
+    {
+      "title": "Gulf Air's Continuous Improvement Journey with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gulf-air-s-continuous-improvement-journey-with-microsoft-foundry/ba-p/4574913",
+      "published": "2026-11-20T17:28:49+00:00",
+      "summary": "On November 9, Gulf Air reached a milestone: two AI agents in its Falcon Eye application—a voice agent and a chat agent—went live for users. The milestone did not come from finding one perfect prompt. Gulf Air had spent weeks building a demanding pool of evaluation questions, studying traces,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "hanch"
     },
     {
       "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
@@ -327,15 +390,6 @@
       "author": "aprilk"
     },
     {
-      "title": "Turn Human Feedback into a Reusable Quality Bar for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-human-feedback-into-a-reusable-quality-bar-for-ai-agents/ba-p/4574554",
-      "published": "2026-11-18T21:55:56+00:00",
-      "summary": "Human-in-the-loop for evaluation quality is now in public preview in Microsoft Foundry, announced at Microsoft Ignite on November 17, 2026. Your agent handled 10,000 conversations last week. Your team reviewed 50 and uncovered critical issues. But what happens to those findings? Too often, they end...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "YanChen"
-    },
-    {
       "title": "Foundry IQ: now managed for you in every Foundry project",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-now-managed-for-you-in-every-foundry-project/ba-p/4573316",
       "published": "2026-11-18T21:07:29+00:00",
@@ -435,15 +489,6 @@
       "author": "BrentEHarris"
     },
     {
-      "title": "Introducing GPT-image-2.6 Flare and Sunburst in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-image-2-6-flare-and-sunburst-in-microsoft/ba-p/4573002",
-      "published": "2026-11-18T18:49:39+00:00",
-      "summary": "Today, Azure OpenAI GPT-image-2.6 Flare and GPT-image-2.6 Sunburst are rolling out in Microsoft Foundry. GPT-image-2.6 is the next iteration of OpenAI's image generation models, building on the GPT-Image-2.5 generation already available in Foundry. It gives developers and creative teams two...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "alexanderhughes"
-    },
-    {
       "title": "Introducing Microsoft-Decision-1.1: Build faster, more efficient AI applications with decision model",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-microsoft-decision-1-1-build-faster-more-efficient/ba-p/4573877",
       "published": "2026-11-18T18:48:22+00:00",
@@ -487,15 +532,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "ArpitaChatterjee"
-    },
-    {
-      "title": "Microsoft-Decision-1 as a judge in Foundry Evaluations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-decision-1-as-a-judge-in-foundry-evaluations/ba-p/4572676",
-      "published": "2026-11-18T18:05:50+00:00",
-      "summary": "Authors: Charles Kim and Ahmad Qardahji Why this matters Many eval questions have a short, fixed answer. Did the agent follow the policy? Did it complete the task? Does the response meet the rubric criterion? A generative LLM judge writes a paragraph to answer questions like these. Often you only...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amq"
     },
     {
       "title": "Programmed Training: You write the loop, Foundry runs the GPUs",
@@ -703,15 +739,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "dmalbrough"
-    },
-    {
-      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
-      "published": "2026-11-18T09:14:47+00:00",
-      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Kiran_Cherukuwada"
     },
     {
       "title": "Addressing Java4Shell CVE-2026-114938: upgrade guidance and Azure WAF mitigations",
@@ -1641,15 +1668,6 @@
       "author": "ohadsenior"
     },
     {
-      "title": "Tune your Logic Apps Standard runtime from the portal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/tune-your-logic-apps-standard-runtime-from-the-portal/ba-p/4573619",
-      "published": "2026-11-17T15:27:16+00:00",
-      "summary": "Until now, the answer lived in host.json. To change a value in Azure, you opened Advanced Tools, went into Kudu, stopped your logic app, hand-edited JSON with a key you copied from the docs, saved, and restarted. Nothing on screen told you the default, or whether someone had already changed it....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
       "title": "Confidential AI on AKS: Running Phi-4-mini with KAITO and Azure NCC H100 GPUs",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/confidential-ai-on-aks-running-phi-4-mini-with-kaito-and-azure/ba-p/4573943",
       "published": "2026-11-17T14:00:00+00:00",
@@ -2182,15 +2200,6 @@
     },
     {
       "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
-      "link": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
-      "published": "2026-11-05T20:55:45+00:00",
-      "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "John Miller"
-    },
-    {
-      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
       "link": "https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga/",
       "published": "2026-11-05T19:39:43+00:00",
       "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on...",
@@ -2620,78 +2629,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "Madhura Amlekar"
-    },
-    {
-      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
-      "published": "2026-10-23T08:11:46+00:00",
-      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria"
-    },
-    {
-      "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822",
-      "published": "2026-10-22T22:48:19+00:00",
-      "summary": "Next community call: Monday 26th October 2026 @ 16:00 UK | 12:00 EDT | 09:00 PDT | 21:30 IST | 03:00 AEDT This call will be streamed to YouTube live so use the \"Set reminder\" / \"Notify Me\" options on YouTube and also put an entry in your calendar to remind you. This means it will automatically be...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jtracey93msft"
-    },
-    {
-      "title": "Simplify private connectivity for Azure Databricks Serverless with Private Network Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/simplify-private-connectivity-for-azure-databricks-serverless/ba-p/4566980",
-      "published": "2026-10-22T21:13:52+00:00",
-      "summary": "Recently, we announced the public preview of Private Network Gateway (PNG) for Azure Databricks - a simpler way to connect Azure Databricks serverless workloads to resources accessible from your Azure Virtual Network. With a single managed connection into your network, PNG helps reduce connectivity...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "Shivani_Tripathi"
-    },
-    {
-      "title": "What production taught us about reviewing AI translations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948",
-      "published": "2026-10-22T18:24:53+00:00",
-      "summary": "When I first started thinking about translation review for Co-op Translator, I wanted a score. Something that could tell us whether a translated document was good enough, without asking a person to read every language after every update. That seemed like a reasonable place to start. Co-op...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "MinseokSong"
-    },
-    {
-      "title": "Scheduled backups for Azure Local with disconnected operations: Advancing control plane resilience",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/scheduled-backups-for-azure-local-with-disconnected-operations/ba-p/4563594",
-      "published": "2026-10-22T15:30:00+00:00",
-      "summary": "For organizations operating in sovereign and disconnected environments, resilience is more than keeping infrastructure available. It also means having a reliable way to recover critical platform services when something goes wrong. Backup and restore capabilities of the control plane for the Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Naveen_Nooka"
-    },
-    {
-      "title": "Azure Storage Discovery now offers advanced capacity insights",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-storage-discovery-now-offers-advanced-capacity-insights/ba-p/4563651",
-      "published": "2026-10-22T15:00:00+00:00",
-      "summary": "We are excited to announce the preview of advanced capacity insights in Azure Storage Discovery. Azure Storage Discovery provides enterprise-wide visibility into storage usage, activity, egress, and configuration across your data estate. Advanced capacity insights extend this visibility with deeper...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "PreethiThippeswamy"
-    },
-    {
-      "title": "Are you getting everything you can from Your Visual Studio Subscription?",
-      "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
-      "published": "2026-10-22T14:00:56+00:00",
-      "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you’re a Visual Studio subscriber, you may...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
-    },
-    {
-      "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-hub-and-spoke-routable-and-non-advertised-azure-networks/ba-p/4553044",
-      "published": "2026-10-22T12:19:59+00:00",
-      "summary": "Why Enterprise Azure Networking Needs to Evolve Hub-and-spoke remains a common foundation for enterprise Azure networking. The hub provides shared transit, hybrid connectivity, DNS, and security services, while spokes host application and platform workloads. A conventional design allocates each...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Sunip"
     }
   ]
 }
