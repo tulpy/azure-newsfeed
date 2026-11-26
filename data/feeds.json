@@ -1,15 +1,33 @@
 {
-  "lastUpdated": "2026-11-25T12:03:45.620469+00:00",
-  "totalArticles": 313,
+  "lastUpdated": "2026-11-26T12:03:36.662798+00:00",
+  "totalArticles": 312,
   "articles": [
     {
-      "title": "Measuring Freshness for Web Grounding",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/measuring-freshness-for-web-grounding/ba-p/4576396",
-      "published": "2026-11-25T05:15:00+00:00",
-      "summary": "When picking a web grounding service, most developers evaluate a provider's enterprise readiness, quality, latency, and cost. For applications built on changing information, one more question matters: how fresh are the results? An earnings announcement can reshape a customer brief, and a permitting...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "RyanCassidy"
+      "title": "From inline tools to a shared Toolbox in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-inline-tools-to-a-shared-toolbox-in-microsoft-foundry/ba-p/4575475",
+      "published": "2026-11-25T18:00:00+00:00",
+      "summary": "A travel agent needs weather forecasts, exchange rates, and local time. When a second agent needs those same capabilities, the team can configure each integration again—or manage them in one place. This article compares two configurations in Microsoft Foundry: one with tools attached directly to...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SriAishwaryaMasina"
+    },
+    {
+      "title": "Build a multi-model video generation workflow with fal on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-multi-model-video-generation-workflow-with-fal-on/ba-p/4573786",
+      "published": "2026-11-25T17:32:16+00:00",
+      "summary": "Building a compelling video experience rarely comes down to finding one model that does everything. Early in the creative process, you may want fast text-to-video generation to explore several directions. Once a composition is established, image-to-video can preserve the starting visual while...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "alexanderhughes"
+    },
+    {
+      "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hosted-agents-in-your-own-virtual-network-five-checks-when-the/ba-p/4575468",
+      "published": "2026-11-25T17:00:00+00:00",
+      "summary": "Over the last few weeks I have worked with several teams moving hosted agents into their own virtual network. Different industries, same five questions. This post answers each one with the commands I use to check it. Picture a financial services team running claims agents in a locked-down network....",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "muzzimam"
     },
     {
       "title": "Upcoming DNS changes for Azure Event Hubs and Azure Service Bus",
@@ -21,6 +39,33 @@
       "author": "EldertGrootenboer"
     },
     {
+      "title": "Ignite 2026: The next era of AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943",
+      "published": "2026-11-24T23:34:39+00:00",
+      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for AI, that moment is here. As organizations move beyond isolated experiments toward models,...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan"
+    },
+    {
+      "title": "Strengthen your Azure security baseline with Metadata Security Protocol",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/strengthen-your-azure-security-baseline-with-metadata-security/ba-p/4576391",
+      "published": "2026-11-24T21:52:02+00:00",
+      "summary": "Managed identities make it easier to securely authenticate applications running on Azure Virtual Machines without storing credentials in application code. However, they introduce an important security consideration: which applications and processes running inside a VM should be able to request...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "KaiSulkin"
+    },
+    {
+      "title": "Announcing public preview for Windows Remote Recovery on Azure VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-for-windows-remote-recovery-on-azure/ba-p/4576401",
+      "published": "2026-11-24T21:51:38+00:00",
+      "summary": "Resilience is about more than preventing failures. It is also about giving IT teams the tools to recover when something goes wrong. When a critical virtual machine cannot start, restoring the operating system becomes the first step toward restoring the business services that depend on it. Today...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "GabstaMSFT"
+    },
+    {
       "title": "All or nothing: distributed transactions in Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/all-or-nothing-distributed-transactions-in-azure-cosmos-db/",
       "published": "2026-11-24T21:39:03+00:00",
@@ -28,6 +73,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sergiy Smyrnov, Sushant Rane"
+    },
+    {
+      "title": "Introducing Periodic Assessment for VMSS Uniform in Azure Update Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/introducing-periodic-assessment-for-vmss-uniform-in-azure-update/ba-p/4573685",
+      "published": "2026-11-24T21:10:41+00:00",
+      "summary": "A unified view of update compliance for VMSS Uniform We are excited to announce the public preview of Periodic Assessment for Azure Virtual Machine Scale Sets (VMSS) using Uniform orchestration mode in Azure Update Manager. Periodic Assessment automatically reviews the update-compliance state of a...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "KamalMaini"
     },
     {
       "title": "Azure Governance & Management @ Microsoft Ignite 2026",
@@ -73,15 +127,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Ignite 2026: The next era of customer AI starts with the infrastructure beneath it",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-customer-ai-starts-with-the/ba-p/4574943",
-      "published": "2026-11-24T14:56:06+00:00",
-      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for customer AI, that moment is here. As organizations move beyond isolated experiments toward models,...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Arun Kishan"
     },
     {
       "title": "Why Autonomous Networks Stall Before Level 4",
@@ -795,24 +840,6 @@
       "author": "ArpitaChatterjee"
     },
     {
-      "title": "Programmed Training: You write the loop, Foundry runs the GPUs",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/programmed-training-you-write-the-loop-foundry-runs-the-gpus/ba-p/4573299",
-      "published": "2026-11-18T17:59:31+00:00",
-      "summary": "Own the intelligence your enterprise runs on. Programmed Training in Microsoft Foundry, now in public preview, lets you write the training loop while Foundry runs the GPUs. It gives developers a Python API for authoring custom training recipes: your code decides what to sample, how to score...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "coreyhill"
-    },
-    {
-      "title": "Claude Code on Microsoft Foundry with Claude apps gateway and UI Console",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-code-on-microsoft-foundry-with-claude-apps-gateway-and-ui/ba-p/4574066",
-      "published": "2026-11-18T17:56:19+00:00",
-      "summary": "I built and tested an open-source deployment of Anthropic's Claude apps gateway on Azure Container Apps, in front of Claude models in Microsoft Foundry. This post walks through what it is, what gets deployed, how to install it, and what I learned along the way, including the permission errors that...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NaveenGopalakrishna"
-    },
-    {
       "title": "Public preview: OS-level dependency support via containers for Azure Functions Flex Consumption",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/public-preview-os-level-dependency-support-via-containers-for/ba-p/4572085",
       "published": "2026-11-18T17:54:00+00:00",
@@ -822,13 +849,13 @@
       "author": "madhurabharadwaj"
     },
     {
-      "title": "Turning Messy Documents into Structured Requirements with Azure Content Understanding",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turning-messy-documents-into-structured-requirements-with-azure/ba-p/4574333",
-      "published": "2026-11-18T17:21:54+00:00",
-      "summary": "Introduction Many workflows start the same way: someone hands you a document. A contract. A proposal. A requirements spreadsheet. A 60-page PDF with a table on page 12, a callout box on page 31, and a contradicting note in an appendix. The real requirements are in there, but they are scattered...",
+      "title": "Designing Systems with Microsoft Decision 1.1 in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/designing-systems-with-microsoft-decision-1-1-in-microsoft/ba-p/4570228",
+      "published": "2026-11-18T17:52:59+00:00",
+      "summary": "Look closely at any production AI application or multi-step enterprise agent, and a striking pattern emerges: most calls in the system aren't writing essays, summarizing books, or drafting complex code. They are making bounded decisions. Which model tier, tool, or specialist agent should handle...",
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
-      "author": "paggarwal"
+      "author": "JorgeGX"
     },
     {
       "title": "Govern your AI fleet with confidence on Microsoft Foundry",
@@ -919,15 +946,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "gia_mondragon"
-    },
-    {
-      "title": "Learning agent skills from production traces",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/learning-agent-skills-from-production-traces/ba-p/4573041",
-      "published": "2026-11-18T17:00:00+00:00",
-      "summary": "Authors: Abi Komma, Charles Kim, Vivek Bhadauria, Morteza Ziyadi, Kavitha Budumuri, Vinutha Karanth, Lori Li, Shivank Goel, Yingying Zhao, Yi Fang Each time an agent runs, it leaves a trace: the request, its reasoning, its tool calls, and its answer. When an agent keeps making the same mistake, the...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abikomma"
     },
     {
       "title": "Closing the Azure Confidential VM Performance Gap with Intel® TDX",
@@ -2791,33 +2809,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mark Downie"
-    },
-    {
-      "title": "Azure WAF custom rules for PHP2Shell mitigation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
-      "published": "2026-10-26T19:00:38+00:00",
-      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
-      "title": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
-      "link": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
-      "published": "2026-10-26T15:05:12+00:00",
-      "summary": "Build, query, and troubleshoot without leaving VS Code.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Cynthia Zanoni"
-    },
-    {
-      "title": "PHP2Shell and Azure DevOps: what to check",
-      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
-      "published": "2026-10-26T13:00:38+00:00",
-      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Josef Sin"
     }
   ]
 }
